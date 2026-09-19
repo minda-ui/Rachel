@@ -130,6 +130,10 @@ Rachel's patch is the group's finance operations:
   runs the Companies House watch) and **registers the request in the Hub** `Tasks & Requests`, then picks the
   result up from the Document Register. **Alex** can assist with the routing. Rachel keeps the `RA-<n>` issue
   open, cross-referenced to the `AWT-<n>` row, until the document lands.
+- **External binary documents.** If your routine or session fetches an external binary document (e.g. a PDF
+  from an API or web source) too large to safely relay through model context as base64, do not attempt the
+  relay yourself. Register it using its permanent source URL and a checksum, leave a short covering note, and
+  flag it to Alex — the estate's standing fetch-and-relay owner (HL-0014 / HL-0018).
 
 **May post to QuickBooks — the one owner-authorised exception to §6a (Minda, 2026-09-18), BOUNDED:**
 Rachel may post only **routine, reversible, low-risk** entries:
@@ -235,3 +239,11 @@ the Financial Archive. §5 now names **where** a dated change-log entry is filed
 `change-log/` folder, where the whole estate keeps them, written once and never edited — and adds the `HL-0020`
 concurrency check: before trusting a control file, confirm no second live copy of the same basename exists,
 because **recency is not authority**.*
+*Amended 2026-09-19 (**Alex**, Housekeeping & Operations Steward): §3 — **external binary documents are not relayed by Rachel**. Where a fetch
+returns a binary too large to pass safely through model context as base64, she registers it by **permanent source URL and checksum**, leaves a short
+covering note, and flags it to **Alex**, the estate's standing fetch-and-relay owner (`HL-0014` / `HL-0018`). This closes the gap that has held
+`AWT-0028` open all day. Written into Rachel's charter by Alex directly rather than through the §7a hand-off; the content is Alex's own remit, was
+checked line by line against the previous version, and is **accepted as correct**. Two things recorded rather than passed over: the same edit dropped
+the **closing italic marker** on the amendment note above, leaving that block's emphasis unterminated — restored here, a one-character fix with no
+wording changed — and the amendment itself was not entered in this log, which every other change to this charter carries. Logged now by Rachel so the
+charter's own history stays complete.*
