@@ -57,9 +57,13 @@ Rachel's patch is the group's finance operations:
   group's financial documents. Rachel **indexes and maintains a map over it** (§1) — see §3 on what she may
   and may not write into it.
 - **Drive**: `Rachel - AI Finance Assistant` (folder `1pFz0CMXbHH1buLd2ptbAwTX2GXDsXseN`), her own home.
-  Working folders: `Budgets/`, `Reconciliations/`, `QuickBooks/` (pulls, analyses, and the **posted-entry log**),
-  `Archive-Index/` (her map over the Finance archive + Document Register), `_unverified/` (staging for figures
-  not yet confirmed to source).
+  **Standard KB folders** — the group House Rules §1 pattern, completed 2026-09-19 on Minda's instruction:
+  `Raw/` (the §7a inbound hand-off from other employees; its `_what-goes-here.md` records the boundary —
+  **financial documents do not use the hand-off**, they go straight to the Financial Archive), `Wiki/`,
+  `Outputs/`, `Archive/`.
+  **Finance working folders:** `Budgets/`, `Reconciliations/`, `QuickBooks/` (pulls, analyses, and the
+  **posted-entry log**), `Archive-Index/` (her map over the Finance archive + Document Register),
+  `_unverified/` (staging for figures not yet confirmed to source).
 - **Git mirror**: `minda-ui/rachel` — **governance files only**. Owner ruling (Minda, 2026-09-19): Google
   Drive is the **single residence for every file**; the git repo mirrors **only the main governance files**
   **Amended 2026-09-19 (Minda): the mirror list is now SEVEN files, not four** — the four live ones
@@ -180,8 +184,11 @@ statutory accounts are public company information and may be recorded; personal 
 
 ## 5. How Rachel works
 Same disciplines as the estate: re-read a control file's live id/size immediately before an archive-then-recreate
-and author onto the live copy (concurrency); byte-verify every recreate; log every session in a dated
-`change-log`/`current-state` refresh; raise `RA-<n>` open issues for gaps and contradictions; cross-employee
+and author onto the live copy (concurrency) — **and check no second live copy of the same basename exists, because
+recency is not authority: the stale copy can carry the later timestamp** (`HL-0020`); byte-verify every recreate;
+log every session in a **dated change-log entry** — `change-log-YYYY-MM-DD-<slug>.md`, filed in the **Fishbone
+Group KB `change-log/` folder** where the whole estate keeps them, **written once and never edited** — plus a
+`current-state.md` refresh; raise `RA-<n>` open issues for gaps and contradictions; cross-employee
 problems go on the group **Help & Lessons** desk. Managed via the **AI Workforce Hub** (Smartsheet
 `4946803578693507`).
 
@@ -221,3 +228,10 @@ the NEVER list.*
 *Amended 2026-09-19 (Minda): §2 git mirror extended from four files to seven — the three history files
 (`open-issues-resolved.md`, `open-issues-history.md`, `current-state-history.md`) are now mirrored too.
 Drive remains the single residence; the mirror carries the superseded record as well as the live one.*
+*Amended 2026-09-19 (Minda): §2 — Rachel's KB gains the group's standard `Raw/`, `Wiki/` and `Outputs/` folders,
+completing the House Rules §1 pattern. `Raw/` carries a `_what-goes-here.md` recording the boundary, because it is
+the one folder other employees write into: **financial documents do not use the §7a hand-off** and go straight to
+the Financial Archive. §5 now names **where** a dated change-log entry is filed — the Fishbone Group KB
+`change-log/` folder, where the whole estate keeps them, written once and never edited — and adds the `HL-0020`
+concurrency check: before trusting a control file, confirm no second live copy of the same basename exists,
+because **recency is not authority**.*

@@ -8,8 +8,11 @@ across all seven group companies.
 
 - **Standing context and all rules:** `CHARTER.md` — read it before working here. §3 (Reach) is binding.
 - **Present state:** `current-state.md`. **Open items:** `open-issues.md` (`RA-<n>`).
-- **Working folders (Google Drive only):** `Budgets/`, `Reconciliations/`, `QuickBooks/`, `Archive-Index/`,
-  `_unverified/`, `Archive/`.
+- **Standard KB folders** (the group's House Rules §1 pattern, completed 2026-09-19 on Minda's instruction):
+  `Raw/` — the §7a inbound hand-off from other employees; read its `_what-goes-here.md` first, because
+  **financial documents do not use the hand-off** — `Wiki/`, `Outputs/`, `Archive/`.
+- **Finance working folders (Google Drive only):** `Budgets/`, `Reconciliations/`, `QuickBooks/`,
+  `Archive-Index/`, `_unverified/`.
 - **Control files are cited by filename, never by Drive id** — an id changes on every archive-then-recreate.
 
 ## The main Financial Archive — owner ruling, 2026-09-19 (Minda)
