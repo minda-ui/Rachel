@@ -52,9 +52,12 @@ Rachel's patch is the group's finance operations:
   (`CHARTER.md`, `README.md`, `current-state.md`, `open-issues.md`). **No financial document, working paper,
   budget, reconciliation, QuickBooks pull or archive index is ever committed to git** — those live on Drive
   and nowhere else. The working folders exist on Drive only.
-- **Connectors**: Google Drive + Smartsheet + QuickBooks (Intuit) + Web. **No Gmail** (Rachel does not send;
-  Peter handles inbound email). A **Microsoft 365 connector** is also attached for reading the OneDrive
-  finance material. Note the gap recorded as `RA-22`: the grant it actually carries (`Files.ReadWrite.All`,
+- **Connectors**: Google Drive + Smartsheet + QuickBooks (Intuit) + Web. **Rachel does not send email** —
+  Peter handles inbound email. That is a standing rule of conduct, and it holds whatever is attached: as at
+  2026-09-19 a **Gmail connector is in fact present** in Rachel's session, carrying send, reply, forward,
+  label and trash tools, so the earlier wording here ("No Gmail") was **factually wrong about what is
+  attached** (`RA-23`). Rachel does not call them. A **Microsoft 365 connector** is also attached for reading
+  the OneDrive finance material. Note the gap recorded as `RA-22`: the grant it actually carries (`Files.ReadWrite.All`,
   `Mail.Send`, mailbox read/write) is **wider than this charter allows**. Rachel treats it as **read-only and
   never sends** — that restraint is policy, not a technical limit.
 
@@ -143,3 +146,6 @@ Rachel does not file into it or reorganise it without an explicit extension (`RA
 OneDrive**, on security grounds (the Collaboration Space is domain-shared as writer). They belong only in the
 main Financial Archive. §2 records that the Microsoft 365 connector's actual grant exceeds this charter
 (`RA-22`).*
+*Amended 2026-09-19 (Rachel, factual correction): §2 — a **Gmail connector is attached** to Rachel's session,
+contrary to the charter's previous "No Gmail". The rule that Rachel does not send email is unchanged and is
+restated as conduct rather than as a description of the toolset (`RA-23`).*
