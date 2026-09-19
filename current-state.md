@@ -5,13 +5,20 @@ _Present snapshot, overwritten by archive-then-recreate each session that change
 
 _**Split 2026-09-19 (Rachel), on Minda's instruction.** This file had reached **29,942 bytes** — 1,374 short of the
 measured **31,316** point at which Drive's `create_file` **silently truncates** (`HL-0005`). Thirteen rows that narrate
-something **finished** moved **verbatim** to **`current-state-history.md`** (Drive id `1HMvKyL9ldHr5pKonj0nVW91aTtSkOx7a`; **mirrored to git since 2026-09-19**): index v1 and its corrections,
+something **finished** moved **verbatim** to **`current-state-history.md`** (**mirrored to git since 2026-09-19**): index v1 and its corrections,
 the v2 record corrections, the first consolidation, the group-policy conflict, Batch 1, Peter's returned requests, the
 check correction, the filing tidy and the three issue-log splits. What stays is the **current position and the standing
 rules**. The `Open issues` row was **not** moved but **replaced by a pointer** — it restated the whole `RA-<n>` list and
 had already drifted out of step with `open-issues.md`, which is the only place that list now lives. Same test as the
-issue log: a row moves because it is **superseded**, not because it is long. Live file now **17,651 bytes**, history
-**16,370**._
+issue log: a row moves because it is **superseded**, not because it is long. Live file now **18,325 bytes**, history
+**16,558**._
+
+_**Control files are cited by filename, never by Drive id** — an id changes on every archive-then-recreate, so a cited id
+goes stale the next time the file is written. This is the estate's own rule, stated in the group's
+`Process-Housekeeping-and-Session-Discipline.md`, `WIKI_GUIDELINES.md` §4.2 and `Process-Fishbone-Systems-House-Rules.md` §3.
+**Corrected 2026-09-19 (Minda's instruction):** the two control-file id citations in Rachel's records were removed — one of
+them, in `current-state-history.md`, had already gone stale. Document and folder ids are unaffected and are still cited by
+id, deliberately: `CHARTER.md` requires the Financial Archive folder id because its name is a download-export string._
 
 | Field | Value |
 |---|---|
