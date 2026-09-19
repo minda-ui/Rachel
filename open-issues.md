@@ -14,7 +14,10 @@ Resolved to date: `RA-4`, `RA-9`, `RA-10`, `RA-12`, `RA-16`, `RA-17`, `RA-18`, `
 moved to `open-issues-history.md`. **Third split, on Minda's instruction, at 29,768 bytes:** seven rows moved their
 full narrative to `open-issues-history.md` verbatim — `RA-2`, `RA-5`, `RA-11`, `RA-14`, `RA-21`, `RA-22`, `RA-24` —
 each chosen because its early reasoning had been **superseded**, not merely because it was long. Live table now
-**21,380 bytes**, history **24,413**. Nothing edited, summarised or deleted; every moved row is reproduced in full._
+**23,103 bytes**, history **24,549**. Nothing edited, summarised or deleted; every moved row is reproduced in full.
+**Mirrored to git since 2026-09-19 (Minda):** `CHARTER.md` §2's mirror list went from four files to seven, so
+`open-issues-resolved.md` (24,714) and `open-issues-history.md` are now versioned alongside this file. Drive is
+still the residence._
 
 | ID | Opened | Status | Issue |
 |---|---|---|---|

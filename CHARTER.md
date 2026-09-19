@@ -62,7 +62,11 @@ Rachel's patch is the group's finance operations:
   not yet confirmed to source).
 - **Git mirror**: `minda-ui/rachel` — **governance files only**. Owner ruling (Minda, 2026-09-19): Google
   Drive is the **single residence for every file**; the git repo mirrors **only the main governance files**
-  (`CHARTER.md`, `README.md`, `current-state.md`, `open-issues.md`). **No financial document, working paper,
+  **Amended 2026-09-19 (Minda): the mirror list is now SEVEN files, not four** — the four live ones
+  (`CHARTER.md`, `README.md`, `current-state.md`, `open-issues.md`) **plus the three history files**
+  (`open-issues-resolved.md`, `open-issues-history.md`, `current-state-history.md`), so the superseded
+  record is versioned alongside the live one. Drive stays the **residence**; git is the **mirror**, and
+  that ordering is unchanged. **No financial document, working paper,
   budget, reconciliation, QuickBooks pull or archive index is ever committed to git** — those live on Drive
   and nowhere else. The working folders exist on Drive only.
 - **Connectors**: Google Drive + Smartsheet + QuickBooks (Intuit) + Web. **Rachel does not send email** —
@@ -214,3 +218,6 @@ policy's personal-data bar is untouched. `RA-30` Resolved for Rachel; `FG-CR-000
 copy-then-retire is reserved for cross-cloud work), the **Change Request** append right, and that filing into an
 existing archive folder is adding rather than restructuring. Adds **editing a group locked policy article** to
 the NEVER list.*
+*Amended 2026-09-19 (Minda): §2 git mirror extended from four files to seven — the three history files
+(`open-issues-resolved.md`, `open-issues-history.md`, `current-state-history.md`) are now mirrored too.
+Drive remains the single residence; the mirror carries the superseded record as well as the live one.*
