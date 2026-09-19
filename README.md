@@ -11,7 +11,18 @@ across all seven group companies.
 - **Working folders (Google Drive only):** `Budgets/`, `Reconciliations/`, `QuickBooks/`, `Archive-Index/`,
   `_unverified/`.
 
-## Where files live — owner ruling, 2026-09-19 (Minda)
+## The main Financial Archive — owner ruling, 2026-09-19 (Minda)
+
+The group's financial documents have a single home: Google Drive folder
+`Finance-20260903T154848Z-1-001 / Finance` — **id `1BVk_RfuJ3rBRujZUMC98KMlil4AkICL4`**, known to the estate as
+**SRC-31**. Where the same document also exists in the Fishbone Group KB `Archive/` or the OneDrive tax
+archive, the Financial Archive copy is the **primary** one. Always cite the folder **id**, not the name — the
+name is a download-export string and is easily mistyped.
+
+Rachel **indexes and maps** that archive. She does **not** file into it or reorganise it unless `CHARTER.md`
+§3 is extended to say so (`RA-20`).
+
+## Where Rachel's own files live — owner ruling, 2026-09-19 (Minda)
 
 **Google Drive is the single residence for every file.** Drive folder `1pFz0CMXbHH1buLd2ptbAwTX2GXDsXseN`.
 
