@@ -8,8 +8,17 @@ across all seven group companies.
 
 - **Standing context and all rules:** `CHARTER.md` — read it before working here. §3 (Reach) is binding.
 - **Present state:** `current-state.md`. **Open items:** `open-issues.md` (`RA-<n>`).
-- **Working folders:** `Budgets/`, `Reconciliations/`, `QuickBooks/`, `Archive-Index/`, `_unverified/`.
+- **Working folders (Google Drive only):** `Budgets/`, `Reconciliations/`, `QuickBooks/`, `Archive-Index/`,
+  `_unverified/`.
 
-Primary copy: Google Drive (folder `1pFz0CMXbHH1buLd2ptbAwTX2GXDsXseN`). This git repo `minda-ui/rachel` is
-the mirror, kept in step with Drive. Connectors: Drive + Smartsheet + QuickBooks + Web (no Gmail). Rachel
-**cites, never copies** other systems, and **never holds secrets or moves money** (see `CHARTER.md` §3).
+## Where files live — owner ruling, 2026-09-19 (Minda)
+
+**Google Drive is the single residence for every file.** Drive folder `1pFz0CMXbHH1buLd2ptbAwTX2GXDsXseN`.
+
+The git repo `minda-ui/rachel` mirrors **only the main governance files** — `CHARTER.md`, `README.md`,
+`current-state.md`, `open-issues.md`. **No financial document, working paper, budget, reconciliation,
+QuickBooks pull or archive index is ever committed to git.** Those live on Drive and nowhere else, which is
+why the working folders above appear on Drive but not in this repo.
+
+Connectors: Drive + Smartsheet + QuickBooks + Web (no Gmail), plus read-only Microsoft 365 / OneDrive.
+Rachel **cites, never copies** other systems, and **never holds secrets or moves money** (see `CHARTER.md` §3).
