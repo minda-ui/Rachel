@@ -61,3 +61,34 @@ Half of this issue resolved itself when the charter caught up with the grant. Ke
 The headline claim was **too broad** and the Document Register disproved part of it. That correction is the point of the row now; the original reasoning is history.
 
 | RA-24 | 2026-09-19 | Open | **No written intercompany loan agreements, and corporation tax unpaid.** Found by index v2 in a Commercial Properties owner-note dated 2026-09-07 (`1BblZb0doDVbcIrgiV5ouomBEstk6NZiv`, not authored by Rachel — she read it in the KB `Raw/`). Two statements, both squarely on Rachel's patch. **(a) The intercompany loans are undocumented.** Money moves between the group companies with no written agreement behind it. That bears directly on the Holdings→Properties interest waiver executed 2026-09-07, on related-party disclosure in the statutory accounts, and on whether the balances in the books can be substantiated at all. **(b) Corporation tax is unpaid.** Matches two independent signals already held: Commercial's CT600 for the period to 31 Oct 2024 records £1,484.47 **unpaid at signing** (`RA-5`), and Waste carries a live £3,042.33 business-rates liability with a 21/08/26 liability order. Needed: confirm the current position per company, then decide whether the agreements are drafted (a job for Minda and RMT, not Rachel — §3 forbids her committing the company). Rachel has **not** contacted HMRC or the accountant. **2026-09-19:** the Document Register shows the waiver chain is fully papered (`FH0000008` request, `FH0000009` board minute, `FH0000012` letter of variation, `FH0000013` acceptance, `FH0000016` confirmation of receipt) and that two underlying loan agreements **do** exist — `FH0000010` (£283,000 at 3.8%, 2019-05-01) and `FH0000011` (£20,000 at 6%, 2021-10-15). So “no written intercompany loan agreements” is **too broad as a general statement**: Holdings→Properties is documented. What the owner-note may mean is the *other* intercompany balances. To clarify with Minda rather than assume either way. |
+
+## `open-issues.md`'s header as it stood before 2026-09-20 — the account of the first three splits
+
+_Moved here verbatim on **2026-09-20**. The live file's header had accumulated four split notes and was 2,952 bytes of mostly **history**, which is not what a header is for. It was replaced with one current note plus this pointer. The text below is unedited, including the line reading “Resolved to date”, whose list is the position at the third split and not today's, and including the fourth-split note that was itself in the header when it was moved._
+
+_**One warning about the block below, because it is reproduced verbatim:** it opens with its own `# Open Issues — Rachel` heading, since it was the top of that file. **It is not the live issue log.** The live log is `open-issues.md` in Rachel's KB root. The block runs from the rule below to the end of this file._
+
+---
+
+# Open Issues — Rachel (AI Finance Assistant)
+
+_The live `RA-<n>` table, **open issues only**, in numeric order. A resolved issue is never deleted — it is
+moved, in full, to **`open-issues-resolved.md`** on Drive, and the `RA-<n>` numbers are never reused. Where a
+still-open row's narrative grows long enough to threaten the truncation point, its **superseded history** moves
+verbatim to **`open-issues-history.md`** and the live row keeps the current position plus a pointer. Rachel's
+private issue log; cross-employee problems go on the group **Help & Lessons** desk instead._
+
+_**Split 2026-09-19 (Rachel):** this file had reached **31,248 bytes**, past the **~31 KB** point at which Drive's
+`create_file` **silently truncates** (`HL-0005`, measured at 31,316) — so the split stopped being housekeeping and
+became the only way to write the file safely. Resolved rows moved out verbatim, nothing edited, nothing lost.
+Resolved to date: `RA-4`, `RA-9`, `RA-10`, `RA-12`, `RA-16`, `RA-17`, `RA-18`, `RA-20`, `RA-25`, `RA-27`, `RA-30`.
+**Second split the same day:** with 20 rows all Open and nothing left to retire, `RA-19`'s five-appendix history
+moved to `open-issues-history.md`. **Third split, on Minda's instruction, at 29,768 bytes:** seven rows moved their
+full narrative to `open-issues-history.md` verbatim — `RA-2`, `RA-5`, `RA-11`, `RA-14`, `RA-21`, `RA-22`, `RA-24` —
+each chosen because its early reasoning had been **superseded**, not merely because it was long. Live table
+**25,743 bytes** at that moment, history **24,549**. Nothing edited, summarised or deleted; every moved row is reproduced in full.
+**Mirrored to git since 2026-09-19 (Minda):** `CHARTER.md` §2's mirror list went from four files to seven, so
+`open-issues-resolved.md` (27,574) and `open-issues-history.md` are now versioned alongside this file. Drive is
+still the residence._
+
+_**Fourth split, 2026-09-20 (Rachel), and it needed a new file.** Adding Batch 4 to `RA-19`, the Batch 4 findings to `RA-11`, `RA-15` and `RA-28`, and opening `RA-31` took this file to **36,798 bytes — 5,482 past** the truncation point (`HL-0005`). The usual remedy failed: `open-issues-history.md` had only ~6.8 KB of headroom and could not take it. So **`open-issues-history-2026-09.md`** was opened — **on Drive only**, exactly as `open-issues-resolved.md` was when it was created, because `CHARTER.md` §2's mirror list names **seven specific files** and widening it is Minda's call, not Rachel's. **Flagged for Minda, not assumed.** `RA-11` and `RA-19` were **rewritten** as compact current-position rows and their previous text moved there **in full, verbatim** — the whole cell, not a chosen extract, so no judgement was exercised about which sentence was superseded. `RA-15`'s registration-and-sampling paragraph went with them. Nothing was summarised away, edited or deleted. This is the problem `RA-31` describes, arriving in the same session it was raised._
