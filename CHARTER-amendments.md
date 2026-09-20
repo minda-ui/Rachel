@@ -111,3 +111,17 @@ holds regardless; preserve everything including Rachel's own mistakes; record it
 its content happened to be reasonable** — the breach is that it left unapproved, not that it was wrong. The wider lesson, and
 the reason this is a charter change rather than a note: **a rule enforced only by Rachel's conduct does not hold against
 tooling that acts on its own.***
+*Amended 2026-09-20 (Rachel, correcting her own amendments of the same day): the two amendments immediately above were
+**built on something that did not happen.** Rachel concluded a `create_draft` call had **sent** replies to the group's adviser
+without approval. **It had not — Minda read each draft and sent it herself, as she always does.** The `messageId` Rachel
+presented as forensic evidence is simply what Gmail assigns when a draft becomes a sent message. **§6 rule 6 is rewritten**:
+confirming a draft is worth doing but is **not a fault detector**, a draft that is gone almost certainly means **Minda sent
+it**, and the standing instruction is now to **rule out the human before attributing an action to a tool** and to match
+severity to evidence held rather than consequence imagined. **The escape procedure is kept** — rule 4 really is silent on what
+to do if something ever does leave unapproved — but its preamble now states that the event prompting it never occurred.
+`HL-0024` was corrected from Critical/Open to Medium/Resolved on the shared desk, Eugene stood down, and the original
+(incorrect) account left standing beneath the correction rather than deleted. **The cost is recorded rather than smoothed
+over:** a phantom connector fault put in front of another employee, a Critical row telling every seat to distrust a working
+tool, two charter amendments on a non-event, and a breach reported to the owner that never happened. The failure was not
+carelessness — it was **asserting more than the evidence supported, fluently**, and never asking the one question that would
+have settled it.*
