@@ -11,7 +11,7 @@ while doing it. This is `RA-31` — the estate's records outgrowing their files 
 _**This file is mirrored to git.** That is a reorganisation, not an expansion: this text was **already** in the mirror, inside
 `CHARTER.md`. Leaving it out would have dropped the charter's amendment history from the mirror for the first time since the
 repository was seeded, which is a bigger change than keeping it. `CHARTER.md` §2's mirror list is updated to **eight** files
-accordingly. Flagged for Minda — if she would rather it were Drive-only, like `open-issues-history-2026-09.md`, it comes out of
+accordingly. Flagged for Minda — if they would rather it were Drive-only, like `open-issues-history-2026-09.md`, it comes out of
 git and the list goes back to seven._
 
 _**When this file approaches the ceiling in turn**, it dates rather than splits again — `CHARTER-amendments-2026-09.md` and

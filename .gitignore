@@ -2,11 +2,21 @@
 # Google Drive is the residence for every file (owner ruling, Minda, 2026-09-19);
 # git is the mirror. No financial document or working paper ever goes to git.
 #
-# Mirrored (seven files, widened from four by Minda on 2026-09-19):
-#   CHARTER.md, README.md, current-state.md, open-issues.md,
-#   open-issues-resolved.md, open-issues-history.md, current-state-history.md
+# Mirrored (EIGHT files as at 2026-09-20 — four originally, widened to seven by
+# Minda on 2026-09-19, then to eight the same week when CHARTER.md's amendment
+# log was moved out to its own file):
+#   CHARTER.md, CHARTER-amendments.md, README.md, current-state.md,
+#   open-issues.md, open-issues-resolved.md, open-issues-history.md,
+#   current-state-history.md
 #
-# Excluded below: a record file that lives on Drive only because widening the
-# mirror list is the owner's call, not Rachel's. Raised as RA-31 and flagged for
-# Minda. Remove this line if and when she approves an eighth mirrored file.
+# Excluded below: the DATED record files, which live on Drive only because
+# widening the mirror list is the owner's call, not Rachel's. Raised as RA-31
+# and flagged for Minda. Note the two are not the same question:
+#   - open-issues-history-2026-09.md takes rows out of a mirrored file, so
+#     leaving it unmirrored genuinely drops content from git.
+#   - current-state-history-2026-09.md does the same, and is the live question.
+# CHARTER-amendments.md was mirrored on different reasoning: that text was
+# ALREADY in the mirror inside CHARTER.md, so keeping it is reorganisation
+# rather than expansion. Remove a line below if and when Minda approves it.
 open-issues-history-2026-09.md
+current-state-history-2026-09.md
