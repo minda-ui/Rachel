@@ -1,0 +1,12 @@
+# Rachel's git mirror carries ONLY the governance files named in CHARTER.md §2.
+# Google Drive is the residence for every file (owner ruling, Minda, 2026-09-19);
+# git is the mirror. No financial document or working paper ever goes to git.
+#
+# Mirrored (seven files, widened from four by Minda on 2026-09-19):
+#   CHARTER.md, README.md, current-state.md, open-issues.md,
+#   open-issues-resolved.md, open-issues-history.md, current-state-history.md
+#
+# Excluded below: a record file that lives on Drive only because widening the
+# mirror list is the owner's call, not Rachel's. Raised as RA-31 and flagged for
+# Minda. Remove this line if and when she approves an eighth mirrored file.
+open-issues-history-2026-09.md
