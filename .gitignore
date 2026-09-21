@@ -2,23 +2,24 @@
 # Google Drive is the residence for every file (owner ruling, Minda, 2026-09-19);
 # git is the mirror. No financial document or working paper ever goes to git.
 #
-# Mirrored (EIGHT files as at 2026-09-20 — four originally, widened to seven by
-# Minda on 2026-09-19, then to eight the same week when CHARTER.md's amendment
-# log was moved out to its own file):
-#   CHARTER.md, CHARTER-amendments.md, README.md, current-state.md,
-#   open-issues.md, open-issues-resolved.md, open-issues-history.md,
-#   current-state-history.md
+# MIRROR WIDENED TO ELEVEN FILES, 2026-09-21 (Minda). The dated history files
+# were previously excluded because widening the list was the owner's call, not
+# Rachel's - and that exclusion had a real cost, recorded on RA-31: those files
+# hold rows that moved OUT of mirrored files, so the content was genuinely
+# absent from git and the gap grew every time a row moved. Minda closed it.
 #
-# Excluded below: the DATED record files, which live on Drive only because
-# widening the mirror list is the owner's call, not Rachel's. Raised as RA-31
-# and flagged for Minda. Note the two are not the same question:
-#   - open-issues-history-2026-09.md takes rows out of a mirrored file, so
-#     leaving it unmirrored genuinely drops content from git.
-#   - current-state-history-2026-09.md does the same, and is the live question.
-# CHARTER-amendments.md was mirrored on different reasoning: that text was
-# ALREADY in the mirror inside CHARTER.md, so keeping it is reorganisation
-# rather than expansion. Remove a line below if and when Minda approves it.
-open-issues-history-2026-09.md
-current-state-history-2026-09.md
-open-issues-history-2026-09-part2.md
-current-state-history-2026-09-part2.md
+# Mirrored (ELEVEN files):
+#   CHARTER.md, CHARTER-amendments.md, README.md,
+#   current-state.md, current-state-history.md, current-state-history-2026-09.md,
+#   open-issues.md, open-issues-resolved.md, open-issues-history.md,
+#   open-issues-history-2026-09.md, open-issues-history-2026-09-part2.md
+#
+# current-state-history-2026-09-part2.md is NOT on that list because it no
+# longer exists: it was consolidated into current-state-history-2026-09.md on
+# 2026-09-21 and archived on Drive. The issue-log set was left at three files
+# because a full merge came to 81,489 bytes, beyond what this desk can emit in
+# a single Drive write - see RA-31.
+#
+# Nothing is excluded from the mirror at present. Working folders (Budgets/,
+# Reconciliations/, QuickBooks/, Archive-Index/, _unverified/, Sandbox/, Raw/)
+# exist on Drive only and are not checked out here, so they need no rule.

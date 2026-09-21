@@ -190,3 +190,34 @@ pointer here. (1) The **git mirror list** history — four → seven → eight f
 drafting authority and its premise, the `RA-22` over-wide M365 grant, and write-to-retire on OneDrive. This is the
 same method used on 2026-09-20 for the `HL-0024` narrative — compact only what is duplicated, and only after
 confirming the full text survives here.*
+
+*Amended 2026-09-21 (Minda, owner ruling): §2's **git mirror list goes from eight files to ELEVEN**, and the
+history-file set is consolidated where it can be. Two separate things, taken together because the second is what
+made the first safe to decide.*
+
+*(1) **THE MIRROR.** The dated history files — `current-state-history-2026-09.md`,
+`open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md` — had been **Drive-only** since they were
+created, because widening §2's list is the owner's call and Rachel flagged it rather than assuming it. That
+exclusion had a real and growing cost, stated on `RA-31` every time it was restated: unlike `CHARTER-amendments.md`,
+whose text was **already** in the mirror inside the charter, these files hold rows that moved **out of** mirrored
+files. So the content really was absent from git, and the gap grew with every move. Minda closed it. `.gitignore`
+now excludes nothing.*
+
+*(2) **THE CONSOLIDATION, and why it is partial.** Minda instructed that the history files be consolidated back,
+the splits having been made only to stay under `HL-0005`'s 31,316-byte ceiling, which Alex retested on 2026-09-18
+and Rachel independently on 2026-09-21 and which no longer exists. **`current-state-history-2026-09-part2.md` was
+absorbed** into `current-state-history-2026-09.md` — 36,032 bytes, byte-verified, the sequence file archived not
+deleted, its content preserved whole as PART 2.*
+
+***The rest could not be done, and the reason is worth recording because it replaces one ceiling with another.***
+*Drive will take 60 KB+. But a Drive file is created by **emitting its entire content in a single tool call** —
+there is no append, and `update_file` changes only metadata — so the real limit is what this desk can emit at once.
+A full three-way merge of the current-state set came to **64,181 bytes** and of the issue-log set to **81,489**; a
+deliberate probe aimed at 64,181 produced **1,067**. Largest successful write to date: **43,856**. So the binding
+constraint has moved from **Drive's storage** to **Rachel's write path**, somewhere between 44 and 64 KB, and it
+was found by testing rather than assumed — which is the whole lesson of the day this amendment was written.*
+
+*This also puts a practical cap on the consolidation idea generally: under archive-then-recreate every write
+rewrites the whole file, so a larger history file costs more on **every** future move into it, not just once. The
+issue-log set stays at three files for that reason as much as this one. Recorded on `RA-31` and put to `HL-0005`
+as a comment, since that row is Alex's and not Rachel's to edit.*

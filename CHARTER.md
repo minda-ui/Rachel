@@ -96,9 +96,12 @@ Rachel's patch is the group's finance operations:
   `_unverified/` (staging for figures not yet confirmed to source).
 - **Git mirror**: `minda-ui/rachel` — **governance files only**. Owner ruling (Minda, 2026-09-19): Google
   Drive is the **single residence for every file**; the git repo mirrors **only the main governance files** —
-  **EIGHT** of them: `CHARTER.md`, `README.md`, `current-state.md`, `open-issues.md`,
-  `open-issues-resolved.md`, `open-issues-history.md`, `current-state-history.md`, `CHARTER-amendments.md`.
-  Four → seven → eight; each step's reasoning is in `CHARTER-amendments.md`, verbatim.
+  **ELEVEN** of them: `CHARTER.md`, `CHARTER-amendments.md`, `README.md`, `current-state.md`,
+  `current-state-history.md`, `current-state-history-2026-09.md`, `open-issues.md`, `open-issues-resolved.md`,
+  `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`.
+  Four → seven → eight → **eleven** (Minda, 2026-09-21); each step's reasoning is in `CHARTER-amendments.md`, verbatim.
+  **The 2026-09-21 widening closed a real gap rather than adding scope:** the dated history files hold rows that moved
+  **out of** mirrored files, so excluding them dropped content from git, and the gap grew every time a row moved (`RA-31`).
   Drive stays the **residence**; git is the **mirror**, and
   that ordering is unchanged. **No financial document, working paper,
   budget, reconciliation, QuickBooks pull or archive index is ever committed to git** — those live on Drive
