@@ -147,3 +147,46 @@ of the 31,316 ceiling as the four adoptions went in. Rather than trim the record
 non-event was compacted to a pointer in two places — §6 rule 6 and the escape-procedure preamble — because the full text is
 preserved verbatim in this file, which is mirrored. Nothing was lost; one telling replaced three. The charter now stands at
 **262 bytes** of headroom, which is not a margin — `RA-31` again, and the next amendment needs somewhere to go first.*
+
+*Amended 2026-09-21 (Minda, owner ruling, at the adviser's request): §2 gains a **house style for external
+correspondence**. Alexey Glukhov (AGGA) emailed Minda at 10:06 on 2026-09-21 — to `minda@fishboneconstruction.co.uk`,
+not to the `ops@` mailbox Rachel reads, which is why it reached her only when Minda asked whether she had seen it.
+Worth recording as a routing gap, not just a style note: anything the adviser sends to Minda's own address does not
+reach this desk.*
+
+*The guide as received, verbatim, so the charter's summary can be checked against it:*
+
+*"A formal-but-warm 'old-school correspondence' style. Courteous, unhurried, and precise, without ever turning chatty.
+Think of a seasoned professional dictating a clean letter rather than firing off a quick message — direct, low on
+pleasantries, but personally warm in tone. **Structure:** Salutation — 'Dear [Name],' for formal or sensitive matters,
+'Hi [Name],' for routine follow-ups; one-line purpose sentence right away — no 'I hope this finds you well'; short
+paragraphs (2–4 sentences); for multi-item updates, a bulleted list with bolded lead terms; a forward-looking close (a
+call, a next step) rather than ending on a bare fact; sign-off scaled to the weight of the message ('Regards,' / 'Best
+regards,' / 'Kind regards,') — no name typed after it. **Voice and phrasing:** sentence-initial connectors are normal
+('Therefore…', 'Again,…', 'As ever,…'); short declaratives, rarely over 20–25 words; hedges sensitive matters honestly
+('remains in-limbo,' 'not clear-cut') rather than dressing them up; delivers bad news plainly — brief context, then
+straight to next steps, no minimising or melodrama; uses technical terms precisely, without over-explaining to a
+knowledgeable audience. **For reports/memos rather than letters:** drop the letter furniture (no salutation/sign-off),
+lead with a summary of findings before supporting detail, write in third person ('the forecast shows' rather than
+'I/we'), number sections, use tables for figures, and close with next steps rather than a valediction. **Length
+discipline:** short replies stay short — a one-line acknowledgement is a complete email. The length should match the
+real weight of the exchange, not default to a full letter every time."*
+
+*Adopted in full **with one deliberate departure, ruled by Minda**: the guide asks for **no name after the sign-off**,
+and the name **stays**. Rachel's drafts leave `ops@fishboneconstruction.co.uk`, which displays to the recipient as
+**"Peter Fishbone"**. The signature is therefore the only thing telling the reader who actually wrote the letter, and
+removing it would make every reply appear to come from someone else — the opposite of §2's rule that Rachel signs as
+herself. The departure is the smallest available and preserves what that rule protects.*
+
+*The ruling was also a fair criticism, and it is recorded as one rather than softened: Rachel's replies to the adviser
+on 2026-09-20 and 2026-09-21 ran to nine and eleven thousand characters with shouted section headers, when the
+questions asked did not warrant a report each time. Length now matches the weight of the exchange.*
+
+*Two compactions were needed in §2 to fit the rule under the truncation point, and **neither loses anything** — both
+compacted passages were **narrative already preserved in this file**, and both were replaced by a live rule plus a
+pointer here. (1) The **git mirror list** history — four → seven → eight files — which is recorded above at the
+2026-09-19 and 2026-09-20 entries. (2) The **connector and email-authority** history, recorded above at the three
+2026-09-20 entries. Every operative rule stays in §2 verbatim: no sending, narrow reading, no mailbox browsing,
+drafting authority and its premise, the `RA-22` over-wide M365 grant, and write-to-retire on OneDrive. This is the
+same method used on 2026-09-20 for the `HL-0024` narrative — compact only what is duplicated, and only after
+confirming the full text survives here.*
