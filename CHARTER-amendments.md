@@ -278,3 +278,60 @@ use was not read correctly**, and asking costs one line where a wrong assumption
 
 *Written into §3's "May, unattended" list with the scope, the exclusions and the first use named; and into the
 NEVER list as the second of two narrow exceptions.*
+
+## Amendment 24 — 2026-09-23 (Rachel, own file). Two changes: §2 split out by churn, and plain-brief re-lettered C → E.
+
+### (a) §2 moved to `Charter-Locations-and-Connectors.md` — split on measured churn, not on topic.
+
+*Amended 2026-09-23 (Rachel, own governed file; Minda's approval to proceed given in session): **§2 "Where Rachel
+lives" is moved in full to `Charter-Locations-and-Connectors.md`** and §2 becomes a stub pointing there. `CHARTER.md`
+**33,140 → 29,269 bytes**; the new file is **9,135**. Both byte-verified on Drive; the superseded charter is in
+`Archive/`, created first and archived second.*
+
+***The target was chosen by measurement, and the measurement overturned the plan.** The idea came from Alex's and
+Eugene's charter splits of the same day, and the recommendation Rachel put to Minda named **§0** — because that is
+what Alex and Eugene had moved. Counting the amendment log before acting showed §0 is the **least**-churning section
+in this charter: across the 21 logged amendments, **§2 was amended ten times, §3 five, §6 three, §1 three, and §0
+once.** Splitting §0 would have reproduced their file layout and saved almost nothing. The principle they proved is
+**split by how often a part changes, not by topic** — and applied to this charter it points at §2. The shape was
+theirs; the section is this file's own.*
+
+***Where the cut was NOT made, and why.** §3 is the larger section (10,850 bytes) and the second-highest churn, so on
+size-times-frequency alone it was the better candidate. It was left whole deliberately: §3 is where every **may** and
+**may not** lives, and splitting authority across two files is the one thing a charter must not do — a reader who
+stops at the first file would hold half the permissions. §2 carries locations, the mirror list, the connector
+inventory and external presentation, and none of it grants or withholds anything. **Nothing about what Rachel may do
+changed in this amendment.***
+
+***One consequence flagged rather than assumed: the git mirror goes from ELEVEN files to TWELVE.** Every previous
+widening was Minda's explicit call, so this one is put to her too. Rachel's reading is that it follows an existing
+ruling rather than extending scope: the new file holds content carved **out of** a mirrored file, and `RA-31` is the
+record of what happens when such a file is excluded — git silently loses the content and the hole grows with every
+move. That is exactly why Minda widened the list to eleven on 2026-09-21. The count is recorded in the new file, and
+if Minda rules otherwise that line is what changes.*
+
+### (b) The plain-brief standard is re-lettered **Rule C → Rule E**. §0. `HL-0046`.
+
+*Amended 2026-09-23 (Rachel, own file, adopting Minda's ruling): **§0's plain-brief rule is re-lettered from Rule C
+to Rule E.** Minda's ruling, recorded in the group `CLAUDE-History.md`: the **older** Rule C — *verify against the
+system of record*, established 2026-09-21 and in use in Alex's charter and the group's
+`Process-Housekeeping-and-Session-Discipline.md` — **keeps the letter C**, and plain-brief takes **E**. The rule's
+content is unchanged; only its label moves. The old letter is left visible and dated in §0 rather than silently
+swapped.*
+
+***Rachel found this by accident, and that is the part worth recording.** The re-lettering landed in group
+`CLAUDE.md`, in Alex's `Charter-Rules.md` and in `Process-Housekeeping-and-Session-Discipline.md`. It reached nobody
+else. Nothing arrived in Rachel's `Raw/`, which holds nothing since 2026-09-21. She noticed only because she opened
+Alex's file that evening **for an unrelated reason** — to copy his charter-split method — and saw the letter had
+moved. Verified at source before acting on it, per the older Rule C itself: the string confirmed present in the group
+file, the ruling read in the group's own dated history, and Alex's file read in full.*
+
+***Why the letter mattered enough to move.** This charter's §0 had recorded that Rachel's own file had no prior Rule
+C, so nothing was overwritten to make room for the new one, and noted that John had flagged the collision risk across
+the estate. That risk was real elsewhere: the same rollout **overwrote Eugene's existing Rule C and lost its content**
+(`HL-0044`), and **Helen could not fold it in at all** for want of a source note (`HL-0045`).*
+
+***Raised as `HL-0046`:** a rule's **label is part of the rule**. The estate has a working channel for landing a new
+rule and none for landing a **correction** to one already landed, so every seat that took the 2026-09-22 rollout
+promptly is now carrying a stale label precisely **because** it complied. Nothing in any other employee's KB was
+touched — flagged on the Hub for Victoria or Alex to route, per the `Raw/`-only rule.*
