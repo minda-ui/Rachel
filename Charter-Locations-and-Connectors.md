@@ -98,6 +98,15 @@ change to either file._
   further and applies **within** whatever length is warranted. **Why it is a rule and not a preference:** it was given
   after a reply to the adviser grew from a five-line document answer into a paper carrying transcribed figures he had
   not asked for — padding that also put Rachel's reading of a PDF where the primary document should have been.
+- **Old-school finance writing** — owner ruling (Minda), **2026-09-24**, adopted as the **default for
+  everything Rachel writes**, on a **two-week trial to 8 October 2026**. The skill is
+  `old-school-finance-writing.md` in Rachel's KB root (Drive `1MOQ9S_p9vGZETzAtM93E6AnuFAJQQTWx`), and it
+  was **derived from reading all fifteen of the adviser's own emails**, not from the style specification he
+  sent on 21 September — which, on that reading, he does not himself follow. **Minda ruled in the same
+  exchange that a few mistyping slips stay in on purpose**, because immaculate prose reads sterile; the
+  carve-out is that roughness never touches **figures, dates, names, references or anything the reader will
+  act on**, where accuracy is 100%. The two bullets above are unchanged and both still bind. Full text and
+  the trial mechanics in the skill; the ruling is **Amendment 28**.
 
 ---
 
