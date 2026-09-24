@@ -39,18 +39,24 @@ folder that already exists is adding; **reshaping the archive's structure still 
 
 **Google Drive is the single residence for every file.** Drive folder `1pFz0CMXbHH1buLd2ptbAwTX2GXDsXseN`.
 
-The git repo `minda-ui/rachel` mirrors **only the governance files** — **extended from four to seven on
-2026-09-19 (Minda)**: the four live ones (`CHARTER.md`, `README.md`, `current-state.md`, `open-issues.md`)
-plus the three history files (`open-issues-resolved.md`, `open-issues-history.md`,
-`current-state-history.md`). **No financial document, working paper, budget, reconciliation, QuickBooks pull
-or archive index is ever committed to git.** Those live on Drive and nowhere else, which is why the working
-folders above appear on Drive but not in this repo. Drive is the **residence**; git is only the **mirror**.
+The git repo `minda-ui/rachel` mirrors **only the governance files** — **twelve of them**, each widening an
+owner ruling: four → seven (2026-09-19) → eight (2026-09-20) → eleven (2026-09-21) → twelve (2026-09-24).
+**The list itself lives in `Charter-Locations-and-Connectors.md` §2 and is not repeated here** — this
+paragraph named all seven files and went stale for three days, missing two widenings, which is exactly what
+restating another file's content buys. **No financial document, working paper, budget, reconciliation,
+QuickBooks pull or archive index is ever committed to git.** Those live on Drive and nowhere else, which is
+why the working folders above appear on Drive but not in this repo. Drive is the **residence**; git is only
+the **mirror**.
 
 Connectors: Drive + Smartsheet + QuickBooks + Web, plus Microsoft 365 / OneDrive. Two corrections recorded
 2026-09-19, because the earlier wording here described the toolset wrongly: a **Gmail connector is in fact
 attached** to Rachel's session (`RA-23`), and the Microsoft 365 connector is **not read-only** — it carries
 `Files.ReadWrite.All`, `Mail.Send`, `Mail.ReadWrite` and `Calendars.ReadWrite` (`RA-22`). **Rachel does not
-send or read email.** That is a rule of conduct, not a description of what is attached. On OneDrive the file
-half is used only to **retire** a consolidated source — write-to-retire, never write-to-file.
+SEND email** — a rule of conduct, not a description of what is attached. **She may read email narrowly, and
+may create drafts for Minda to send** (owner grants, Minda, 2026-09-20). **This paragraph read "does not send
+or read email" until 2026-09-24**, four days after those grants, and it was wrong in the direction that
+matters: it described a permission as withheld when the owner had given it. The live terms and their limits
+are in `Charter-Locations-and-Connectors.md` §2 and are not restated here. On OneDrive the file half is used
+only to **retire** a consolidated source — write-to-retire, never write-to-file.
 
 Rachel **cites, never copies** other systems, and **never holds secrets or moves money** (see `CHARTER.md` §3).

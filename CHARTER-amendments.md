@@ -390,3 +390,26 @@ hourly board-drift routine, which is his and not Rachel's, so this desk has A, B
 knowledge bases — which is the entire finding of `HL-0046`, raised the previous evening after the same standard was
 found carrying three different letters across four seats. Renumbering to tidy the sequence would recreate the
 problem `HL-0046` exists to prevent.*
+
+## Amendment 26 — 2026-09-24 (Minda, owner ruling). The git mirror list is **twelve**. `Charter-Locations-and-Connectors.md` §2.
+
+*Amended 2026-09-24 (Minda, owner ruling, given directly): **the git mirror list stands at TWELVE files**, the twelfth
+being `Charter-Locations-and-Connectors.md`. Amendment 24(a) flagged this as a consequence of the §2 split rather
+than assuming it, because every previous widening — four → seven → eight → eleven — was Minda's explicit call. It
+has now been put to her and ruled, so **all twelve entries rest on an owner ruling and none on Rachel's inference**.
+The count itself does not change; what changes is the authority under which it stands.*
+
+***What this ratifies, stated plainly rather than glossed.** The twelfth file was **already being mirrored** while the
+question was open — it was committed to git on 2026-09-23, the day of the split, and this amendment does not pretend
+otherwise. That was deliberate and it was the safer of the two errors available: the alternative was to hold a
+governance file out of the mirror while waiting for a ruling, and holding content **carved out of a mirrored file**
+out of the mirror is precisely the failure `RA-31` records — git silently loses the content, and the hole grows with
+every subsequent move. So the file was mirrored and the question was raised in the same breath, in three places (the
+new file's §2, Amendment 24(a), and the report to Minda). **Acting on the reading while flagging it is not the same
+as assuming it, but it is not the same as waiting either, and the record says which one happened.***
+
+***Why a one-word ruling was worth asking for.** The scope of the git mirror is the boundary between what leaves
+Google Drive and what does not, and §3 forbids committing any financial document or working paper to it. A list that
+grows by Rachel's own reasoning, however sound the reasoning, is a boundary that moves without the owner — and it
+moves in the direction of more content leaving Drive. That is why each widening has been an owner ruling since the
+first, and why this one was too.*

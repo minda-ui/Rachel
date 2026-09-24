@@ -46,12 +46,13 @@ change to either file._
   `CHARTER-amendments.md`, `README.md`, `current-state.md`,
   `current-state-history.md`, `current-state-history-2026-09.md`, `open-issues.md`, `open-issues-resolved.md`,
   `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`.
-  Four → seven → eight → eleven (Minda, 2026-09-21) → **twelve** (2026-09-23, this split); each step's reasoning is in
-  `CHARTER-amendments.md`, verbatim. **The twelfth entry is Rachel's reading, flagged for Minda rather than assumed:**
-  every previous widening was Minda's explicit call, so this one is put to her too — but it follows the rule `RA-31`
-  already bought. This file holds content carved **out of** a mirrored file, and `RA-31` is the record of what happens
-  when such a file is left out: git silently loses the content and the hole grows with every move. Mirroring it is the
-  consistent application of an existing ruling, not new scope. **If Minda rules otherwise, this line is what changes.**
+  Four → seven → eight → eleven (Minda, 2026-09-21) → **twelve** (2026-09-23 split; **ruled by Minda,
+  2026-09-24**); each step's reasoning is in `CHARTER-amendments.md`, verbatim. **The twelfth entry was put to Minda
+  rather than assumed, and she ruled twelve.** So all twelve now rest on an owner ruling, as the first eleven did —
+  which is the point of putting it to her rather than reasoning it in. The reasoning it was put on stands: this file
+  holds content carved **out of** a mirrored file, and `RA-31` is the record of what happens when such a file is left
+  out — git silently loses the content and the hole grows with every move. **This line read "Rachel's reading, flagged
+  for Minda rather than assumed" from 2026-09-23 until the ruling on 2026-09-24.**
   **The 2026-09-21 widening closed a real gap rather than adding scope:** the dated history files hold rows that moved
   **out of** mirrored files, so excluding them dropped content from git, and the gap grew every time a row moved (`RA-31`).
   Drive stays the **residence**; git is the **mirror**, and
