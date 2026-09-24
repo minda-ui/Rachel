@@ -93,3 +93,65 @@ _Dated out under `RA-31` to make room for the rewritten `RA-21`. The live row ke
 | ID | Opened | Status | Issue |
 |---|---|---|---|
 | RA-32 | 2026-09-20 | Open | **Content defects introduced at the moment of writing — four in one session, every one caught by a check rather than by the discipline meant to prevent it.** (1) and (2): `CHARTER.md`'s local and Drive copies diverged **twice**, both times because wording was improved *during* the emit to Drive instead of being edited locally first; caught by byte-verification and reconciled before committing. (3) a script's `a[:-1]` ate a full stop, running one sentence into the next; caught by reading the edited region back. (4) a stray character was written into `sandbox-03`; caught within the minute, the defective copy retained under a SUPERSEDED title **inside** `Sandbox/` per §6 rule 2 rather than moved to `Archive/`. **The pattern, stated plainly: the byte-check and the read-back are doing the work the discipline should.** Both are *detect* controls — the same distinction now written into §6 rule 6 and `HL-0024`. **The actual fix is not more care:** it is never composing into the emit at all — edit the file, read it back, send exactly what is on disk. **Deliberately not raised on the group desk**, because this is Rachel's own write practice rather than a tool defect; `HL-0024` carries the estate-wide version. **A fifth defect, and a worse class than the other four — added the same evening:** Rachel decided `create_draft` had **sent** three emails by itself, raised it **Critical** on the shared desk, amended `CHARTER.md` twice and reported a governance breach to Minda. **None of it had happened** — Minda had read each draft and sent it, as she always does. The `messageId` cited as forensic evidence is ordinary Gmail behaviour on send. Corrected: `HL-0024` now Medium/Resolved with the original account preserved beneath it, Eugene stood down, §6 rule 6 rewritten. **The other four defects cost a character; this one cost another employee's time and told the estate to distrust a working tool.** The lesson is not about writing — it is **rule out the human before blaming the tool, ask first, and match severity to the evidence held rather than the consequence imagined**. |
+
+## Moved 2026-09-24 — the live issue log's own maintenance history
+
+_Nine header blocks lifted out of `open-issues.md` **verbatim and entire**, by block index, nothing retyped. They were a
+running log of **file maintenance** — splits, moves, mirror-scope changes and superseded issue counts — sitting at the top
+of the estate's live finance issue table. That is history by any reading, and this is its designated home under `RA-31`'s
+own scheme._
+
+_**Two of them were actively misleading where they sat.** Block 2 explains the splitting scheme in terms of a 31,316-byte
+truncation ceiling that **no longer exists** — its own successor block says so. Block 3 records the git mirror going "from
+four files to seven", when the list has since been widened twice more and now reads twelve. A reader starting at the top of
+the live file met both before reaching a single open issue._
+
+_`open-issues.md` **41,036 → the size recorded in the dated `change-log` entry for 2026-09-24**; the header falls from
+**6,561 bytes to under 2,000**, and what remains is the file's purpose, the live issue count and a pointer here. The table is untouched by this move._
+
+_**Why this file keeps being split, and where the history went.** Drive's `create_file` **silently truncates a single write at
+31,316 bytes** (`HL-0005`) — it returns success, so a file past that point is quietly incomplete. This file has been split four
+times: three on 2026-09-19 (resolved rows out to `open-issues-resolved.md`; `RA-19`'s five-appendix history out; then seven rows'
+superseded narrative out, on Minda's instruction) and a fourth on **2026-09-20**, when adding Batch 4 took it to **36,798 bytes,
+5,482 past the point**. That fourth split needed a **new file**: `open-issues-history.md` had only ~6.8 KB of headroom and could
+not absorb it. **`open-issues-history-2026-09.md`** was opened **on Drive only** — `CHARTER.md` §2's mirror list names **seven
+specific files**, and widening it is Minda's call, so this is **flagged for Minda, not assumed**; it is exactly how
+`open-issues-resolved.md` began. `RA-11`, `RA-15`, `RA-19` and `RA-28` were rewritten as compact current-position rows and their
+**previous text moved there in full, verbatim** — the whole cell each time, not a chosen extract, so no judgement was exercised
+about which sentence was superseded. Nothing has ever been summarised away, edited or deleted. **The full account of the first
+three splits is in `open-issues-history.md`.** This file now sits close to the ceiling again with the history files nearly full
+too, which is `RA-31` — raised the same session the problem arrived._
+
+_**Mirrored to git since 2026-09-19 (Minda):** `CHARTER.md` §2's mirror list went from four files to seven, so
+`open-issues-resolved.md` and `open-issues-history.md` are versioned alongside this file. Drive remains the residence._
+
+_**Fifth split, 2026-09-20 (afternoon).** `RA-23` **Resolved** and moved to `open-issues-resolved.md`; `RA-19` and `RA-24` rewritten as current-position rows with their previous text moved verbatim to `open-issues-history-2026-09.md`. Twelve resolved, nineteen open. The live table sits close to the ceiling again — `RA-31`._
+
+_**Sixth move, 2026-09-20 (evening).** `RA-32` and `RA-33` opened, so `RA-31` and `RA-11` were compacted to current-position
+rows and their previous text moved verbatim to the new **`open-issues-history-2026-09-part2.md`** — the morning's dated file
+having filled in turn. **Twenty-one open, twelve resolved.** Headroom after this move: about 1.1 KB._
+
+_**Seventh move, 2026-09-20 (evening, later).** Batch 5 finished, and `RA-19`'s completed position would have taken the table
+**35 bytes past** the ceiling — caught by the byte check before the write. `RA-19` and `RA-14` were compacted to
+current-position rows and their previous text moved verbatim to `open-issues-history-2026-09-part2.md`. `RA-14` is the larger
+saving: its records question is settled, and only the business question — does Amfa trade — stays live. **Still twenty-one
+open, twelve resolved;** nothing was resolved, only relocated. Headroom after this move, this note included: **under 400 bytes** — `RA-31` again, and the next row to grow forces an eighth move._
+
+_**CORRECTION, 2026-09-21 (evening) — the ceiling those seven splits were made to avoid no longer exists.** Drive's
+`create_file` was measured truncating at **31,316 bytes** on 2026-09-14 (`HL-0005`). It was **retested by Alex on
+2026-09-18** at 60,185 bytes, and **independently by Rachel on 2026-09-21** at **43,856 bytes**, both with no truncation;
+`HL-0005` was updated the same day. **The narrative above is left unedited, because history is not rewritten** — but its
+live claims are no longer true. This file is not near a limit, no row needs moving for size, and splitting from here is a
+readability choice rather than a constraint. What the splits cost, and what the episode says about trusting a dated
+observation, is on `RA-31`._
+
+_**`RA-2` RESOLVED and moved out, 2026-09-22.** The FY2023 statutory accounts for Properties, Holdings and Waste are filed in the main Financial Archive and the register `Location` is updated on all three. Moved **in full, verbatim** to `open-issues-resolved.md`, resolution appended rather than the history rewritten. **Twenty open, thirteen resolved** — 20 + 13 = 33, matching `RA-1`–`RA-33` with no gaps and no reuse; checked against every record file rather than counted off this table, which lists only what is open._
+
+_**Two more RESOLVED and moved out, and one opened, 2026-09-22 (evening).** **`RA-14`** — Amfa Furniture: Minda answered the business question (dormant now, testing under Construction, operations from 1 May 2027), which was the only half still open. **`RA-26`** — the Landbay Facility page now exists, Minda having granted the Loans KB write authority the same day. Both moved **in full, verbatim** to `open-issues-resolved.md` with resolutions appended. **`RA-34`** opened: Properties' Bounce Back Loan is recorded as repaid and the archive shows £6,000 outstanding with nothing for four years. **Nineteen open, fifteen resolved** — 19 + 15 = 34, matching `RA-1`–`RA-34` with no gaps and no reuse; the next-free number was checked against every record file, not read off this table._
+
+_**One opened, 2026-09-23 (late evening).** **`RA-35`** — the executed letter of variation `FH0000012` carries its own
+drafting note saying it must not be signed until RMT had approved its form and confirmed the tax treatment, and it was signed
+by both companies with that note still on its face. Found while **correcting** a `current-state.md` row that wrongly showed an
+Annex A condition as outstanding: the condition had been met on 10 September, and the Document Register said so at the moment
+Rachel reported it unestablished. **Twenty open, fifteen resolved** — 20 + 15 = 35, matching `RA-1`–`RA-35` with no gaps and no
+reuse; next-free checked against every record file rather than read off this table._
