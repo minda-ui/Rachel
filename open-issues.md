@@ -17,8 +17,10 @@ what the splitting cost, is `RA-31`** — which is where it belonged all along._
 
 _**Split again 2026-09-24, and for a new reason.** Six long-narrative rows — `RA-11`, `RA-15`, `RA-19`, `RA-21`, `RA-31`, `RA-32`, **18,071 bytes** — moved **verbatim, by line index, nothing retyped** to **`open-issues-history-2026-09-part3.md`**. Each live row keeps its current position plus a pointer. The file had reached **41,654 bytes with every row open and nothing resolved to move out**, leaving 2,202 bytes against a proven 43,856-byte write path — too little to record the day's findings. **That is a different trigger from the one parts 1 and 2 answered:** they were built for a truncation ceiling that no longer exists, this one for a live table too large to edit. `RA-31` carries it. **`RA-35` (4,408 bytes) and `RA-22` (4,210) are the two largest rows and were deliberately left in place**, because both are current findings rather than history. File now **under 35,000 bytes**, headroom **over 8,900** — stated as a bound rather than a figure, because a note that quotes the size of the file containing it goes stale the moment anything else on this page is edited, which is the fault this header has already carried twice._
 
-_**The live position: twenty rows here, fifteen resolved** — 20 + 15 = 35, matching `RA-1`–`RA-35`
-with no gaps and no reuse. **One of the twenty, `RA-5`, was resolved on 2026-09-24 and is still sitting in this table** — its move to `open-issues-resolved.md` is outstanding bookkeeping, stated here rather than left as a silent inconsistency in a file whose first line says open issues only. The next-free number is checked against **every record file**, never read off this table, which
+_**The live position: twenty-one rows here, fifteen resolved** — 21 + 15 = 36, matching `RA-1`–`RA-36`
+with no gaps and no reuse. **This count has now gone stale three times in one day**, each time because a row
+was added or moved without the sentence describing the table being re-read; it is stated here as an arithmetic
+check precisely so that the next person to add a row has to do the sum. **One of the twenty, `RA-5`, was resolved on 2026-09-24 and is still sitting in this table** — its move to `open-issues-resolved.md` is outstanding bookkeeping, stated here rather than left as a silent inconsistency in a file whose first line says open issues only. The next-free number is checked against **every record file**, never read off this table, which
 lists only what is open (`RA-15`)._
 
 | ID | Opened | Status | Issue |
