@@ -222,4 +222,3 @@ was found by testing rather than assumed — which is the whole lesson of the da
 rewrites the whole file, so a larger history file costs more on **every** future move into it, not just once. The
 issue-log set stays at three files for that reason as much as this one. Recorded on `RA-31` and put to `HL-0005`
 as a comment, since that row is Alex's and not Rachel's to edit.*
-

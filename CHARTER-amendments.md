@@ -14,8 +14,15 @@ repository was seeded, which is a bigger change than keeping it. `CHARTER.md` §
 accordingly. Flagged for Minda — if they would rather it were Drive-only, like `open-issues-history-2026-09.md`, it comes out of
 git and the list goes back to seven._
 
-_**When this file approaches the ceiling in turn**, it dates rather than splits again — `CHARTER-amendments-2026-09.md` and
-successors — per `RA-31`. It starts with about 23 KB of room, which is years of amendments at the current rate._
+_**That prediction has already been tested, and it was wrong by about three orders of magnitude.** This paragraph read:
+“When this file approaches the ceiling in turn, it dates rather than splits again — `CHARTER-amendments-2026-09.md` and
+successors — per `RA-31`. It starts with about **23 KB of room, which is years of amendments at the current rate**.”
+It took **four days**. Written 2026-09-20 at 31,208 bytes' worth of history; **44,214 bytes on 2026-09-24**, past the
+proven write path, split the same day on Minda's ruling. **Two lessons rather than one.** The rate was not "the current
+rate" — a charter amends fastest in its first week, and a projection drawn from that week's own start was never a rate at
+all. And the **successor is named `CHARTER-amendments-history-2026-09.md`, not the name predicted here**, to match the
+`open-issues-history-*` family it sits beside; a filename guessed in advance is not a convention. **The scheme itself
+held: date, split, move verbatim, point back.** Only the arithmetic about when was wrong._
 
 _**The live rules are in `CHARTER.md`.** This file is history only: it records what changed and why, never what the rule is
 now. Where the two appear to differ, `CHARTER.md` wins and the difference is a defect to be raised._
@@ -29,6 +36,7 @@ _**Amendments 1–22 are in `CHARTER-amendments-history-2026-09.md`**, moved the
 write path and could no longer be emitted to Drive at all. This file keeps **Amendment 23 onwards**. The cut
 followed the seam already in the log — dated italic paragraphs before 2026-09-22, headed sections after it.
 `RA-31` carries the reasoning._
+
 ---
 
 ## Amendment 23 — 2026-09-22 (Minda, through Victoria under §7a). Two grants in one day: Rule C, and the first write into another employee's KB.

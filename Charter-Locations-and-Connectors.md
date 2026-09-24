@@ -120,5 +120,8 @@ change to either file._
 **This file's own governance: the same rules as `CHARTER.md` itself.** `Charter-Locations-and-Connectors.md`
 is a governed file in every sense `CHARTER.md` is. The `Raw/`-only channel for cross-KB amendments applies
 to it exactly as it applies to `CHARTER.md`; it goes through **archive-then-recreate with byte
-verification** like every other control file; and it is **mirrored to git**, which is why the mirror list
-above now reads twelve rather than eleven. Splitting a file changes nothing about who may write it or how.
+verification** like every other control file; and it is **mirrored to git**, which is part of why the mirror
+list above has grown from four to **fourteen**. Splitting a file changes nothing about who may write it or how.
+**This sentence read "now reads twelve rather than eleven" until 2026-09-24**, and it is the fourth time in a day
+that a sentence stating a count went stale because the count moved and the sentence describing it was not re-read.
+**State a bound or a reason, not a running total.**
