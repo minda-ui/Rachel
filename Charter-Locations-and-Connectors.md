@@ -42,10 +42,17 @@ change to either file._
   `_unverified/` (staging for figures not yet confirmed to source).
 - **Git mirror**: `minda-ui/rachel` — **governance files only**. Owner ruling (Minda, 2026-09-19): Google
   Drive is the **single residence for every file**; the git repo mirrors **only the main governance files** —
-  **TWELVE** of them: `CHARTER.md`, **`Charter-Locations-and-Connectors.md`** (this file),
-  `CHARTER-amendments.md`, `README.md`, `current-state.md`,
+  **FOURTEEN** of them: `CHARTER.md`, **`Charter-Locations-and-Connectors.md`** (this file),
+  `CHARTER-amendments.md`, **`CHARTER-amendments-history-2026-09.md`**, `README.md`, `current-state.md`,
   `current-state-history.md`, `current-state-history-2026-09.md`, `open-issues.md`, `open-issues-resolved.md`,
-  `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`.
+  `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`,
+  **`open-issues-history-2026-09-part3.md`**.
+  **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
+  created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
+  `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
+  to split it. They hold **content carved out of mirrored files**, and leaving such a file out is the exact failure
+  `RA-31` records: git silently loses the content and the hole grows with every move. **The safer of the two errors
+  is to mirror them, so they are mirrored and said so here rather than quietly.** One line from Minda reverses it.
   Four → seven → eight → eleven (Minda, 2026-09-21) → **twelve** (2026-09-23 split; **ruled by Minda,
   2026-09-24**); each step's reasoning is in `CHARTER-amendments.md`, verbatim. **The twelfth entry was put to Minda
   rather than assumed, and she ruled twelve.** So all twelve now rest on an owner ruling, as the first eleven did —
