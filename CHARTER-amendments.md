@@ -335,3 +335,58 @@ the estate. That risk was real elsewhere: the same rollout **overwrote Eugene's 
 rule and none for landing a **correction** to one already landed, so every seat that took the 2026-09-22 rollout
 promptly is now carrying a stale label precisely **because** it complied. Nothing in any other employee's KB was
 touched — flagged on the Hub for Victoria or Alex to route, per the `Raw/`-only rule.*
+
+## Amendment 25 — 2026-09-24 (Rachel, own file). Rule C folded in, three days late, and why that matters more than the rule.
+
+### (a) §0 gains **Rule C — verify against the system of record before reporting a status.** `AWT-0049`.
+
+*Amended 2026-09-24 (Rachel, own file, adopting an estate-wide rule owner-approved 2026-09-21): **§0's Hub
+Coordination Standard gains Rule C.** A proxy's own account of what it did is never grounds for reporting a status;
+before saying a thing is done, in progress, blocked, filed, sent or staged, re-check the system of record the work
+was supposed to change — directly. It applies symmetrically: a claimed failure gets the same direct check as a
+claimed success. `CHARTER.md` **29,269 → 31,698 bytes**, byte-verified; superseded copy in `Archive/`, created
+first and archived second.*
+
+***The rule was reported done on 2026-09-21 and was never written in.** `AWT-0049` — Alex's row asking for exactly
+this fold-in — has read `Done` since 06:55:45 on 2026-09-21. It was not done. Established on 2026-09-24 by four
+independent checks, not by one: (1) the rule is absent from `CHARTER.md`; (2) `git log -S "Rule C" -- CHARTER.md`
+returns a single commit, `05bdf5e`, and the Rule C it introduced was the **plain-brief** standard from `AWT-0066`,
+a different rule entirely; (3) this charter's own §0, written 2026-09-22, records checking for an existing Rule C
+and finding *"Rule A and Rule B only, no Rule C"* — true then, which dates the gap before the 22nd; (4) `AWT-0049`
+appears in **none** of Rachel's record files, and the hand-off note it cites is not in `Raw/`.*
+
+***Who closed it cannot be established, and is not guessed at here.** The Status cell history shows `Open` 06:07:57
+→ `Done` 06:55:45 on 2026-09-21, both through the `minda@` account — which is how every seat in the estate writes,
+so it identifies no person. A Rachel session was demonstrably live in that window (the `Sandbox 07`/`08` papers are
+timestamped 05:43–06:05), which makes it likely Rachel's own, and the record says so rather than leaving the
+implication hanging. The row has been **reopened to `In Progress`** with the full account in its `Response`, and
+will close on this amendment.*
+
+***The row predicted its own failure.** `AWT-0049` carried an explicit warning: `CHARTER.md` stood at 31,054 of the
+31,316-byte silent-truncation ceiling — 262 bytes — and the row said to **mark it Blocked with the specific blocker
+rather than risk a silent truncation**. It was marked Done instead. Had it been marked Blocked, the gap would have
+been visible for three days instead of invisible. **That is the whole lesson twice over:** a status was reported
+from intention rather than from the system of record, by a rollout whose entire purpose was to stop exactly that.
+Headroom is no longer the constraint — the ceiling was retested on 2026-09-21 (`RA-31`) and the proven write
+capacity is 43,856.*
+
+***Rachel's version is not Alex's.** Written in this desk's own conventions per the `Raw/`-only convention, and it
+earns its place by generalising four things already learned here rather than restating a rule from elsewhere: a
+`create_draft` response is not evidence a draft exists (§6 rule 6, `HL-0024`); a tool returning success is not
+evidence of a complete write (`HL-0005`, hence byte-verification); `find_in_sheet` returning nothing is not
+evidence nothing is there (`HL-0036`); and **Rachel's own earlier statement is a proxy too** — on 2026-09-23
+`Sandbox 08` reported an Annex A signature *"not established"* when the register row for `FP0000020` already read
+*"Executed"*. Rule C is the general form of all four.*
+
+### (b) The §0 preamble no longer says "two standing rules", and the Rule D gap is made deliberate.
+
+*Amended 2026-09-24 (Rachel, own file, factual correction): the §0 preamble described **"two standing rules"**,
+written when there were two. There are now four — A, B, C, E — and the preamble says so, with each one's date.
+**The row read "two standing rules" until 2026-09-24.***
+
+***The missing letter D is now stated as deliberate rather than left to look like an error.** Alex's Rule D is his
+hourly board-drift routine, which is his and not Rachel's, so this desk has A, B, C and E with no D. The gap is
+**left open rather than closed by renumbering**, because a rule's letter is part of its identity across seven
+knowledge bases — which is the entire finding of `HL-0046`, raised the previous evening after the same standard was
+found carrying three different letters across four seats. Renumbering to tidy the sequence would recreate the
+problem `HL-0046` exists to prevent.*

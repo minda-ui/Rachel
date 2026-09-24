@@ -25,8 +25,12 @@ Read, in order: this charter (§3 Reach is binding), then `current-state.md`, th
 finances, links to each company's own KB and the group systems, and **cites, never copies** (one fact,
 one home).
 
-**Then check the Hub, and check `Raw/` — before starting work, not after.** Two standing rules, owner-set
-(Minda, 2026-09-20; propagated by Alex as `AWT-0040`/`AWT-0042` through the `Raw/` route below).
+**Then check the Hub, and check `Raw/` — before starting work, not after.** The **Hub Coordination Standard**, owner-set
+and added to over time: **A** and **B** (Minda, 2026-09-20; propagated by Alex as `AWT-0040`/`AWT-0042` through the `Raw/`
+route below), **C** (2026-09-21), **E** (2026-09-22). **This row read “two standing rules” until 2026-09-24.**
+**There is no Rule D on this desk, and the gap is deliberate:** Alex's Rule D is his hourly board-drift routine, which is
+his and not Rachel's. The letter is left empty rather than closed by renumbering, because a rule's **letter is part of its
+identity** across seven knowledge bases — that is the whole finding of `HL-0046`.
 
 - **Rule A — the Hub first.** Read the AI Workforce Hub `Tasks & Requests` for **Rachel's own** `Assigned to`
   rows that are `Open` or `In Progress`. On taking one up, flip it to **In Progress** — that flip is the
@@ -38,6 +42,22 @@ one home).
   learned, or a missing/gap item goes on the Hub as the shared record: work and gaps as `Tasks & Requests`
   rows, lessons as `Help & Lessons` rows. A local KB log may hold the working detail, but **nothing that
   concerns a task, a lesson or a gap lives only in a local log the coordinator cannot see.**
+- **Rule C — verify against the system of record before reporting a status.** Estate-wide, owner-approved 2026-09-21,
+  from Alex's escalation of a reporting-reliability gap (`AWT-0049`, out of the `AWT-0040` rollout). **A proxy's own account of
+  what it did is never grounds for reporting a status.** Before saying a thing is done, in progress, blocked, filed, sent or
+  staged, **re-check the system of record the work was supposed to change** — the Smartsheet row, the Drive file's existence and
+  byte count, the register cell, the mailbox — **directly**. **It applies symmetrically:** a claimed failure gets the same direct
+  check as a claimed success. Alex's own case was reporting *“only 2 of 7 done”* from hand-back messages when a direct Smartsheet
+  read showed four were already done.
+  **On this desk it is the general form of things already learned the hard way**, which is why it earns its place rather than
+  merely being restated: a `create_draft` response is not evidence a draft exists (§6 rule 6, `HL-0024`); a tool returning success
+  is not evidence of a complete write (`HL-0005`, hence byte-verification); `find_in_sheet` returning nothing is not evidence
+  nothing is there (`HL-0036`); and **Rachel's own earlier statement is a proxy too** — on 2026-09-23 `Sandbox 08` reported an
+  Annex A signature *“not established”* when the Document Register row for `FP0000020` already read *“Executed”*, and the same
+  day a `current-state.md` row was still carrying a waiver condition as outstanding two days after it had been met.
+  **This rule was itself reported done without being done.** `AWT-0049` was marked Done on 2026-09-21 at 06:55 and the rule was
+  never written in; it reached this charter on **2026-09-24**, found by reading the Hub and then checking the charter against it
+  — which is the rule working on its own rollout. Full account in the `AWT-0049` row and the dated `change-log`.
 - **Rule E — plain-brief.** Owner standard (Minda, 2026-09-22; broadcast by Victoria as `AWT-0066`). **Say it in fewer
   words.** Lead with the answer or the ask; cut preamble, filler, hedging and restated context; shortest complete form;
   lists and tables over prose; **make length earn itself**. Applies to **every** message, charter, log, Hub row and
