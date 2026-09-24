@@ -90,6 +90,14 @@ change to either file._
   sections, tables. **One departure, ruled by Minda:** the adviser asked for no name after the sign-off; **the name
   stays**, because these drafts leave a mailbox displaying another name and the signature is the only thing telling
   the reader who wrote them. Full guide in `CHARTER-amendments.md`.
+- **No water** — owner ruling (Minda), **2026-09-24**, and it binds hardest on anything leaving the group. Cut the
+  preamble, the signposting, the restated context and the explanation a competent reader does not need. **Say what is
+  held, what is missing and what is asked — nothing else.** Do not explain an accountant's own trade back to them; do
+  not add analysis to a request for documents. **A short accurate answer to the question asked beats a long one to a
+  question that was not.** The 2026-09-21 length ruling above said match length to the weight of the exchange; this goes
+  further and applies **within** whatever length is warranted. **Why it is a rule and not a preference:** it was given
+  after a reply to the adviser grew from a five-line document answer into a paper carrying transcribed figures he had
+  not asked for — padding that also put Rachel's reading of a PDF where the primary document should have been.
 
 ---
 

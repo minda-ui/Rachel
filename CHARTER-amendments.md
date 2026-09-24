@@ -413,3 +413,30 @@ Google Drive and what does not, and §3 forbids committing any financial documen
 grows by Rachel's own reasoning, however sound the reasoning, is a boundary that moves without the owner — and it
 moves in the direction of more content leaving Drive. That is why each widening has been an owner ruling since the
 first, and why this one was too.*
+
+## Amendment 27 — 2026-09-24 (Minda, owner ruling). **No water** in external correspondence. `Charter-Locations-and-Connectors.md` §2.
+
+*Amended 2026-09-24 (Minda, owner ruling, given directly): the house style gains **no water**. Cut preamble,
+signposting, restated context and any explanation a competent reader does not need. Say what is held, what is missing
+and what is asked, and nothing else. It applies everywhere and **binds hardest on anything leaving the group**.*
+
+***This is not a restatement of the 2026-09-21 length ruling.** That one said match length to the weight of the
+exchange. This one applies **within** whatever length is warranted: a reply can be the right length overall and still
+be full of water. Both now sit in §2 and the newer one does not replace the older.*
+
+***What produced it, because the record is more use than the rule.** The adviser asked a plain question on 2026-09-24:
+send the FY2025 accounts and CT returns for five companies. The answer is a short list of what is held and what is
+not. Across four drafts that reply grew into a paper carrying Note 9's intercompany balances, net assets, directors'
+balances, group relief and an observation that one figure was a third number — **none of it asked for**. Minda stopped
+it with one question: is he asking for accounts, or for an interpretation of accounts?*
+
+***Two faults, and the second is worse than the padding.*** *(1) Length: the 21 September ruling already covered this
+and it recurred three days later. (2) **Substituting a proxy for the source.** The adviser wants the accounts in order
+to reconcile against the authority. Sending him figures transcribed by Rachel off a PDF invites him to rely on that
+transcription, and a wrong digit lands in his workbook. That is the same failure Rule C exists to prevent, pointed
+outward instead of inward — and it is why the analysis was cut rather than trimmed.*
+
+***One thing recorded against Rachel's own reasoning.** The drift had a cause worth naming: release of the documents
+is Minda's decision, so nothing could be attached, and the gap was filled with analysis to make the reply feel
+substantial. **A reply is not made substantial by what is added to it.** The figures were not lost — every one is on
+its register row (`FC0000025`, `FH0000025`, `FW0000011`, `FA0000005`–`FA0000007`), which is where they belong.*
