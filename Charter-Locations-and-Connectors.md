@@ -114,6 +114,15 @@ change to either file._
   carve-out is that roughness never touches **figures, dates, names, references or anything the reader will
   act on**, where accuracy is 100%. The two bullets above are unchanged and both still bind. Full text and
   the trial mechanics in the skill; the ruling is **Amendment 28**.
+- **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
+  and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
+  residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility
+  register, `RA-15`'s register reconciliation. **The reason is the write path** (`RA-31`, `RA-32`): Drive has no append,
+  so every edit reproduces the whole file, while Smartsheet writes rows. **Not there:** the charter, the issue log and
+  any narrative record — Smartsheet truncates a cell at 4,000 characters (`HL-0015`) and `RA-35` is 4,408; primary
+  financial documents, which stay in the Financial Archive; and live tax identifiers. **Sharing verified at source:
+  one share, `minda@`, OWNER, scope ITEM — nothing shared with anyone.** The privacy is by absence, so what needs
+  watching is a share being added later (`RA-21`). First sheet: `4011436214978436`. Full reasoning in **Amendment 29**.
 
 ---
 

@@ -298,3 +298,46 @@ Minda sends.
 on or after **2026-10-08** against what actually went out rather than against the document; **`RA-36`
 carries the review**. And if the review slips, **the skill stays in force** — a missed review must not
 quietly revert the style, because reverting is a decision and it is Minda's.
+
+## Amendment 29 — A Smartsheet workspace becomes the residence for structured working data, 2026-09-25
+
+**Owner ruling (Minda), 2026-09-25**, given directly: *"Create Rachel - Finance workspace, only me and you."* Created the
+same day — workspace **`751582603175811`**, `Rachel - Finance`.
+
+**This modifies the ruling of 2026-09-19 and says so rather than sitting quietly beside it.** That ruling made Google
+Drive the **single residence for every file** and §2 still records that no working paper, budget, reconciliation,
+QuickBooks pull or archive index goes anywhere but Drive — *"those live on Drive and nowhere else."* A Smartsheet
+workspace holding reconciliations is a second residence. The narrower rule now reads: **Drive is the residence for
+documents; Smartsheet is the residence for structured working data.** Nothing about the Financial Archive changes.
+
+**The reason is the write path, not convenience, and that distinction is the whole point.** Drive has no append: a file
+is created by emitting its entire content in one call, so every edit reproduces the whole document. That single fact
+produced `RA-31`'s three separate limits in one week and every one of `RA-32`'s ten recurrences — text composed into a
+44KB emit with no source left to verify it against. Smartsheet writes **rows**: `add_rows` and `update_rows` change one
+row and leave the rest untouched. **It removes the defect class rather than mitigating it**, which is a better reason to
+adopt a tool than that it is convenient.
+
+**What goes there:** bank reconciliation and statement completeness; budgets (`RA-13` — none exist for Commercial
+Properties, Amfa or the SSAS, and nothing covers FY2026); the facility register; and `RA-15`'s reconciliation of the
+archive index against the Document Register, which until now has been a Drive markdown file reconciled by hand against a
+Smartsheet sheet.
+
+**What does not, and the limits are technical rather than cautious.** The charter, the issue log and every narrative
+record stay on Drive: Smartsheet silently truncates a cell at **4,000 characters** (`HL-0015`) and `RA-35` alone is
+**4,408**. Primary financial documents stay as PDFs in the Financial Archive. Live tax identifiers stay out, as
+`RA-15` already records for `FM0000012`'s UTR.
+
+**Sharing, verified at source rather than assumed.** `list_shares` on the workspace returns **exactly one share** —
+`minda@fishboneconstruction.co.uk`, OWNER, scope ITEM. No group, no domain share, nothing inherited. Because Rachel
+works through that same account, *"only me and you"* means **nothing is shared at all**: the privacy is by absence, and
+what needs watching is nobody adding a share later. This is recorded in those terms because `RA-21` is the standing
+lesson that a space *assumed* private and one *actually* private are not the same thing — the Collaboration Space is
+writable by the whole domain and nobody intended it.
+
+**First sheet, and it earned its place immediately.** `Bank statements - completeness and reconciliation`
+(**`4011436214978436`**), 21 rows for Properties' HSBC account 84311663: twelve statements held for FY2026 with opening,
+in, out, closing, continuity and transaction count; **six rows for statements that do not exist**; and three rows for
+duplicate CSV pairs. The twelve held rows reconcile — every opening equals the prior closing, every statement balances,
+and the final month ties to HSBC's own printed summary to the penny. **The six missing statements were found by listing
+the folder in full and are recorded nowhere else in the estate.** A gap that took a morning to find by hand is now a
+column.
