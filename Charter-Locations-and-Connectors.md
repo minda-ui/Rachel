@@ -90,6 +90,28 @@ change to either file._
   Rachel's. **Three replies had already gone to the adviser carrying the AI self-introduction before the rule existed**;
   they are sent and are not reopened — the rule prevents recurrence. Nothing else changes: Rachel still never sends, never
   hides that a draft is hers, and never claims to be a person if asked directly.
+- **Filing a binary to Drive costs a third more than the file itself.** Rachel's finding, **2026-09-26**, recorded on
+  Minda's instruction. **This is not a new ceiling** — it is `RA-31`'s write path, the one proven to 43,856 bytes and
+  untested above it, measured for the first time against a **binary**. **The mechanism:** Drive's `create_file` takes
+  content inline, so a binary must travel as **base64 — four characters for every three bytes**. The emitted payload is
+  a third larger than the file, and a binary's real ceiling is about **three-quarters** of whatever the write path is
+  that session. **Measured at both ends the same day:** a 4,894-byte probe workbook went up as 6,528 characters, was
+  reported by Drive at exactly 4,894 and came back byte-for-byte; the **136,254-byte** FY2026 workbook for account
+  84311663 is **181,672 characters** and could not be emitted at all — a **quarter** of it, 45,418 characters, was
+  already too large to put in front of this desk. Repacking at maximum compression gained **nothing**, byte-identical
+  output, and the file will not trim: two sheets carry 87% of it and the rest of the workbook references one of them.
+  **The consequence, plainly: a workbook of any real size cannot be filed to Drive by Rachel.** Minda files those. What
+  Rachel can file is the **figures** — CSV converted to a Sheet, naming the workbook, its byte count and its SHA-256 so
+  the record points at something identifiable — done that way for 84311663 on 2026-09-26 as
+  `Reconciliations/FBP_84311663_FY2026_figures-summary`, which records on its own face that the workbook is not filed.
+  **No size here is a bound to rely on**, per `RA-31`: the write path is a **dated observation that has already moved
+  once**, the base64 ratio is the only part that is arithmetic, and the rule stays **measure before writing**.
+  **`HL-0005` is not the reason** — its 31,316-byte truncation point has not existed since 2026-09-18, and reaching for
+  it here would repeat the error `RA-31` exists to record. **One trap found in the same act, and it belongs to `RA-32`'s
+  family — detected, never prevented:** a CSV cell beginning `=` is **evaluated as a formula** on conversion to a Sheet,
+  so two subtotal rows filed as **`#ERROR!`** while `create_file` returned success and every figure beside them was
+  correct. Nothing in the response showed it; **reading the file back** did. So no cell may begin with `=`, and a file
+  is not called filed until it has been read back.
 - **House style for external correspondence** — owner ruling (Minda), **2026-09-21**, at the adviser's request.
   Formal-but-warm, old-school: **one-line purpose sentence first**, short paragraphs, bulleted lists with **bolded
   lead terms**, a forward-looking close, bad news plainly. **Length matches the weight of the exchange — a one-line

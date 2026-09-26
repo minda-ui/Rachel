@@ -341,3 +341,52 @@ duplicate CSV pairs. The twelve held rows reconcile — every opening equals the
 and the final month ties to HSBC's own printed summary to the penny. **The six missing statements were found by listing
 the folder in full and are recorded nowhere else in the estate.** A gap that took a morning to find by hand is now a
 column.
+
+---
+
+## Amendment 30 — A binary cannot be filed to Drive by this desk, and the reason was already in the record, 2026-09-26
+
+**Rachel's finding; recorded on Minda's instruction** — *"write it into the charter file"* — given after the FY2026
+workbook for Properties' account 84311663 could not be uploaded. **The instruction was to record it. The limit itself is
+a measurement, not a ruling**, and that distinction is kept because a measurement decays and a ruling does not.
+
+**What was added.** One bullet to `Charter-Locations-and-Connectors.md` §2, immediately after the connector inventory,
+recording that Drive's `create_file` takes content inline, so a binary travels as **base64 — four characters for every
+three bytes** — and the emitted payload is therefore **a third larger than the file**. A binary's ceiling is about
+**three-quarters** of whatever the write path is in that session.
+
+**Measured at both ends the same day, which is the only reason it is worth writing down.** A **4,894-byte** probe
+workbook went up as 6,528 characters, was reported back by Drive at exactly 4,894, and downloaded byte-for-byte
+identical — so the method is sound and the transcription was exact. The real workbook, **136,254 bytes**, is **181,672
+characters**; it could not be emitted at all, and a **quarter** of it — 45,418 characters — was already too large to be
+put in front of this desk. Repacking at maximum compression gained **nothing** (byte-identical output; the library
+already writes optimally), and the workbook will not trim: two of its seven sheets carry **87%** of the bytes and the
+remaining sheets all reference one of them, so removing either leaves `#REF!` behind. **There is no variant of that file
+that fits.**
+
+**The lesson is not the number, and this is the part worth keeping.** Told in chat that the workbook would not upload,
+this desk reached for a **fresh explanation** — a per-message output limit — when the estate already held the row.
+`RA-31` has recorded since 2026-09-21 that **the binding constraint is Rachel's own write path**, proven to 43,856 bytes
+and untested above it, *because Drive has no append and a file is created by emitting its whole content in one call*.
+Today's finding is that same constraint met for the first time in **binary**, where the base64 ratio costs a further
+quarter. **Worse, `HL-0005` was nearly cited as the cause** — and its 31,316-byte truncation point **has not existed
+since 2026-09-18**. Reaching for it would have been the precise error `RA-31` exists to record: working against a
+ceiling that had already gone. **So the charter bullet quotes no size as a bound to rely on.** The ratio is arithmetic;
+the write path is a dated observation that has already moved once; the rule stays **measure before writing**.
+
+**What this changes in practice.** A workbook of any real size **cannot be filed to Drive by Rachel** — Minda files
+those. What Rachel files is the **figures**: CSV converted to a Sheet, naming the workbook, its byte count and its
+SHA-256, so the record points at something identifiable rather than describing something absent. Done that way for
+84311663 on 2026-09-26 — `Reconciliations/FBP_84311663_FY2026_figures-summary`, 46 rows, which states **on its own face**
+that the workbook is not filed and where it is. **A record that admits its own gap beats a folder that looks complete.**
+
+**One trap found in the same act, and it belongs to `RA-32`.** A CSV cell beginning `=` is **evaluated as a formula**
+when Drive converts it to a Sheet. Two subtotal rows written as `= Balance at 3 May 2025` and `= Balance at 30 April
+2026` filed as **`#ERROR!`**. `create_file` returned success, the figures beside them were correct, and **nothing in the
+response showed the defect** — it was caught by reading the file back, which `RA-32` records as the only control that
+has ever caught this class. Fixed by relabelling both rows, re-filing and re-reading: 46 rows, no errors. **Detected,
+not prevented — again, and deliberately without a tally.** Writing one here meant reaching for a count, and the estate's
+own records disagree about it: `open-issues.md` says **nine** recurrences in two places, Amendment 29 says **ten**. That
+is a running total gone stale exactly as `RA-31` warns, in the row whose subject is defects introduced while writing.
+**Raised here rather than quietly picked** — which of the two is right is a question for `RA-32`, not something to
+settle by choosing the larger.
