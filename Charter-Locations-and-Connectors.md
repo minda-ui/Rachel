@@ -90,10 +90,13 @@ change to either file._
   Rachel's. **Three replies had already gone to the adviser carrying the AI self-introduction before the rule existed**;
   they are sent and are not reopened — the rule prevents recurrence. Nothing else changes: Rachel still never sends, never
   hides that a draft is hers, and never claims to be a person if asked directly.
-- **Filing a binary to Drive costs a third more than the file itself.** Rachel's finding, **2026-09-26**, recorded on
-  Minda's instruction. **This is not a new ceiling** — it is `RA-31`'s write path, the one proven to 43,856 bytes and
-  untested above it, measured for the first time against a **binary**. **The mechanism:** Drive's `create_file` takes
-  content inline, so a binary must travel as **base64 — four characters for every three bytes**. The emitted payload is
+- **Every write path carries its data through Rachel's own output, so they all share one ceiling.** Rachel's finding,
+  **2026-09-26**, recorded on Minda's instruction and **corrected later the same day**, when the Smartsheet paragraph
+  below was measured and showed the first version of this bullet to be too narrow. **This is not a new ceiling** — it is
+  `RA-31`'s write path, the one proven to 43,856 bytes and untested above it. It binds Drive's `create_file` and
+  Smartsheet's `add_rows` alike, because both take their content as tool-call arguments and those come from this desk.
+  **A binary pays a further third on top of that:** Drive's `create_file` takes content inline, so a binary must travel
+  as **base64 — four characters for every three bytes**. The emitted payload is
   a third larger than the file, and a binary's real ceiling is about **three-quarters** of whatever the write path is
   that session. **Measured at both ends the same day:** a 4,894-byte probe workbook went up as 6,528 characters, was
   reported by Drive at exactly 4,894 and came back byte-for-byte; the **136,254-byte** FY2026 workbook for account
@@ -106,6 +109,22 @@ change to either file._
   `Reconciliations/FBP_84311663_FY2026_figures-summary`, which records on its own face that the workbook is not filed.
   **No size here is a bound to rely on**, per `RA-31`: the write path is a **dated observation that has already moved
   once**, the base64 ratio is the only part that is arithmetic, and the rule stays **measure before writing**.
+  **Smartsheet does not escape the ceiling, and Amendment 29 must not be read as saying it does.** Measured
+  **2026-09-26**: a realistic bank-transaction row is **677 bytes of JSON**, so the 843 transactions behind a single
+  account-year come to **570,711 bytes** — over three times the xlsx payload that already could not be emitted — and
+  even one 500-row call is **338,500**. Against a practical ceiling near 45,000 characters that is roughly **66 rows a
+  call**, and **there is no import tool**: the full orchestration guide was read, and every write path runs through this
+  desk. **What Smartsheet does remove is real but narrower than Amendment 29 implies** — archive-then-recreate, the
+  whole-file rewrite, and the compose-into-a-44KB-emit shape that produced every one of `RA-32`'s recurrences. **It does
+  not remove the emit ceiling**, and conflating the two is what produced a wrong architectural recommendation to Minda
+  before the arithmetic had been done. **So raw transaction detail stays where the bank issued it** — the CSVs in the
+  Financial Archive — and Smartsheet holds the **derived** layers, which run to tens of rows: the financial-year bridge,
+  statement completeness, category summaries, the categorisation rules. Copying a primary record into a working tool was
+  never the right shape, ceiling or no ceiling. **Two mechanics worth knowing before writing formulas there.** Smartsheet
+  **evaluates on write** and returns the computed value, so a formula is proved at the moment it lands — a genuine
+  advantage over an xlsx, whose formulas ship unevaluated. And its stored numbers carry floating-point noise: the
+  30 April 2026 balance is held as `109.95000000007`. **Every equality check must be wrapped in `ROUND(...,2)`** or it
+  fails on seven parts in a hundred billion.
   **`HL-0005` is not the reason** — its 31,316-byte truncation point has not existed since 2026-09-18, and reaching for
   it here would repeat the error `RA-31` exists to record. **One trap found in the same act, and it belongs to `RA-32`'s
   family — detected, never prevented:** a CSV cell beginning `=` is **evaluated as a formula** on conversion to a Sheet,

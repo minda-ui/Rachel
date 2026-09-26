@@ -390,3 +390,58 @@ own records disagree about it: `open-issues.md` says **nine** recurrences in two
 is a running total gone stale exactly as `RA-31` warns, in the row whose subject is defects introduced while writing.
 **Raised here rather than quietly picked** — which of the two is right is a question for `RA-32`, not something to
 settle by choosing the larger.
+
+---
+
+## Amendment 31 — The ceiling belongs to every write path, not to Drive and not to base64, 2026-09-26
+
+**Rachel's correction to Amendment 30, made the same day, on Minda's instruction to do the charter first.** Amendment 30
+was written in the morning and framed the limit as **Drive's** and **base64's**. That framing is too narrow, and the
+narrowness had already done damage before it was caught.
+
+**What Amendment 30 got right.** The base64 arithmetic — four characters for every three bytes, so a binary's ceiling is
+about three-quarters of the write path — and that `HL-0005` is not the cause. Both stand.
+
+**What it missed.** *Every* write path takes its content as tool-call arguments, and tool-call arguments come from this
+desk. So `RA-31`'s write path binds Drive's `create_file` and Smartsheet's `add_rows` **identically**. Base64 is a
+surcharge on one of them, not the reason for the limit.
+
+**Measured, because the first version of this was reasoned rather than measured.** A realistic bank-transaction row is
+**677 bytes of JSON**. The 843 transactions behind one account-year are therefore **570,711 bytes** — more than three
+times the 181,672-character xlsx payload that already could not be emitted — and even a single 500-row call is
+**338,500**. Against a practical ceiling near 45,000 characters that is about **66 rows a call**. There is **no import
+tool**: the full Smartsheet orchestration guide was read, and every write runs through this desk.
+
+**So Amendment 29 must not be read as saying Smartsheet removes the problem.** It removes three real things —
+archive-then-recreate, the whole-file rewrite, and the compose-into-a-44KB-emit shape behind every one of `RA-32`'s
+recurrences. **It does not remove the emit ceiling.** Amendment 29's sentence *"It removes the defect class rather than
+mitigating it"* is true of the defect class it names and false if read as covering the ceiling, and those two were
+conflated here.
+
+**The consequence, which is probably the right architecture anyway.** Raw transaction detail stays where the bank issued
+it — the CSVs in the Financial Archive. Smartsheet holds the **derived** layers, which run to tens of rows: the
+financial-year bridge, statement completeness, category summaries, the categorisation rules. Copying a primary record
+into a working tool was never the right shape, ceiling or no ceiling.
+
+**Built the same day, and it works.** `Bank - financial year bridge` in the `Rachel - Finance` workspace, 15 rows for
+Properties' 84311663 FY2026. The arithmetic is **Smartsheet's, not Rachel's**: subtotals and totals are cell formulas,
+and three check rows compare the bridge against figures the **bank** prints. All three return **OK**. Opening 915.90,
+paid in 813,027.18, paid out 813,833.13, net **-805.95**, closing 109.95, 838 transactions — matching an independent
+computation exactly.
+
+**Two mechanics worth recording.** Smartsheet **evaluates on write** and returns the computed value, so a formula is
+proved at the moment it lands — a real advantage over an xlsx, whose formulas ship unevaluated and are only proved when
+somebody opens the file. And its stored numbers carry floating-point noise: the 30 April 2026 balance is held as
+`109.95000000007`. **Every equality check must be wrapped in `ROUND(...,2)`**, or it fails on seven parts in a hundred
+billion. The three checks on the bridge pass **because** they are ROUND-guarded, not because the numbers are clean.
+
+**The lesson, and it is about order rather than about tools.** Minda asked whether working solely in Smartsheet was
+workable. The answer given was *"yes, workable and better"* — **before the payload arithmetic had been done** — and
+Minda acted on it and said to rebuild. The arithmetic, done an hour later while starting the rebuild, contradicted the
+advice on the one point that mattered most. **A recommendation about where work should live is a measurement, not a
+judgement**, and `RA-31` already said the write path is the binding constraint on exactly this kind of question. The rule
+that follows: **measure the write path before recommending a residence, not after the owner has agreed to it.**
+
+**Still open, and recorded here so it is not lost:** the statement-completeness sheet's `Continuity` and `Arithmetic`
+columns hold static values Rachel computed and typed. They record a conclusion rather than proving one, and they will not
+move if a figure is corrected. Converting them to column formulas is the next step.
