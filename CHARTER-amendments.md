@@ -478,3 +478,17 @@ through Composio's temporary storage, and that is recorded rather than left impl
 **First use, verified at source.** Drafts `r-2646153787362755128` (FBCP, zip of three PDFs, 905,288 bytes) and
 `r7483206287340248797` (Holdings, no attachment), both read back from `ops@` in Alexey's threads; the zip in the draft
 matches the local file to the byte.
+
+## Amendment 34 — Composio Gmail connected to Minda's own mailbox, 2026-09-27
+
+**Owner instruction (Minda, 2026-09-27): "connect gmail another session to my minda@ … via composio".** Alias
+`rachel-minda-gmail`; Minda completed the sign-in; a profile read confirms it lands on `minda@`. Recorded in
+`Charter-Locations-and-Connectors.md` §2, Composio bullet, which until now said Composio's Gmail reached only `ops@`.
+
+**No new authority.** §2's narrow read-and-draft rule for Minda's mailbox already existed; this is a second way in.
+Drafts should go here in preference to `ops@`, because the "hers alone" premise holds. Amendment 33 stays for replies
+that belong in an `ops@` thread. Sending stays Minda's.
+
+**Two stale lines corrected in the same bullet.** It said **no write had been made** through Composio — untrue since the
+Amendment 33 drafts, which are the proposal's verified write. And it said aliases **stay** `fishbone-*`; the new one is
+`rachel-*`, so the line now says existing aliases stay and new ones follow the proposal.

@@ -99,10 +99,13 @@ change to either file._
   `fishbone-waste-qb`. **It grants nothing.** §3 binds through it unchanged: QuickBooks **read-only until `RA-3`** is
   agreed; **no send, reply or forward** although its Gmail toolkit carries them; Gmail read only inside the narrow
   authority above. **The Composio org is shared across the estate** — select every call **by alias** and check the
-  company or account it lands on before relying on it. Aliases stay `fishbone-*`, not the `rachel-*` the proposal
-  suggests: they work, and removing a connection needs Minda's own terminal. **No write has been made through it**; the
-  proposal's "prove a real write" step waits for a genuine, in-bounds need.
-  **Drafts in `ops@` — owner ruling (Minda, 2026-09-27).** Composio's Gmail reaches only
+  company or account it lands on before relying on it. Existing aliases stay `fishbone-*` (removing a connection needs Minda's
+  own terminal); new ones take `rachel-*`, as the proposal suggests. **First writes through it:** the two `ops@` drafts of
+  2026-09-27 (Amendment 33), each read back — the proposal's "prove a real write" step.
+  **Minda's own mailbox, 2026-09-27:** alias **`rachel-minda-gmail`**, connected on Minda's instruction and verified by a
+  profile read to land on `minda@`. The narrow read-and-draft authority above applies to it unchanged; it is the
+  **preferred place for drafts**, because the "hers alone" premise holds there.
+  **Drafts in `ops@` — owner ruling (Minda, 2026-09-27).** The other three Gmail aliases reach
   `ops@fishboneconstruction.co.uk`, which Peter and Victoria also read, so it sits outside the "hers alone" premise
   above. Minda approved drafting there: Rachel may create **reply drafts in the adviser's own thread in `ops@`,
   attachments included**. Composio carries one file per draft, so several documents go as **one zip**. Attached files
