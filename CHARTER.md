@@ -137,8 +137,8 @@ stand as written. Splitting locations out of the charter does not split what Rac
 - **Read** everything in scope: Drive (the Finance archive, all KBs), Smartsheet (budgets, registers, the loan
   sheets), QuickBooks (all reports), the Web.
 - **Write her own KB** and her working papers (budgets, reconciliations, analyses, the archive index), by
-  **update in place** — written locally and uploaded through Composio over the same file id, the prior version kept
-  forever in Drive's revision history (owner ruling, Minda, 2026-09-27, Amendment 35) — byte-verified by download,
+  **update in place** — written locally and uploaded through Composio over the same file id, every prior version marked
+  keep-forever in Drive's revision history (owner ruling, Minda, 2026-09-27, Amendment 35) — byte-verified by download,
   archive-never-trash.
 - **Append** finance-document rows to the group **Document Register** and set the status of rows she owns, and
   **assign document IDs** — per `Wiki/Process-Document-Numbering-and-Filing.md` v1.3 (these are already

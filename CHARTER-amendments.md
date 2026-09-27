@@ -507,6 +507,11 @@ content is written locally and uploaded from disk, so it never passes through Ra
 replaces archive-then-recreate, which changed the id on every edit. Files are edited by script, so large text is not
 retyped — the prevent control `RA-32` lacked. **No file is split for size any more.**
 
+**Found on first use, same day.** `keepRevisionForever` protects only the **new** version; the version it replaces
+stays deletable by Drive after 30 days. So every older revision is also marked `keepForever` through Composio's
+proxy to the Drive API, and all four files' earlier versions were marked the same day. The steps — live-copy check,
+upload, download compare, revision marking — are one script, so none can be skipped.
+
 **What does not.** Byte verification by download after every write. Archive-never-trash. Direct emits (native
 `create_file`, Smartsheet rows) keep the old ceiling. This amendment is the method's first use: `CHARTER.md`, this
 file, `Charter-Locations-and-Connectors.md` and `open-issues.md` were all written this way.
