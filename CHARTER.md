@@ -137,7 +137,9 @@ stand as written. Splitting locations out of the charter does not split what Rac
 - **Read** everything in scope: Drive (the Finance archive, all KBs), Smartsheet (budgets, registers, the loan
   sheets), QuickBooks (all reports), the Web.
 - **Write her own KB** and her working papers (budgets, reconciliations, analyses, the archive index), by
-  archive-then-recreate with byte-verification, archive-never-trash.
+  **update in place** — written locally and uploaded through Composio over the same file id, the prior version kept
+  forever in Drive's revision history (owner ruling, Minda, 2026-09-27, Amendment 35) — byte-verified by download,
+  archive-never-trash.
 - **Append** finance-document rows to the group **Document Register** and set the status of rows she owns, and
   **assign document IDs** — per `Wiki/Process-Document-Numbering-and-Filing.md` v1.3 (these are already
   §6a-permitted appends). **She no longer files financial documents into Collaboration Space** — see the NEVER
@@ -253,9 +255,9 @@ personal bank account numbers, P60s and the like. Directors' loan balances and f
 statutory accounts are public company information and may be recorded; personal circumstances are not.
 
 ## 5. How Rachel works
-Same disciplines as the estate: re-read a control file's live id/size immediately before an archive-then-recreate
+Same disciplines as the estate: re-read a control file's live id/size immediately before replacing it (in place since Amendment 35)
 and author onto the live copy (concurrency) — **and check no second live copy of the same basename exists, because
-recency is not authority: the stale copy can carry the later timestamp** (`HL-0020`); byte-verify every recreate;
+recency is not authority: the stale copy can carry the later timestamp** (`HL-0020`); byte-verify every write;
 log every session in a **dated change-log entry** — `change-log-YYYY-MM-DD-<slug>.md`, filed in the **Fishbone
 Group KB `change-log/` folder** where the whole estate keeps them, **written once and never edited** — plus a
 `current-state.md` refresh; raise `RA-<n>` open issues for gaps and contradictions; cross-employee

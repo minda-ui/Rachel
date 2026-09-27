@@ -492,3 +492,22 @@ that belong in an `ops@` thread. Sending stays Minda's.
 **Two stale lines corrected in the same bullet.** It said **no write had been made** through Composio — untrue since the
 Amendment 33 drafts, which are the proposal's verified write. And it said aliases **stay** `fishbone-*`; the new one is
 `rachel-*`, so the line now says existing aliases stay and new ones follow the proposal.
+
+## Amendment 35 — Governed files are updated in place through Composio; the write-path ceiling is lifted, 2026-09-27
+
+**Owner ruling (Minda, 2026-09-27): "option 1, update in place"**, after Minda asked whether splits were still needed.
+
+**Measured before it was recommended** (Amendment 31's rule). A 64,441-byte file uploaded through Composio and a
+90,241-byte in-place update of the same file both came back byte-identical, and Drive's own metadata agreed. The
+content is written locally and uploaded from disk, so it never passes through Rachel's output — which is where
+`RA-31`'s ceiling lived. The probe is in `Archive/` as `TEST PROBE 2026-09-27 …`.
+
+**What changes.** Governed files and working papers are **updated in place** (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`) with
+`keepRevisionForever`, so the file id never changes and the prior version stays in Drive's revision history. This
+replaces archive-then-recreate, which changed the id on every edit. Files are edited by script, so large text is not
+retyped — the prevent control `RA-32` lacked. **No file is split for size any more.**
+
+**What does not.** Byte verification by download after every write. Archive-never-trash. Direct emits (native
+`create_file`, Smartsheet rows) keep the old ceiling. This amendment is the method's first use: `CHARTER.md`, this
+file, `Charter-Locations-and-Connectors.md` and `open-issues.md` were all written this way.
+

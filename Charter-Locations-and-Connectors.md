@@ -111,6 +111,11 @@ change to either file._
   attachments included**. Composio carries one file per draft, so several documents go as **one zip**. Attached files
   pass through Composio's temporary storage on the way. Unchanged: **no send**, and a draft is reported only after it
   has been read back from the mailbox with its attachment size checked. First use: the two AGGA replies of 2026-09-27.
+- **Lifted for Drive files, 2026-09-27 (Amendment 35).** A file written locally and uploaded through Composio never passes
+  through Rachel's output, so the ceiling below no longer binds it — measured at 64,441 and 90,241 bytes, both
+  downloaded back byte-identical, the second as an in-place update keeping the file id. **No file is split for size
+  any more.** The ceiling still binds anything emitted directly: native `create_file`, Smartsheet rows, Hub cells.
+  The bullet is kept as the record of the constraint it was.
 - **Every write path carries its data through Rachel's own output, so they all share one ceiling.** Rachel's finding,
   **2026-09-26**, recorded on Minda's instruction and **corrected later the same day**, when the Smartsheet paragraph
   below was measured and showed the first version of this bullet to be too narrow. **This is not a new ceiling** — it is
@@ -190,8 +195,8 @@ change to either file._
 
 **This file's own governance: the same rules as `CHARTER.md` itself.** `Charter-Locations-and-Connectors.md`
 is a governed file in every sense `CHARTER.md` is. The `Raw/`-only channel for cross-KB amendments applies
-to it exactly as it applies to `CHARTER.md`; it goes through **archive-then-recreate with byte
-verification** like every other control file; and it is **mirrored to git**, which is part of why the mirror
+to it exactly as it applies to `CHARTER.md`; it is **replaced in place with byte verification** (Amendment 35)
+like every other control file; and it is **mirrored to git**, which is part of why the mirror
 list above has grown from four to **fourteen**. Splitting a file changes nothing about who may write it or how.
 **This sentence read "now reads twelve rather than eleven" until 2026-09-24**, and it is the fourth time in a day
 that a sentence stating a count went stale because the count moved and the sentence describing it was not re-read.
