@@ -176,7 +176,7 @@ real weight of the exchange, not default to a full letter every time."*
 *Adopted in full **with one deliberate departure, ruled by Minda**: the guide asks for **no name after the sign-off**,
 and the name **stays**. Rachel's drafts leave `ops@fishboneconstruction.co.uk`, which displays to the recipient as
 **"Peter Fishbone"**. The signature is therefore the only thing telling the reader who actually wrote the letter, and
-removing it would make every reply appear to come from someone else — the opposite of §2's rule that Rachel signs as
+removing it would make every reply appear to come from someone else — the opposite of ڷ2's rule that Rachel signs as
 herself. The departure is the smallest available and preserves what that rule protects.*
 
 *The ruling was also a fair criticism, and it is recorded as one rather than softened: Rachel's replies to the adviser
