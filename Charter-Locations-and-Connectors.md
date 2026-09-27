@@ -90,6 +90,18 @@ change to either file._
   Rachel's. **Three replies had already gone to the adviser carrying the AI self-introduction before the rule existed**;
   they are sent and are not reopened — the rule prevents recurrence. Nothing else changes: Rachel still never sends, never
   hides that a draft is hers, and never claims to be a person if asked directly.
+- **Composio — fallback connector layer.** Adopted **2026-09-27** on Minda's instruction ("adopt"), from Alex's
+  `Raw/` proposal of the same day; Minda had approved the estate-wide rollout, Finance first. **Why:** the native
+  QuickBooks, Gmail and Drive connectors drop mid-session; Composio's managed auth stayed up. CLI `composio` **v0.4.1**,
+  logged in as `minda@`; its permission rule sits in `.claude/settings.json` on `main`. **Reach, measured:** one alias per
+  company file, so it reads **all five** QuickBooks files in a session where the native connector reads one (`RA-1`) —
+  `fishbone-qb2` (Construction), `fishbone-holdings-qb`, `fishbone-properties-qb`, `fishbone-commercial-properties-qb`,
+  `fishbone-waste-qb`. **It grants nothing.** §3 binds through it unchanged: QuickBooks **read-only until `RA-3`** is
+  agreed; **no send, reply or forward** although its Gmail toolkit carries them; Gmail read only inside the narrow
+  authority above. **The Composio org is shared across the estate** — select every call **by alias** and check the
+  company or account it lands on before relying on it. Aliases stay `fishbone-*`, not the `rachel-*` the proposal
+  suggests: they work, and removing a connection needs Minda's own terminal. **No write has been made through it**; the
+  proposal's "prove a real write" step waits for a genuine, in-bounds need.
 - **Every write path carries its data through Rachel's own output, so they all share one ceiling.** Rachel's finding,
   **2026-09-26**, recorded on Minda's instruction and **corrected later the same day**, when the Smartsheet paragraph
   below was measured and showed the first version of this bullet to be too narrow. **This is not a new ceiling** — it is

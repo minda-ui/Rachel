@@ -445,3 +445,19 @@ that follows: **measure the write path before recommending a residence, not afte
 **Still open, and recorded here so it is not lost:** the statement-completeness sheet's `Continuity` and `Arithmetic`
 columns hold static values Rachel computed and typed. They record a conclusion rather than proving one, and they will not
 move if a figure is corrected. Converting them to column formulas is the next step.
+
+## Amendment 32 — Composio adopted as the fallback connector layer, 2026-09-27
+
+**Owner instruction (Minda, 2026-09-27): "adopt"** — Alex's `Raw/` proposal `2026-09-27_Proposal_Composio-Rollout.md`,
+arriving by the §0 `Raw/` route and written in here by Rachel. Recorded in `Charter-Locations-and-Connectors.md` §2.
+
+**What changed:** Composio is listed as a connector, with its reach and its limits. **What did not:** every §3 bar. A
+connector is a way in, not an authority, so nothing Rachel may do is wider today than yesterday.
+
+**Adopted after use, not before — said plainly.** Rachel had installed and used Composio earlier the same day (read-only
+QuickBooks pulls across all five company files) before the proposal was read. The proposal's steps 1–4 were therefore
+already done; step 5 (a verified write) is not, and waits for a real need; step 6 is this entry and the change-log.
+
+**One correction found in the same act.** Earlier that day Rachel told Minda her charter keeps her read-only in QuickBooks.
+**It does not:** §3 grants bounded routine posting, and bank-feed matching is one of its three types. It is **not yet
+live** because `RA-3` is unagreed. The practical answer was right; the reason given was wrong, and Minda was told so.
