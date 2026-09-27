@@ -461,3 +461,20 @@ already done; step 5 (a verified write) is not, and waits for a real need; step 
 **One correction found in the same act.** Earlier that day Rachel told Minda her charter keeps her read-only in QuickBooks.
 **It does not:** §3 grants bounded routine posting, and bank-feed matching is one of its three types. It is **not yet
 live** because `RA-3` is unagreed. The practical answer was right; the reason given was wrong, and Minda was told so.
+
+## Amendment 33 — Reply drafts may be created in `ops@`, attachments included, 2026-09-27
+
+**Owner ruling (Minda, 2026-09-27): "zip please and put note"**, in answer to Rachel asking whether to draft the two AGGA
+replies in `ops@` with the documents attached. Recorded in `Charter-Locations-and-Connectors.md` §2, Composio bullet.
+
+**Why it needed a ruling.** §2 lets Rachel draft in Minda's Gmail on Minda's statement that the mailbox is hers alone.
+Composio reaches only `ops@`, which Peter and Victoria also read. A shared mailbox is a different premise, so it was
+asked rather than assumed.
+
+**What it allows:** reply drafts in the adviser's own `ops@` thread, with attachments; several documents go as one zip
+because Composio carries one file per draft. **What it does not:** sending, which stays Minda's. Attachments pass
+through Composio's temporary storage, and that is recorded rather than left implicit.
+
+**First use, verified at source.** Drafts `r-2646153787362755128` (FBCP, zip of three PDFs, 905,288 bytes) and
+`r7483206287340248797` (Holdings, no attachment), both read back from `ops@` in Alexey's threads; the zip in the draft
+matches the local file to the byte.

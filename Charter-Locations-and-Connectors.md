@@ -102,6 +102,12 @@ change to either file._
   company or account it lands on before relying on it. Aliases stay `fishbone-*`, not the `rachel-*` the proposal
   suggests: they work, and removing a connection needs Minda's own terminal. **No write has been made through it**; the
   proposal's "prove a real write" step waits for a genuine, in-bounds need.
+  **Drafts in `ops@` — owner ruling (Minda, 2026-09-27).** Composio's Gmail reaches only
+  `ops@fishboneconstruction.co.uk`, which Peter and Victoria also read, so it sits outside the "hers alone" premise
+  above. Minda approved drafting there: Rachel may create **reply drafts in the adviser's own thread in `ops@`,
+  attachments included**. Composio carries one file per draft, so several documents go as **one zip**. Attached files
+  pass through Composio's temporary storage on the way. Unchanged: **no send**, and a draft is reported only after it
+  has been read back from the mailbox with its attachment size checked. First use: the two AGGA replies of 2026-09-27.
 - **Every write path carries its data through Rachel's own output, so they all share one ceiling.** Rachel's finding,
   **2026-09-26**, recorded on Minda's instruction and **corrected later the same day**, when the Smartsheet paragraph
   below was measured and showed the first version of this bullet to be too narrow. **This is not a new ceiling** — it is
