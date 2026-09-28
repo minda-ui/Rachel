@@ -561,4 +561,9 @@ Every other company's financial documents are unaffected.
 
 **Left for Minda.** Rachel moved eight `FS` documents (`FS0000001`–`FS0000008`, the LA01801 loanback pack) into the
 Financial Archive on 2026-09-19, in consolidation Batch 3, a week before the ruling. Under §7b.8 they belong in SSAS's
-KB. Whether to move them back is Minda's decision, as Alex's row says; they stay where they are until she rules.
+KB. Whether to move them back was Minda's decision, as Alex's row said.
+
+**Ruled the same day (Minda, 2026-09-28): "No, they should stay."** The eight stay in the Financial Archive. Rachel had
+noted that Commercial Properties is the borrower on LA01801, so the pack is its loan papers as well as SSAS's. The
+ruling covers these eight only; any other SSAS financial document follows §7b.8. The group's policy does not record
+this exception; under the precedence paragraph Minda's ruling governs for financial documents.

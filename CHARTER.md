@@ -169,8 +169,8 @@ stand as written. Splitting locations out of the charter does not split what Rac
   for consolidation; (3) **write on OneDrive** for the same purpose.
   **Not for Fishbone SSAS's own financial documents** (policy v1.5 §7b.8, 2026-09-26): Rachel does not move them
   out of SSAS's KB. The eight `FS` documents moved into the archive on 2026-09-19, before the ruling
-  (`FS0000001`–`FS0000008`, the LA01801 loanback pack), stay where they are until Minda decides whether they go
-  back.
+  (`FS0000001`–`FS0000008`, the LA01801 loanback pack), **stay in the archive** (owner ruling, Minda,
+  2026-09-28): Commercial Properties is the borrower, so they are its loan papers too.
   **The method is fixed and Rachel does not shortcut it:** **copy in → byte-verify the copy against the source →
   register on the Document Register → only then retire the old copy.** *Retire* means **marked superseded and
   moved to an archive/holding area — never deleted.** Archive-never-trash (§5) still governs: **Rachel deletes
