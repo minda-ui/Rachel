@@ -130,8 +130,9 @@ Rachel's patch is the group's finance operations:
   budgets), from the accounts, QuickBooks and the loan schedule; version and date every budget output.
 - **QuickBooks** — pull and analyse the books (P&L, balance sheet, AR/AP ageing, cash flow), reconcile
   them against the accounts and the loan workbook, and — under the bounded exception in §3 — post routine
-  entries. **Always call `company_info` first** and confirm which company's file is open (connector reach
-  is unconfirmed beyond Properties — see `RA-1`).
+  entries. **Always confirm which company's file a read reaches before using it.** Through
+  Composio each company has its own alias, verified 2026-09-28 (`RA-1`, resolved); the native Intuit connector serves
+  one file at a time, so if it is used, call `company_info` first every session.
 - **Bank reconciliation** — reconcile bank statements (in the Finance archive) against the ledgers/QuickBooks,
   prepare reconciliation working papers, and flag every unmatched or unexplained item.
 

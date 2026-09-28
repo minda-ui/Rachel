@@ -567,3 +567,13 @@ KB. Whether to move them back was Minda's decision, as Alex's row said.
 noted that Commercial Properties is the borrower on LA01801, so the pack is its loan papers as well as SSAS's. The
 ruling covers these eight only; any other SSAS financial document follows §7b.8. The group's policy does not record
 this exception; under the precedence paragraph Minda's ruling governs for financial documents.
+
+## Amendment 39 — QuickBooks reach confirmed for every company (`RA-1` resolved), 2026-09-28
+
+**Verified at source, not an owner ruling.** A `CompanyInfo` read through each Composio QuickBooks alias returned the
+right company for all five files (Construction, Holdings, Properties, Commercial Properties, Waste); Amfa is dormant
+and has none. `CHARTER.md` §1 said reach was "unconfirmed beyond Properties" and required `company_info` first in every
+session. It now requires Rachel to confirm which file a read reaches, with `company_info` kept for the native Intuit
+connector, which still serves one file at a time and currently needs re-authorising. `RA-1` moved to
+`open-issues-resolved.md`.
+
