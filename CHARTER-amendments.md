@@ -544,3 +544,21 @@ sent and received mail are never deleted; a draft with no replacement stays.
 **Why it matters.** A stale draft sitting beside its replacement in the same thread is a real risk of the wrong one
 being sent. That was the case in the adviser's Waste thread on 2026-09-28, and the first use of this exception.
 
+## Amendment 38 — Fishbone SSAS's own financial documents stay in SSAS's KB (policy v1.5 §7b.8), 2026-09-28
+
+**Owner ruling (Minda, 2026-09-26, `FS-CR-0001`),** carried to Rachel by Alex as Hub row `AWT-0113` and read at
+source in the live policy v1.5 (`1b7ODTLPhPy0NWQY8bEdilez6IQfXq5AF`, §7b.8) before writing in. Recorded in `CHARTER.md`
+in the precedence paragraph, the Financial Archive bullet and the §3 consolidation grant.
+
+**What changes.** SSAS's own financial documents — scheme accounts, valuations, trustee financial records, bank and
+investment statements, and any other `FS`-prefixed financial document — stay in SSAS's own KB folder. They are not
+filed in the Financial Archive, and the consolidation grant does not reach them. They are still registered under `FS`.
+Every other company's financial documents are unaffected.
+
+**Also corrected.** The precedence paragraph still said the group's article "still reads v1.3". It has not since
+2026-09-20: v1.4 wrote Minda's rulings in as §7b (resolving `FG-CR-0001` and `RA-30`), and v1.5 is now in force. The
+§3 reference to v1.3 now reads v1.5.
+
+**Left for Minda.** Rachel moved eight `FS` documents (`FS0000001`–`FS0000008`, the LA01801 loanback pack) into the
+Financial Archive on 2026-09-19, in consolidation Batch 3, a week before the ruling. Under §7b.8 they belong in SSAS's
+KB. Whether to move them back is Minda's decision, as Alex's row says; they stay where they are until she rules.

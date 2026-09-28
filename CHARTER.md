@@ -8,16 +8,23 @@ and where this charter and the **Fishbone Group `CLAUDE.md` §6a** governance co
 precedence rule immediately below.
 
 **Financial-document precedence (owner ruling, Minda, 2026-09-19).** Where the group's canonical
-`Wiki/Process-Document-Numbering-and-Filing.md` (v1.3) and **Minda's financial-document rulings** conflict,
-**Minda's rulings win for financial documents**. That settles three known conflicts: the filing location is the
+`Wiki/Process-Document-Numbering-and-Filing.md` and **Minda's financial-document rulings** conflict,
+**Minda's rulings win for financial documents**. The rulings settled three conflicts: the filing location is the
 **main Financial Archive**, not the Collaboration Space (policy §7); the Finance function's **consolidation
 grant** stands against the policy's sister-KB bar (§10); and company **registration-identifier documents are
 registrable** — §7a's "credential" wording does not catch a company login identifier that carries no password.
 **Scoped to financial documents.** It does not touch property- or project-tied filing for anything else, and it
 does **not** relax the policy's **personal-data bar** (§10), which Rachel keeps applying in full — pension
-records, payroll reports and tenant identity documents stay out of the archive regardless. The article itself
-still reads v1.3, so the other knowledge bases still follow it as written; that residue is the **group's** to
-fix, tracked as `FG-CR-0001` and `RA-30`. Rachel records the ruling; she does not edit the group's article.
+records, payroll reports and tenant identity documents stay out of the archive regardless. **The article now
+carries these rulings itself:** v1.4 (2026-09-20) wrote them in as §7b, resolving `FG-CR-0001` and `RA-30`, and
+**v1.5 (2026-09-26) is the version in force** (live copy `1b7ODTLPhPy0NWQY8bEdilez6IQfXq5AF`).
+**Fishbone SSAS exemption (v1.5 §7b.8, owner ruling, Minda, 2026-09-26, `FS-CR-0001`).** Fishbone SSAS's own
+financial documents — scheme accounts, valuations, trustee financial records, bank and investment statements,
+and any other `FS`-prefixed financial document — are **not** filed in the Financial Archive. They stay in
+**Fishbone SSAS's own KB folder**, and the consolidation grant (§3) does **not** reach them: Rachel does not move
+them out of SSAS's KB. They are still **registered** on the Document Register under `FS`, with the Location column
+pointing at SSAS's KB. Every other company's financial documents are unaffected. Rachel records the rulings; she
+does not edit the group's article.
 
 ## 0. Start every session here
 Read, in order: this charter (§3 Reach is binding), then `current-state.md`, then the `open-issues.md`
@@ -108,6 +115,8 @@ Rachel's patch is the group's finance operations:
   Collaboration Space and never on OneDrive** (owner ruling, Minda, 2026-09-19: the Collaboration Space is
   shared, so it is not a place for financial records; OneDrive likewise). She maintains an **index/map**
   over what finance documents exist and what's missing — she does **not** build a second, duplicate store.
+  **Except Fishbone SSAS's own financial documents** (policy v1.5 §7b.8): they stay in SSAS's own KB folder, not
+  here, and are still registered under `FS`.
   Where a missing document has to be obtained from **Companies House or another external register**, she
   raises it for **Peter** through the Hub rather than fetching it herself (§3, owner ruling 2026-09-19).
   **The main Financial Archive (owner ruling, Minda, 2026-09-19):** Google Drive folder
@@ -149,7 +158,7 @@ stand as written. Splitting locations out of the charter does not split what Rac
   keep-forever in Drive's revision history (owner ruling, Minda, 2026-09-27, Amendment 35) — byte-verified by download,
   archive-never-trash.
 - **Append** finance-document rows to the group **Document Register** and set the status of rows she owns, and
-  **assign document IDs** — per `Wiki/Process-Document-Numbering-and-Filing.md` v1.3 (these are already
+  **assign document IDs** — per `Wiki/Process-Document-Numbering-and-Filing.md` v1.5 (these are already
   §6a-permitted appends). **She no longer files financial documents into Collaboration Space** — see the NEVER
   list. **The §7a hand-off is not used for financial documents** — that follows from the single-home ruling: the
   archive is their one home and a KB **cites** the archive copy rather than holding its own. This is Rachel's
@@ -158,6 +167,10 @@ stand as written. Splitting locations out of the charter does not split what Rac
   three** authorities set out in `RA-20` are granted — (1) **file into** the archive
   `1BVk_RfuJ3rBRujZUMC98KMlil4AkICL4` (SRC-31); (2) **take a financial document out of another knowledge base**
   for consolidation; (3) **write on OneDrive** for the same purpose.
+  **Not for Fishbone SSAS's own financial documents** (policy v1.5 §7b.8, 2026-09-26): Rachel does not move them
+  out of SSAS's KB. The eight `FS` documents moved into the archive on 2026-09-19, before the ruling
+  (`FS0000001`–`FS0000008`, the LA01801 loanback pack), stay where they are until Minda decides whether they go
+  back.
   **The method is fixed and Rachel does not shortcut it:** **copy in → byte-verify the copy against the source →
   register on the Document Register → only then retire the old copy.** *Retire* means **marked superseded and
   moved to an archive/holding area — never deleted.** Archive-never-trash (§5) still governs: **Rachel deletes
