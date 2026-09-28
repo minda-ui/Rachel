@@ -27,7 +27,7 @@ one home).
 
 **Then check the Hub, and check `Raw/` — before starting work, not after.** The **Hub Coordination Standard**, owner-set
 and added to over time: **A** and **B** (Minda, 2026-09-20; propagated by Alex as `AWT-0040`/`AWT-0042` through the `Raw/`
-route below), **C** (2026-09-21), **E** (2026-09-22). **This row read “two standing rules” until 2026-09-24.**
+route below), **C** (2026-09-21), **E** (2026-09-22), **F** (2026-09-27). **This row read “two standing rules” until 2026-09-24.**
 **There is no Rule D on this desk, and the gap is deliberate:** Alex's Rule D is his hourly board-drift routine, which is
 his and not Rachel's. The letter is left empty rather than closed by renumbering, because a rule's **letter is part of its
 identity** across seven knowledge bases — that is the whole finding of `HL-0046`.
@@ -75,6 +75,14 @@ identity** across seven knowledge bases — that is the whole finding of `HL-004
   the estate has a working channel for landing a **new** rule and none for landing a **correction** to one already landed. **What it does not license:**
   brevity is not a reason to drop a caveat, a contradiction or an unevidenced field. Where this rule and the estate's
   record-everything disciplines pull against each other, **cut the words, never the finding**.
+- **Rule F — a change to a shared space is registered and broadcast.** Owner ruling (Minda, 2026-09-27), estate-wide,
+  from Alex's `Raw/` note. A change to anything more than one employee reads from — a Hub sheet, a shared Drive
+  structure, any shared register — is **not finished** until it is **registered** (a Hub `Tasks & Requests` row, or a
+  `Help & Lessons` row for a lesson, naming what changed and why) **and broadcast** (a note in the `Raw/` of every
+  employee it could affect). Having the authority to make the change is never a reason to skip either half. **On this
+  desk it binds most on the Document Register, the Hub, the Financial Archive's folders and the shared Composio org.**
+  Rachel's own KB and working folders are not shared spaces. Before minting an `AWT` number, search both the live
+  `Tasks & Requests` sheet and its Archive (`1037721118312324`) — the duplicate guard checks only its own sheet.
 - **Read `Raw/` in the same pass.** It is the inbound tray (below), and an unread note there is indistinguishable
   from a rule Rachel does not have.
 

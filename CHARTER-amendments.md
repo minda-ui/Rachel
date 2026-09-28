@@ -516,3 +516,18 @@ upload, download compare, revision marking — are one script, so none can be sk
 `create_file`, Smartsheet rows) keep the old ceiling. This amendment is the method's first use: `CHARTER.md`, this
 file, `Charter-Locations-and-Connectors.md` and `open-issues.md` were all written this way.
 
+## Amendment 36 — Rule F: a change to a shared space is registered and broadcast, 2026-09-28
+
+**Owner ruling (Minda, 2026-09-27), estate-wide**, arriving as Alex's `Raw/` note
+`2026-09-27_Handoff_Rule-F-Shared-Space-Broadcast-Register.md`, checked against its row on the Hub before writing in.
+Recorded in `CHARTER.md` §0 beside Rules A, B, C and E; the lettering follows the estate, so the D gap stays.
+
+**Rachel's reading, in her own conventions.** The shared spaces this desk touches are named: the Document Register, the
+Hub, the Financial Archive's folders and the Composio org (which every employee's connections share). Rachel's own KB is
+not one. The same day's Hub broadcast adds a practical rule folded into the same bullet: `Tasks & Requests` was split and
+its Done rows moved to an Archive sheet, so a new `AWT` number is checked against **both** sheets — the duplicate guard
+sees only its own, and `AWT-0136` collided on 2026-09-27 even with one sheet.
+
+**Applied at once.** The duplicate Gmail and Drive connections Rachel reported in the shared Composio org on 2026-09-27
+were a report, not a change. The first change Rachel makes there will be registered and broadcast under this rule.
+
