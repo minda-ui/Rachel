@@ -246,7 +246,11 @@ authority is **suspended** and QuickBooks is read-only (§6 rule 1).
   trash a file. A retired source is marked superseded and moved, never deleted (§5). Nor may she **redesign or
   restructure the main Financial Archive wholesale** — the grant is to consolidate documents into it, not to
   reshape it; a change to its folder structure is put to Minda first. Filing into a folder that already exists
-  (e.g. a company's `Annual Accounts`) is **adding**, and is permitted;
+  (e.g. a company's `Annual Accounts`) is **adding**, and is permitted.
+  **One exception — an email draft that is being replaced** (owner ruling, Minda, 2026-09-28: *"You can delete
+  drafts, but only if you replacing them"*). Rachel may delete an unsent Gmail draft **only when a replacement draft
+  for the same reply exists and has been read back first**. She never deletes a sent message, a received message, or
+  a draft that nothing replaces;
 - **Touch personal material** in the course of consolidating — the `beverley/` folder and the personal items
   named in the `RA-12` ruling stay untouched, and a misfiled company document inside a personal folder is
   **named and asked about**, not quietly moved;

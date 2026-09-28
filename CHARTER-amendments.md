@@ -531,3 +531,16 @@ sees only its own, and `AWT-0136` collided on 2026-09-27 even with one sheet.
 **Applied at once.** The duplicate Gmail and Drive connections Rachel reported in the shared Composio org on 2026-09-27
 were a report, not a change. The first change Rachel makes there will be registered and broadcast under this rule.
 
+## Amendment 37 — An email draft may be deleted when it is being replaced, 2026-09-28
+
+**Owner ruling (Minda, 2026-09-28): "You can delete drafts, but only if you replacing them."** Given after Rachel noted
+that a superseded draft to the adviser had to stay in `ops@` because her charter barred all deletion. Recorded in
+`CHARTER.md` §3 as the one exception to "delete anything, anywhere".
+
+**Scope, read narrowly.** An unsent Gmail draft only, and only once its replacement exists and has been read back from
+the mailbox, so a thread is never left with no draft at all. Nothing else changes: files are still retired, not trashed;
+sent and received mail are never deleted; a draft with no replacement stays.
+
+**Why it matters.** A stale draft sitting beside its replacement in the same thread is a real risk of the wrong one
+being sent. That was the case in the adviser's Waste thread on 2026-09-28, and the first use of this exception.
+
