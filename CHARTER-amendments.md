@@ -577,3 +577,15 @@ session. It now requires Rachel to confirm which file a read reaches, with `comp
 connector, which still serves one file at a time and currently needs re-authorising. `RA-1` moved to
 `open-issues-resolved.md`.
 
+## Amendment 40 — `info@fishboneproperties.co.uk` connected for drafts; FC0237 created in QuickBooks on instruction, 2026-09-29
+
+**Owner decisions (Minda, 2026-09-29).** *"yes, generate the link"*, then *"done, connected"*: Rachel may draft in
+`info@fishboneproperties.co.uk` (alias `fishbone-properties-info-gmail`), on the same terms as `ops@` — reply drafts
+with attachments, no send. Recorded in `Charter-Locations-and-Connectors.md` beside the `ops@` ruling. The first draft
+there replaced one Rachel had made in `ops@` an hour earlier, which was deleted under the Amendment 37 exception.
+
+**Separately, the same morning:** *"yes, create FC0237, use 6 Beverley Place"*. Rachel created sales invoice FC0237
+(Construction to Properties, 131 Goathland Avenue, interim application no. 1, GBP 35,080.09 incl. VAT) in
+Construction's QuickBooks. This is **not** the §3 routine-posting authority, which stays unused until `RA-3`: it is the
+§3 NEVER item "create an invoice" done on an explicit human decision, as that item allows. Not emailed; read back
+from QuickBooks; registered as `FC0000045`. Every other QuickBooks write remains barred until `RA-3`.

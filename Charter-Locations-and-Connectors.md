@@ -111,6 +111,16 @@ change to either file._
   attachments included**. Composio carries one file per draft, so several documents go as **one zip**. Attached files
   pass through Composio's temporary storage on the way. Unchanged: **no send**, and a draft is reported only after it
   has been read back from the mailbox with its attachment size checked. First use: the two AGGA replies of 2026-09-27.
+  **`info@fishboneproperties.co.uk` — owner decision (Minda, 2026-09-29), Amendment 40.** Alias
+  **`fishbone-properties-info-gmail`**, connected on Minda's instruction: Rachel generated the sign-in link, Minda signed in
+  herself. Verified by a profile read to land on `info@fishboneproperties.co.uk` (its send-as list also shows
+  `all@fishboneproperties.co.uk`). Why: Properties' lender and solicitor correspondence runs there, and a draft from `ops@`
+  would reach the solicitor from the wrong company's address. Same authority as `ops@`: **reply drafts in the
+  correspondent's own thread, attachments included; no send;** read back before it is reported. It named `fishbone-*`
+  rather than `rachel-*` — Rachel's slip in choosing the alias, recorded rather than renamed, because renaming needs
+  Minda's terminal. First use: the reply to PLS Solicitors on Landbay OC80 with invoice FC0237, draft
+  `r-3581137827383807950`. **Several attachments per draft now work** (six files on that draft, each read back with its
+  byte size), so the one-zip rule above is no longer needed.
 - **Lifted for Drive files, 2026-09-27 (Amendment 35).** A file written locally and uploaded through Composio never passes
   through Rachel's output, so the ceiling below no longer binds it — measured at 64,441 and 90,241 bytes, both
   downloaded back byte-identical, the second as an in-place update keeping the file id. **No file is split for size
