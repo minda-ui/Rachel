@@ -47,6 +47,14 @@ change to either file._
   `current-state-history.md`, `current-state-history-2026-09.md`, `open-issues.md`, `open-issues-resolved.md`,
   `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`,
   **`open-issues-history-2026-09-part3.md`**.
+  **Widened by owner decision (Minda, 2026-09-29, "yes, copy them to git too") to two method files:**
+  `bank-feed-review.md` and `Wiki/method-interim-invoice-for-lender.md` (Amendment 41). They are methods, not financial
+  documents; any figure in them is an example, and working papers from a review stay on Drive. Drive stays the
+  residence: a change is made on Drive in place and then committed. **Also present in the repo, and not on this
+  list:** `old-school-finance-writing.md` (the writing skill) — found there 2026-09-29, recorded rather than removed.
+  **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
+  "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
+  Minda reverses it.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
@@ -90,6 +98,42 @@ change to either file._
   Rachel's. **Three replies had already gone to the adviser carrying the AI self-introduction before the rule existed**;
   they are sent and are not reopened — the rule prevents recurrence. Nothing else changes: Rachel still never sends, never
   hides that a draft is hers, and never claims to be a person if asked directly.
+- **Composio — fallback connector layer.** Adopted **2026-09-27** on Minda's instruction ("adopt"), from Alex's
+  `Raw/` proposal of the same day; Minda had approved the estate-wide rollout, Finance first. **Why:** the native
+  QuickBooks, Gmail and Drive connectors drop mid-session; Composio's managed auth stayed up. CLI `composio` **v0.4.1**,
+  logged in as `minda@`; its permission rule sits in `.claude/settings.json` on `main`. **Reach, measured:** one alias per
+  company file, so it reads **all five** QuickBooks files in a session where the native connector reads one (`RA-1`) —
+  `fishbone-qb2` (Construction), `fishbone-holdings-qb`, `fishbone-properties-qb`, `fishbone-commercial-properties-qb`,
+  `fishbone-waste-qb`. **It grants nothing.** §3 binds through it unchanged: QuickBooks **read-only until `RA-3`** is
+  agreed; **no send, reply or forward** although its Gmail toolkit carries them; Gmail read only inside the narrow
+  authority above. **The Composio org is shared across the estate** — select every call **by alias** and check the
+  company or account it lands on before relying on it. Existing aliases stay `fishbone-*` (removing a connection needs Minda's
+  own terminal); new ones take `rachel-*`, as the proposal suggests. **First writes through it:** the two `ops@` drafts of
+  2026-09-27 (Amendment 33), each read back — the proposal's "prove a real write" step.
+  **Minda's own mailbox, 2026-09-27:** alias **`rachel-minda-gmail`**, connected on Minda's instruction and verified by a
+  profile read to land on `minda@`. The narrow read-and-draft authority above applies to it unchanged; it is the
+  **preferred place for drafts**, because the "hers alone" premise holds there.
+  **Drafts in `ops@` — owner ruling (Minda, 2026-09-27).** The other three Gmail aliases reach
+  `ops@fishboneconstruction.co.uk`, which Peter and Victoria also read, so it sits outside the "hers alone" premise
+  above. Minda approved drafting there: Rachel may create **reply drafts in the adviser's own thread in `ops@`,
+  attachments included**. Composio carries one file per draft, so several documents go as **one zip**. Attached files
+  pass through Composio's temporary storage on the way. Unchanged: **no send**, and a draft is reported only after it
+  has been read back from the mailbox with its attachment size checked. First use: the two AGGA replies of 2026-09-27.
+  **`info@fishboneproperties.co.uk` — owner decision (Minda, 2026-09-29), Amendment 40.** Alias
+  **`fishbone-properties-info-gmail`**, connected on Minda's instruction: Rachel generated the sign-in link, Minda signed in
+  herself. Verified by a profile read to land on `info@fishboneproperties.co.uk` (its send-as list also shows
+  `all@fishboneproperties.co.uk`). Why: Properties' lender and solicitor correspondence runs there, and a draft from `ops@`
+  would reach the solicitor from the wrong company's address. Same authority as `ops@`: **reply drafts in the
+  correspondent's own thread, attachments included; no send;** read back before it is reported. It named `fishbone-*`
+  rather than `rachel-*` — Rachel's slip in choosing the alias, recorded rather than renamed, because renaming needs
+  Minda's terminal. First use: the reply to PLS Solicitors on Landbay OC80 with invoice FC0237, draft
+  `r-3581137827383807950`. **Several attachments per draft now work** (six files on that draft, each read back with its
+  byte size), so the one-zip rule above is no longer needed.
+- **Lifted for Drive files, 2026-09-27 (Amendment 35).** A file written locally and uploaded through Composio never passes
+  through Rachel's output, so the ceiling below no longer binds it — measured at 64,441 and 90,241 bytes, both
+  downloaded back byte-identical, the second as an in-place update keeping the file id. **No file is split for size
+  any more.** The ceiling still binds anything emitted directly: native `create_file`, Smartsheet rows, Hub cells.
+  The bullet is kept as the record of the constraint it was.
 - **Every write path carries its data through Rachel's own output, so they all share one ceiling.** Rachel's finding,
   **2026-09-26**, recorded on Minda's instruction and **corrected later the same day**, when the Smartsheet paragraph
   below was measured and showed the first version of this bullet to be too narrow. **This is not a new ceiling** — it is
@@ -155,6 +199,16 @@ change to either file._
   carve-out is that roughness never touches **figures, dates, names, references or anything the reader will
   act on**, where accuracy is 100%. The two bullets above are unchanged and both still bind. Full text and
   the trial mechanics in the skill; the ruling is **Amendment 28**.
+- **Bank-feed review** — owner decision (Minda), **2026-09-29**, Amendment 41. The skill is `bank-feed-review.md`
+  in Rachel's KB root (Drive `1GrGtfJR9Te8QXqriWeDgenM7WmvMFSzl`), written from that day's review of Construction's HSBC
+  2819 feed. **Read it before any work on QuickBooks' Banking tab.** Its first rule is Minda's: ask for the **export**,
+  not screenshots. It prepares lists; it grants no posting authority — QuickBooks stays read-only until `RA-3`, and
+  its §4 mapping rules are a draft of that rule set. Companion Wiki method, same day:
+  `method-interim-invoice-for-lender.md` (Drive `1MoK8Wf_L9bMhadxEMy0vP4EZbPC_2Boc`).
+- **End-of-day check** — owner decision (Minda), **2026-09-29**, Amendment 43. The skill is `end-of-day.md` in Rachel's KB
+  root (Drive `1WHusy_8hwp49YWBRHu-YNTAfhaR2lAeq`): *"Have you documented today's work?"* **Triggered automatically** —
+  a `UserPromptSubmit` hook in the repo's `.claude/settings.json` sees "good night" in Minda's message and tells Rachel
+  to run the check before replying. It checks and fixes the record; it starts no new work.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility
@@ -169,8 +223,8 @@ change to either file._
 
 **This file's own governance: the same rules as `CHARTER.md` itself.** `Charter-Locations-and-Connectors.md`
 is a governed file in every sense `CHARTER.md` is. The `Raw/`-only channel for cross-KB amendments applies
-to it exactly as it applies to `CHARTER.md`; it goes through **archive-then-recreate with byte
-verification** like every other control file; and it is **mirrored to git**, which is part of why the mirror
+to it exactly as it applies to `CHARTER.md`; it is **replaced in place with byte verification** (Amendment 35)
+like every other control file; and it is **mirrored to git**, which is part of why the mirror
 list above has grown from four to **fourteen**. Splitting a file changes nothing about who may write it or how.
 **This sentence read "now reads twelve rather than eleven" until 2026-09-24**, and it is the fourth time in a day
 that a sentence stating a count went stale because the count moved and the sentence describing it was not re-read.

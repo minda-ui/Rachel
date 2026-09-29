@@ -445,3 +445,184 @@ that follows: **measure the write path before recommending a residence, not afte
 **Still open, and recorded here so it is not lost:** the statement-completeness sheet's `Continuity` and `Arithmetic`
 columns hold static values Rachel computed and typed. They record a conclusion rather than proving one, and they will not
 move if a figure is corrected. Converting them to column formulas is the next step.
+
+## Amendment 32 — Composio adopted as the fallback connector layer, 2026-09-27
+
+**Owner instruction (Minda, 2026-09-27): "adopt"** — Alex's `Raw/` proposal `2026-09-27_Proposal_Composio-Rollout.md`,
+arriving by the §0 `Raw/` route and written in here by Rachel. Recorded in `Charter-Locations-and-Connectors.md` §2.
+
+**What changed:** Composio is listed as a connector, with its reach and its limits. **What did not:** every §3 bar. A
+connector is a way in, not an authority, so nothing Rachel may do is wider today than yesterday.
+
+**Adopted after use, not before — said plainly.** Rachel had installed and used Composio earlier the same day (read-only
+QuickBooks pulls across all five company files) before the proposal was read. The proposal's steps 1–4 were therefore
+already done; step 5 (a verified write) is not, and waits for a real need; step 6 is this entry and the change-log.
+
+**One correction found in the same act.** Earlier that day Rachel told Minda her charter keeps her read-only in QuickBooks.
+**It does not:** §3 grants bounded routine posting, and bank-feed matching is one of its three types. It is **not yet
+live** because `RA-3` is unagreed. The practical answer was right; the reason given was wrong, and Minda was told so.
+
+## Amendment 33 — Reply drafts may be created in `ops@`, attachments included, 2026-09-27
+
+**Owner ruling (Minda, 2026-09-27): "zip please and put note"**, in answer to Rachel asking whether to draft the two AGGA
+replies in `ops@` with the documents attached. Recorded in `Charter-Locations-and-Connectors.md` §2, Composio bullet.
+
+**Why it needed a ruling.** §2 lets Rachel draft in Minda's Gmail on Minda's statement that the mailbox is hers alone.
+Composio reaches only `ops@`, which Peter and Victoria also read. A shared mailbox is a different premise, so it was
+asked rather than assumed.
+
+**What it allows:** reply drafts in the adviser's own `ops@` thread, with attachments; several documents go as one zip
+because Composio carries one file per draft. **What it does not:** sending, which stays Minda's. Attachments pass
+through Composio's temporary storage, and that is recorded rather than left implicit.
+
+**First use, verified at source.** Drafts `r-2646153787362755128` (FBCP, zip of three PDFs, 905,288 bytes) and
+`r7483206287340248797` (Holdings, no attachment), both read back from `ops@` in Alexey's threads; the zip in the draft
+matches the local file to the byte.
+
+## Amendment 34 — Composio Gmail connected to Minda's own mailbox, 2026-09-27
+
+**Owner instruction (Minda, 2026-09-27): "connect gmail another session to my minda@ … via composio".** Alias
+`rachel-minda-gmail`; Minda completed the sign-in; a profile read confirms it lands on `minda@`. Recorded in
+`Charter-Locations-and-Connectors.md` §2, Composio bullet, which until now said Composio's Gmail reached only `ops@`.
+
+**No new authority.** §2's narrow read-and-draft rule for Minda's mailbox already existed; this is a second way in.
+Drafts should go here in preference to `ops@`, because the "hers alone" premise holds. Amendment 33 stays for replies
+that belong in an `ops@` thread. Sending stays Minda's.
+
+**Two stale lines corrected in the same bullet.** It said **no write had been made** through Composio — untrue since the
+Amendment 33 drafts, which are the proposal's verified write. And it said aliases **stay** `fishbone-*`; the new one is
+`rachel-*`, so the line now says existing aliases stay and new ones follow the proposal.
+
+## Amendment 35 — Governed files are updated in place through Composio; the write-path ceiling is lifted, 2026-09-27
+
+**Owner ruling (Minda, 2026-09-27): "option 1, update in place"**, after Minda asked whether splits were still needed.
+
+**Measured before it was recommended** (Amendment 31's rule). A 64,441-byte file uploaded through Composio and a
+90,241-byte in-place update of the same file both came back byte-identical, and Drive's own metadata agreed. The
+content is written locally and uploaded from disk, so it never passes through Rachel's output — which is where
+`RA-31`'s ceiling lived. The probe is in `Archive/` as `TEST PROBE 2026-09-27 …`.
+
+**What changes.** Governed files and working papers are **updated in place** (`GOOGLEDRIVE_UPLOAD_UPDATE_FILE`) with
+`keepRevisionForever`, so the file id never changes and the prior version stays in Drive's revision history. This
+replaces archive-then-recreate, which changed the id on every edit. Files are edited by script, so large text is not
+retyped — the prevent control `RA-32` lacked. **No file is split for size any more.**
+
+**Found on first use, same day.** `keepRevisionForever` protects only the **new** version; the version it replaces
+stays deletable by Drive after 30 days. So every older revision is also marked `keepForever` through Composio's
+proxy to the Drive API, and all four files' earlier versions were marked the same day. The steps — live-copy check,
+upload, download compare, revision marking — are one script, so none can be skipped.
+
+**What does not.** Byte verification by download after every write. Archive-never-trash. Direct emits (native
+`create_file`, Smartsheet rows) keep the old ceiling. This amendment is the method's first use: `CHARTER.md`, this
+file, `Charter-Locations-and-Connectors.md` and `open-issues.md` were all written this way.
+
+## Amendment 36 — Rule F: a change to a shared space is registered and broadcast, 2026-09-28
+
+**Owner ruling (Minda, 2026-09-27), estate-wide**, arriving as Alex's `Raw/` note
+`2026-09-27_Handoff_Rule-F-Shared-Space-Broadcast-Register.md`, checked against its row on the Hub before writing in.
+Recorded in `CHARTER.md` §0 beside Rules A, B, C and E; the lettering follows the estate, so the D gap stays.
+
+**Rachel's reading, in her own conventions.** The shared spaces this desk touches are named: the Document Register, the
+Hub, the Financial Archive's folders and the Composio org (which every employee's connections share). Rachel's own KB is
+not one. The same day's Hub broadcast adds a practical rule folded into the same bullet: `Tasks & Requests` was split and
+its Done rows moved to an Archive sheet, so a new `AWT` number is checked against **both** sheets — the duplicate guard
+sees only its own, and `AWT-0136` collided on 2026-09-27 even with one sheet.
+
+**Applied at once.** The duplicate Gmail and Drive connections Rachel reported in the shared Composio org on 2026-09-27
+were a report, not a change. The first change Rachel makes there will be registered and broadcast under this rule.
+
+## Amendment 37 — An email draft may be deleted when it is being replaced, 2026-09-28
+
+**Owner ruling (Minda, 2026-09-28): "You can delete drafts, but only if you replacing them."** Given after Rachel noted
+that a superseded draft to the adviser had to stay in `ops@` because her charter barred all deletion. Recorded in
+`CHARTER.md` §3 as the one exception to "delete anything, anywhere".
+
+**Scope, read narrowly.** An unsent Gmail draft only, and only once its replacement exists and has been read back from
+the mailbox, so a thread is never left with no draft at all. Nothing else changes: files are still retired, not trashed;
+sent and received mail are never deleted; a draft with no replacement stays.
+
+**Why it matters.** A stale draft sitting beside its replacement in the same thread is a real risk of the wrong one
+being sent. That was the case in the adviser's Waste thread on 2026-09-28, and the first use of this exception.
+
+## Amendment 38 — Fishbone SSAS's own financial documents stay in SSAS's KB (policy v1.5 §7b.8), 2026-09-28
+
+**Owner ruling (Minda, 2026-09-26, `FS-CR-0001`),** carried to Rachel by Alex as Hub row `AWT-0113` and read at
+source in the live policy v1.5 (`1b7ODTLPhPy0NWQY8bEdilez6IQfXq5AF`, §7b.8) before writing in. Recorded in `CHARTER.md`
+in the precedence paragraph, the Financial Archive bullet and the §3 consolidation grant.
+
+**What changes.** SSAS's own financial documents — scheme accounts, valuations, trustee financial records, bank and
+investment statements, and any other `FS`-prefixed financial document — stay in SSAS's own KB folder. They are not
+filed in the Financial Archive, and the consolidation grant does not reach them. They are still registered under `FS`.
+Every other company's financial documents are unaffected.
+
+**Also corrected.** The precedence paragraph still said the group's article "still reads v1.3". It has not since
+2026-09-20: v1.4 wrote Minda's rulings in as §7b (resolving `FG-CR-0001` and `RA-30`), and v1.5 is now in force. The
+§3 reference to v1.3 now reads v1.5.
+
+**Left for Minda.** Rachel moved eight `FS` documents (`FS0000001`–`FS0000008`, the LA01801 loanback pack) into the
+Financial Archive on 2026-09-19, in consolidation Batch 3, a week before the ruling. Under §7b.8 they belong in SSAS's
+KB. Whether to move them back was Minda's decision, as Alex's row said.
+
+**Ruled the same day (Minda, 2026-09-28): "No, they should stay."** The eight stay in the Financial Archive. Rachel had
+noted that Commercial Properties is the borrower on LA01801, so the pack is its loan papers as well as SSAS's. The
+ruling covers these eight only; any other SSAS financial document follows §7b.8. The group's policy does not record
+this exception; under the precedence paragraph Minda's ruling governs for financial documents.
+
+## Amendment 39 — QuickBooks reach confirmed for every company (`RA-1` resolved), 2026-09-28
+
+**Verified at source, not an owner ruling.** A `CompanyInfo` read through each Composio QuickBooks alias returned the
+right company for all five files (Construction, Holdings, Properties, Commercial Properties, Waste); Amfa is dormant
+and has none. `CHARTER.md` §1 said reach was "unconfirmed beyond Properties" and required `company_info` first in every
+session. It now requires Rachel to confirm which file a read reaches, with `company_info` kept for the native Intuit
+connector, which still serves one file at a time and currently needs re-authorising. `RA-1` moved to
+`open-issues-resolved.md`.
+
+## Amendment 40 — `info@fishboneproperties.co.uk` connected for drafts; FC0237 created in QuickBooks on instruction, 2026-09-29
+
+**Owner decisions (Minda, 2026-09-29).** *"yes, generate the link"*, then *"done, connected"*: Rachel may draft in
+`info@fishboneproperties.co.uk` (alias `fishbone-properties-info-gmail`), on the same terms as `ops@` — reply drafts
+with attachments, no send. Recorded in `Charter-Locations-and-Connectors.md` beside the `ops@` ruling. The first draft
+there replaced one Rachel had made in `ops@` an hour earlier, which was deleted under the Amendment 37 exception.
+
+**Separately, the same morning:** *"yes, create FC0237, use 6 Beverley Place"*. Rachel created sales invoice FC0237
+(Construction to Properties, 131 Goathland Avenue, interim application no. 1, GBP 35,080.09 incl. VAT) in
+Construction's QuickBooks. This is **not** the §3 routine-posting authority, which stays unused until `RA-3`: it is the
+§3 NEVER item "create an invoice" done on an explicit human decision, as that item allows. Not emailed; read back
+from QuickBooks; registered as `FC0000045`. Every other QuickBooks write remains barred until `RA-3`.
+
+## Amendment 41 — bank-feed review skill and interim-invoice method, 2026-09-29
+
+**Owner decision (Minda, 2026-09-29).** Asked whether the two days' work was worth a skill, Rachel proposed one skill
+(bank-feed review), one Wiki method (interim invoice to a lender) and no skill for the rest; Minda: *"Yes, go ahead"*,
+singling out the export-not-screenshots point. Written: `bank-feed-review.md` (KB root, beside the writing skill) and
+`Wiki/method-interim-invoice-for-lender.md`; three filing lessons appended in place to
+`Wiki/method-identify-and-file-intake-documents.md` (read the document not its name; cite register numbers from the
+register; re-check the high-water mark at assignment). Registered in `Charter-Locations-and-Connectors.md` §2.
+
+**What it does not change.** The skill prepares lists for Minda; it posts nothing. QuickBooks stays read-only until
+`RA-3`; the skill's mapping rules are recorded there as a draft of that rule set, each marked with whether Minda
+stated it or Rachel derived it. The skill files live on Drive only; mirroring them to git is not assumed — the
+mirror list is Minda's to widen. **She widened it the same day** (*"yes, copy them to git too"*): both files are now
+mirrored, recorded in the §2 mirror list, with the writing skill noted as already in the repo but unlisted.
+
+## Amendment 42 — writing style: interim review adopted, 2026-09-29
+
+**Owner decision (Minda, 2026-09-29):** *"Yes, go ahead with prepose"*, on Rachel's interim review of the old-school
+writing trial (`Outputs/2026-09-29_old-school-writing_interim-review.md`, nine external emails, 24–29 September).
+Three changes written into `old-school-finance-writing.md` §7: a date on every ask and every promise (a promise that
+depends on Minda carries a date she confirms); one signature (`Rachel — Financial Assistant` plus the company line)
+and a fixed salutation; at most three questions to Minda, the settling one first. The trial and its 8 October review
+(`RA-36`) continue. **Not decided:** the §4 roughness clause — Rachel proposed dropping deliberate slips; it stands as
+written until Minda rules. Three dated follow-up drafts to Alexey created the same day in `ops@` (FBC, FBCP, Holdings
+threads); the dates for Minda's own actions are proposals for her to confirm before sending.
+
+## Amendment 43 — end-of-day check, triggered by "good night", 2026-09-29
+
+**Owner decision (Minda, 2026-09-29):** *"as soon as i write you 'good night' can we trigger skill 'Have you documented
+today's work?'"*. Written: `end-of-day.md` (KB root), a seven-point check — session row, amendments, open issues,
+register and Hub status, drafts listed with dates, outputs on Drive, governed files in place, committed and pushed —
+then a short good-night reply naming what waits for Minda. The trigger is a `UserPromptSubmit` hook in the repo's
+`.claude/settings.json`: when Minda's message contains "good night" or "goodnight" (any case), it adds an instruction
+to run the check. It loads in sessions started from this repository. **What it does not change:** no new authority;
+the check records work already done and never starts new work. Both files are mirrored to git on Rachel's reading
+(the hook must find the skill in the repo), recorded in the §2 mirror list.

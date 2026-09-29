@@ -28,6 +28,17 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r \".prompt // empty\" | grep -qiE \"good ?-?night\" && jq -nc \"{hookSpecificOutput:{hookEventName:\\\"UserPromptSubmit\\\",additionalContext:\\\"Minda said good night. Before replying, run the end-of-day check in end-of-day.md (repo root): is today documented - current-state.md session row, amendments, open-issues, register and Hub status, drafts listed - updated in place on Drive, committed and pushed? Fix what is missing, then give the short good-night reply with what is waiting for Minda.\\\"}}\" || true",
+            "timeout": 10
+          }
+        ]
+      }
     ]
   },
   "enabledMcpjsonServers": [
