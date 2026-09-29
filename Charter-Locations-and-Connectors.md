@@ -47,6 +47,11 @@ change to either file._
   `current-state-history.md`, `current-state-history-2026-09.md`, `open-issues.md`, `open-issues-resolved.md`,
   `open-issues-history.md`, `open-issues-history-2026-09.md`, `open-issues-history-2026-09-part2.md`,
   **`open-issues-history-2026-09-part3.md`**.
+  **Widened by owner decision (Minda, 2026-09-29, "yes, copy them to git too") to two method files:**
+  `bank-feed-review.md` and `Wiki/method-interim-invoice-for-lender.md` (Amendment 41). They are methods, not financial
+  documents; any figure in them is an example, and working papers from a review stay on Drive. Drive stays the
+  residence: a change is made on Drive in place and then committed. **Also present in the repo, and not on this
+  list:** `old-school-finance-writing.md` (the writing skill) — found there 2026-09-29, recorded rather than removed.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction

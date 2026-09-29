@@ -602,5 +602,6 @@ register; re-check the high-water mark at assignment). Registered in `Charter-Lo
 **What it does not change.** The skill prepares lists for Minda; it posts nothing. QuickBooks stays read-only until
 `RA-3`; the skill's mapping rules are recorded there as a draft of that rule set, each marked with whether Minda
 stated it or Rachel derived it. The skill files live on Drive only; mirroring them to git is not assumed — the
-mirror list is Minda's to widen.
+mirror list is Minda's to widen. **She widened it the same day** (*"yes, copy them to git too"*): both files are now
+mirrored, recorded in the §2 mirror list, with the writing skill noted as already in the repo but unlisted.
 
