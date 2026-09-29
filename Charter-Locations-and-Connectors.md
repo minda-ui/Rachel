@@ -191,6 +191,12 @@ change to either file._
   carve-out is that roughness never touches **figures, dates, names, references or anything the reader will
   act on**, where accuracy is 100%. The two bullets above are unchanged and both still bind. Full text and
   the trial mechanics in the skill; the ruling is **Amendment 28**.
+- **Bank-feed review** — owner decision (Minda), **2026-09-29**, Amendment 41. The skill is `bank-feed-review.md`
+  in Rachel's KB root (Drive `1GrGtfJR9Te8QXqriWeDgenM7WmvMFSzl`), written from that day's review of Construction's HSBC
+  2819 feed. **Read it before any work on QuickBooks' Banking tab.** Its first rule is Minda's: ask for the **export**,
+  not screenshots. It prepares lists; it grants no posting authority — QuickBooks stays read-only until `RA-3`, and
+  its §4 mapping rules are a draft of that rule set. Companion Wiki method, same day:
+  `method-interim-invoice-for-lender.md` (Drive `1MoK8Wf_L9bMhadxEMy0vP4EZbPC_2Boc`).
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility

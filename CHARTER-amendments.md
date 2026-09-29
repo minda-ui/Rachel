@@ -589,3 +589,18 @@ there replaced one Rachel had made in `ops@` an hour earlier, which was deleted 
 Construction's QuickBooks. This is **not** the §3 routine-posting authority, which stays unused until `RA-3`: it is the
 §3 NEVER item "create an invoice" done on an explicit human decision, as that item allows. Not emailed; read back
 from QuickBooks; registered as `FC0000045`. Every other QuickBooks write remains barred until `RA-3`.
+
+## Amendment 41 — bank-feed review skill and interim-invoice method, 2026-09-29
+
+**Owner decision (Minda, 2026-09-29).** Asked whether the two days' work was worth a skill, Rachel proposed one skill
+(bank-feed review), one Wiki method (interim invoice to a lender) and no skill for the rest; Minda: *"Yes, go ahead"*,
+singling out the export-not-screenshots point. Written: `bank-feed-review.md` (KB root, beside the writing skill) and
+`Wiki/method-interim-invoice-for-lender.md`; three filing lessons appended in place to
+`Wiki/method-identify-and-file-intake-documents.md` (read the document not its name; cite register numbers from the
+register; re-check the high-water mark at assignment). Registered in `Charter-Locations-and-Connectors.md` §2.
+
+**What it does not change.** The skill prepares lists for Minda; it posts nothing. QuickBooks stays read-only until
+`RA-3`; the skill's mapping rules are recorded there as a draft of that rule set, each marked with whether Minda
+stated it or Rachel derived it. The skill files live on Drive only; mirroring them to git is not assumed — the
+mirror list is Minda's to widen.
+
