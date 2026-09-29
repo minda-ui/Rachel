@@ -179,3 +179,25 @@ pay a sum, or file on a date, it is not a slip, it is a defect.
   this document. `RA-36` carries the review.
 - **If the review slips, the skill stays in force.** A missed review must not quietly revert the style —
   reverting is a decision, and it is Minda's.
+
+---
+
+## 7. Interim review, 2026-09-29 — changes adopted (owner decision, Minda: "Yes, go ahead")
+
+Review of the nine external emails sent 24–29 September: `Outputs/2026-09-29_old-school-writing_interim-review.md`.
+The style is working and stays. Three changes, in force from 29 September:
+
+1. **Every ask and every promise carries a date.** Rule 2 was missed on all six asks in the first nine emails, and
+   our own promises ("we will come back", "Minda will send them") had no date either. The one email that drew a
+   repeat request was the one ending on an open promise. **A promise that depends on Minda carries a date she has
+   confirmed** — Rachel proposes it; she does not set it.
+2. **One signature and a fixed salutation.** Sign off `Rachel — Financial Assistant`, with the company line
+   underneath when the mailbox is a company's or the group's (`Fishbone Group` from `ops@fishboneconstruction`,
+   `Fishbone Properties Ltd` from `info@fishboneproperties`). "Hi [Name]," routine; "Dear [Name]," first contact
+   or formal. Three signature forms and a switch from "Hi" to "Dear" had crept in.
+3. **To Minda: at most three questions in one message, the one that settles the rest first.** Apply the §2 test
+   ("is there a shorter question underneath?") before sending any list of questions. The FC0237 invoice took five
+   exchanges and one misread answer where one settling question would have done.
+
+**Still open, Minda's decision:** the §4 roughness clause. Rachel's view in the review: drop deliberate word-level
+slips, keep loose construction and plain admissions. Until Minda rules, §4 stands as written.

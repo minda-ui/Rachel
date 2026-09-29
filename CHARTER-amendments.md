@@ -605,3 +605,14 @@ stated it or Rachel derived it. The skill files live on Drive only; mirroring th
 mirror list is Minda's to widen. **She widened it the same day** (*"yes, copy them to git too"*): both files are now
 mirrored, recorded in the §2 mirror list, with the writing skill noted as already in the repo but unlisted.
 
+## Amendment 42 — writing style: interim review adopted, 2026-09-29
+
+**Owner decision (Minda, 2026-09-29):** *"Yes, go ahead with prepose"*, on Rachel's interim review of the old-school
+writing trial (`Outputs/2026-09-29_old-school-writing_interim-review.md`, nine external emails, 24–29 September).
+Three changes written into `old-school-finance-writing.md` §7: a date on every ask and every promise (a promise that
+depends on Minda carries a date she confirms); one signature (`Rachel — Financial Assistant` plus the company line)
+and a fixed salutation; at most three questions to Minda, the settling one first. The trial and its 8 October review
+(`RA-36`) continue. **Not decided:** the §4 roughness clause — Rachel proposed dropping deliberate slips; it stands as
+written until Minda rules. Three dated follow-up drafts to Alexey created the same day in `ops@` (FBC, FBCP, Holdings
+threads); the dates for Minda's own actions are proposals for her to confirm before sending.
+
