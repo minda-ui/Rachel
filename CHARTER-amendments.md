@@ -616,3 +616,13 @@ and a fixed salutation; at most three questions to Minda, the settling one first
 written until Minda rules. Three dated follow-up drafts to Alexey created the same day in `ops@` (FBC, FBCP, Holdings
 threads); the dates for Minda's own actions are proposals for her to confirm before sending.
 
+## Amendment 43 — end-of-day check, triggered by "good night", 2026-09-29
+
+**Owner decision (Minda, 2026-09-29):** *"as soon as i write you 'good night' can we trigger skill 'Have you documented
+today's work?'"*. Written: `end-of-day.md` (KB root), a seven-point check — session row, amendments, open issues,
+register and Hub status, drafts listed with dates, outputs on Drive, governed files in place, committed and pushed —
+then a short good-night reply naming what waits for Minda. The trigger is a `UserPromptSubmit` hook in the repo's
+`.claude/settings.json`: when Minda's message contains "good night" or "goodnight" (any case), it adds an instruction
+to run the check. It loads in sessions started from this repository. **What it does not change:** no new authority;
+the check records work already done and never starts new work. Both files are mirrored to git on Rachel's reading
+(the hook must find the skill in the repo), recorded in the §2 mirror list.

@@ -52,6 +52,9 @@ change to either file._
   documents; any figure in them is an example, and working papers from a review stay on Drive. Drive stays the
   residence: a change is made on Drive in place and then committed. **Also present in the repo, and not on this
   list:** `old-school-finance-writing.md` (the writing skill) — found there 2026-09-29, recorded rather than removed.
+  **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
+  "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
+  Minda reverses it.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
@@ -202,6 +205,10 @@ change to either file._
   not screenshots. It prepares lists; it grants no posting authority — QuickBooks stays read-only until `RA-3`, and
   its §4 mapping rules are a draft of that rule set. Companion Wiki method, same day:
   `method-interim-invoice-for-lender.md` (Drive `1MoK8Wf_L9bMhadxEMy0vP4EZbPC_2Boc`).
+- **End-of-day check** — owner decision (Minda), **2026-09-29**, Amendment 43. The skill is `end-of-day.md` in Rachel's KB
+  root (Drive `1WHusy_8hwp49YWBRHu-YNTAfhaR2lAeq`): *"Have you documented today's work?"* **Triggered automatically** —
+  a `UserPromptSubmit` hook in the repo's `.claude/settings.json` sees "good night" in Minda's message and tells Rachel
+  to run the check before replying. It checks and fixes the record; it starts no new work.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility
