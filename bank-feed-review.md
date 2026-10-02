@@ -155,5 +155,5 @@ Minda's design (2026-10-02): the bank feed is matched to **bills that Dext creat
    bounce.
 
 **Traps from the first run:** the export line count was 50, not the 49 first quoted — count from the file. The
-attachment goes as `application/octet-stream` (the tool takes a path only); Dext reads it by extension — confirm with
-Minda that the first batch arrived. The guard does not check `extra_recipients` — never use that field.
+attachment goes as `application/octet-stream` (the tool takes a path only); Dext reads it by extension: **confirmed by
+Minda on 2026-10-02 — all seven of the first batch landed in Dext**, so no workaround is needed. The guard does not check `extra_recipients` — never use that field.
