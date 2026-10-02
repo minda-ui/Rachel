@@ -129,3 +129,31 @@ suggestion recurs.
 - Keep the `.xlsx` as the record of what was recommended; note in `current-state.md` what Minda posted.
 - Add any new payee rule to §4 **only once Minda has agreed it**, with the date.
 - If the same questions recur (who is this payee?), put the answer in §4 so the next review does not ask again.
+
+---
+
+## 7. Receipts to Dext — Construction only (Amendment 45, first run 2026-10-02)
+
+Minda's design (2026-10-02): the bank feed is matched to **bills that Dext creates** from the invoices and receipts.
+
+1. **Two files in Rachel's `Raw/`:** the QuickBooks For Review export and the HSBC statement CSV for the same account.
+   Tie every QuickBooks line to its statement line (exact amount, date within 3 days); report any that do not tie.
+2. **One matching file** (`QuickBooks/YYYY-MM-DD_Construction_HSBC2819_matching-and-receipts.xlsx`): per line, the
+   posting (§4), VAT, and an **Invoice / receipt** column — **Found**, **Partial** (statement or chaser only),
+   **Not found**, or **n/a** (salaries, pensions, loans, intercompany, FlexiPay, HP, vehicle tax — no invoice exists).
+3. **Before anything goes to Dext,** query QuickBooks Bills and Purchases for the period: a supplier with a bill
+   already would be entered twice.
+4. **Search `ops@` and `minda@`** by supplier for the period; open each candidate and tie it by **amount** (and order
+   number where two orders share an amount). Read the PDF total, not the email subject.
+5. **Save** each document to Drive `QuickBooks/YYYY-MM-DD_..._receipts-for-Dext/` (never git), checksum-verified.
+6. **Send from `ops@` through Composio only** (the PR #4 recipient guard checks every send): `GMAIL_SEND_EMAIL` to
+   `mindaugas.gaudiesius@dext.cc`, **one document per email**, payload inline (`-d '{...}'`, never `@file`), subject
+   `Supplier doc-no - amount - HSBC 2819 dd/mm/yyyy`. An email with no PDF (an O2 bill) goes by `GMAIL_FORWARD_MESSAGE`.
+   Where the supplier email carries **two PDFs of the same charge** (Anthropic invoice + receipt), send one — Dext
+   would create two bills.
+7. **Log** each send in the file's "Sent to Dext" column (time, message id), confirm it in `ops@` Sent, and look for a
+   bounce.
+
+**Traps from the first run:** the export line count was 50, not the 49 first quoted — count from the file. The
+attachment goes as `application/octet-stream` (the tool takes a path only); Dext reads it by extension — confirm with
+Minda that the first batch arrived. The guard does not check `extra_recipients` — never use that field.
