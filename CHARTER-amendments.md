@@ -653,3 +653,12 @@ deny on Composio `GMAIL_SEND_EMAIL` / `GMAIL_FORWARD_MESSAGE` and added a fail-c
 through Composio so the guard sees them. **Unchanged:** no other recipient, no reply, no draft-send; no other company's
 documents go to Dext; QuickBooks stays read-only for Rachel (`RA-3`) — Minda matches. Method: `bank-feed-review.md`
 (Dext step), first run 2026-10-02 (Construction HSBC 2819, 50 lines).
+
+## Amendment 46 — receipts-to-Dext skill, updated every run, 2026-10-02
+
+**Owner decision (Minda, 2026-10-02):** *"save this process as skill and keep updating it with every run"*, after the
+first run landed in Dext (Minda checked: all seven documents arrived). Written: `receipts-to-dext.md` (KB root, Drive
+`1cnBPz6KwTIu0oR1LXAFT9ZRZ0CzNSUOe`), mirrored to git — inputs, tying to the statement, the matching file, the duplicate
+check, where each supplier's documents are, sending, logging, and a **run log**. `bank-feed-review.md` §7 now points to
+it. **Standing instruction:** after every run Rachel adds a run-log row and folds new suppliers and traps into the skill
+before the run is called done; `end-of-day.md` gained an eighth check for it. Sending authority unchanged (Amendment 45).

@@ -55,7 +55,7 @@ change to either file._
   **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
   "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
   Minda reverses it.
-  **And `editing-drafts.md` (2026-10-02, Amendment 44)**, mirrored like the other skills, on the same reading.
+  **And `editing-drafts.md` (2026-10-02, Amendment 44) and `receipts-to-dext.md` (Amendment 46)**, mirrored like the other skills, on the same reading.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
@@ -219,6 +219,8 @@ change to either file._
   `mindaugas.gaudiesius@dext.cc`** (Fishbone Construction Ltd's Dext extraction inbox, which feeds QuickBooks): an
   invoice or receipt backing a Construction bank-feed line, one per email, logged in the matching file. Composio only,
   so the recipient guard in `.claude/hooks/` (PR #4) checks every send; everything else stays "Rachel drafts, Minda sends".
+  **The method is `receipts-to-dext.md`** (KB root, Drive `1cnBPz6KwTIu0oR1LXAFT9ZRZ0CzNSUOe`; Amendment 46), **updated
+  after every run** with a run-log row and any new supplier or trap.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility

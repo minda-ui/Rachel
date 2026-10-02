@@ -38,6 +38,8 @@ Answer each one **from the files, not from memory** — read the live copy where
 7. **Governed files are in place and mirrored.** Each changed governed file was updated **in place** on Drive
    (`put_in_place`: live == git HEAD before upload, verified after, revisions kept forever), then **committed and
    pushed**. `git status` is clean and the branch is not ahead of `origin`.
+8. **Skills updated by today's runs.** If a Dext run happened today, `receipts-to-dext.md` has its run-log row and
+   any new supplier or trap (Amendment 46).
 
 Fix what is missing, in that order, then report.
 
