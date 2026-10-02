@@ -215,6 +215,10 @@ change to either file._
   draft**, not replaced: `ops@` through the native Gmail connector (`update_draft`), `minda@` and `info@` through
   Composio `GMAIL_UPDATE_DRAFT`. Only Rachel's own unsent drafts, or one Minda names; read in full first, change only
   what is needed, read back. **It grants nothing new:** editing is drafting, within the authorities above; no send.
+- **Dext — send exception** — owner decision (Minda), **2026-10-02**, Amendment 45. `ops@` may send or forward **only to
+  `mindaugas.gaudiesius@dext.cc`** (Fishbone Construction Ltd's Dext extraction inbox, which feeds QuickBooks): an
+  invoice or receipt backing a Construction bank-feed line, one per email, logged in the matching file. Composio only,
+  so the recipient guard in `.claude/hooks/` (PR #4) checks every send; everything else stays "Rachel drafts, Minda sends".
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility
