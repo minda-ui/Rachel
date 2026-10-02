@@ -626,3 +626,39 @@ then a short good-night reply naming what waits for Minda. The trigger is a `Use
 to run the check. It loads in sessions started from this repository. **What it does not change:** no new authority;
 the check records work already done and never starts new work. Both files are mirrored to git on Rachel's reading
 (the hook must find the skill in the repo), recorded in the §2 mirror list.
+
+## Amendment 44 — editing drafts in place, 2026-10-02
+
+**Owner decision (Minda, 2026-10-02):** *"Based on that create editing draft as a skill"*, after Minda asked whether
+drafts could be edited and Rachel edited two that day: the Alexey Holdings follow-up in `ops@` (date line, native
+`update_draft`) and the all-companies RMT request in `minda@` (same-text test, Composio `GMAIL_UPDATE_DRAFT`, read back
+identical). Written: `editing-drafts.md` (KB root), mirrored to git. **Why it matters:** replacing a draft needs a delete,
+and the `GMAIL_DELETE_*` deny rule in `.claude/settings.json` (PR #2) blocks Amendment 37's replaced-draft deletion;
+editing in place leaves one version and no delete. **Not changed:** Minda reaffirmed the Amendment 37 authority the
+same day ("you have authority to delete drafts when you replacing ones"); Rachel cannot change her own permission
+settings, so narrowing the deny rule to spare `GMAIL_DELETE_DRAFT` is Minda's edit to make. **Found:** a Composio update
+drops the sender display name in `minda@`; Minda checks the From line before sending.
+
+## Amendment 45 — Dext-only sending from ops@, 2026-10-02
+
+**Owner decision (Minda, 2026-10-02):** *"ops@, i have added authority to you to send emails to
+mindaugas.gaudiesius@dext.cc"*. Dext is Fishbone Construction Ltd's extraction inbox: an invoice or receipt sent there is
+read by Dext and arrives in QuickBooks as a bill, so a bank-feed line can be matched to it (*"For matching
+transactions"*; *"Dext is for Fishbone Construction Ltd only"*). **The one exception to "Rachel drafts, Minda sends":**
+Rachel may send or forward from `ops@` **to that address only**, and only an invoice or receipt that backs a Construction
+bank-feed line in the matching file, after checking QuickBooks holds no bill for it. One document per email; each send
+logged in the matching file's "Sent to Dext" column. **Enforced, not just written:** PR minda-ui/Rachel#4 removed the hard
+deny on Composio `GMAIL_SEND_EMAIL` / `GMAIL_FORWARD_MESSAGE` and added a fail-closed PreToolUse guard
+(`.claude/hooks/gmail-recipient-guard.py`) that allows them only when every recipient is the Dext address. Sends go
+through Composio so the guard sees them. **Unchanged:** no other recipient, no reply, no draft-send; no other company's
+documents go to Dext; QuickBooks stays read-only for Rachel (`RA-3`) — Minda matches. Method: `bank-feed-review.md`
+(Dext step), first run 2026-10-02 (Construction HSBC 2819, 50 lines).
+
+## Amendment 46 — receipts-to-Dext skill, updated every run, 2026-10-02
+
+**Owner decision (Minda, 2026-10-02):** *"save this process as skill and keep updating it with every run"*, after the
+first run landed in Dext (Minda checked: all seven documents arrived). Written: `receipts-to-dext.md` (KB root, Drive
+`1cnBPz6KwTIu0oR1LXAFT9ZRZ0CzNSUOe`), mirrored to git — inputs, tying to the statement, the matching file, the duplicate
+check, where each supplier's documents are, sending, logging, and a **run log**. `bank-feed-review.md` §7 now points to
+it. **Standing instruction:** after every run Rachel adds a run-log row and folds new suppliers and traps into the skill
+before the run is called done; `end-of-day.md` gained an eighth check for it. Sending authority unchanged (Amendment 45).

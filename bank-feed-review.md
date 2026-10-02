@@ -129,3 +129,10 @@ suggestion recurs.
 - Keep the `.xlsx` as the record of what was recommended; note in `current-state.md` what Minda posted.
 - Add any new payee rule to §4 **only once Minda has agreed it**, with the date.
 - If the same questions recur (who is this payee?), put the answer in §4 so the next review does not ask again.
+
+---
+
+## 7. Receipts to Dext — Construction only
+
+Moved to its own skill, **`receipts-to-dext.md`** (Amendment 46, 2026-10-02), which is updated after every run. The
+sending authority is Amendment 45.
