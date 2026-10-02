@@ -105,6 +105,7 @@ Save every document found to Drive `QuickBooks/YYYY-MM-DD_Construction_HSBC2819_
   stdin is refused.
 - `GMAIL_SEND_EMAIL`, `recipient_email` = `mindaugas.gaudiesius@dext.cc`, **one document per email**, attachment = the
   local PDF path. Subject: `Supplier doc-no - amount - HSBC 2819 dd/mm/yyyy`; body: one line with net, VAT, how paid.
+- Body ends with `#note <Supplier amount, HSBC 2819 dd/mm/yyyy> #note` (from run 2, §10).
 - No PDF (O2): `GMAIL_FORWARD_MESSAGE`, `recipients` = [Dext address], `additional_text` = amount and bank line.
 - **Never** `cc`, `bcc` or `extra_recipients` (the guard does not check `extra_recipients`).
 - The tool sends the PDF as `application/octet-stream`; **Dext accepts it** (confirmed by Minda, run 1).
@@ -144,6 +145,29 @@ Before the run is called done:
    Properties job: flag for recharge.
 
 ---
+
+## 10. What Dext can do — from the help centre (read in full 2026-10-02)
+
+Read from help.dext.com (16 articles) after Minda opened the environment's network to it. **Settings are Minda's to
+change** (Admin user); Rachel reads and recommends. Status column: what is set up — update as Minda changes things.
+
+| Feature | What it does | Use for us | Status |
+|---|---|---|---|
+| **Extract by email** | `name@dext.cc` = one item per file (several files per email fine); `name@multiple.dext.cc` = one item per page. Body-only receipts work. Text between two `#note` tags becomes the item's description. Items appear within ~30 min. A user's address makes that user the document owner. | Our address is Minda's Single address. Add `#note <bank line> #note` to every send so the item says which bank line it is for. | in use |
+| **Rejection notices** | Profile > User settings > Bookkeeping email notifications > *On acknowledgement* = Yes: a summary with the rejection reason per file, to the owner's Dext login email. The exact same file sent twice is rejected at upload. | Turn on, so a failed send is visible. | not set |
+| **Publish to QuickBooks** | *Bill* = unpaid bill. *Cash / Check / Credit card* = paid expense — the item's **payment method must be linked to a QuickBooks bank account**. Dext attaches the document image to what it publishes. Every item needs a tax rate (set default tax for costs). | Publish **paid**, payment method linked to *Bank current account 2819*: the expense is then waiting in QuickBooks and the bank-feed line offers **Match** — one click. | not set |
+| **Payment methods** | The card's last 4 digits, read from the receipt; or created by hand (direct debit, cash, a personal card). Each can carry Auto-publish, Publish to and a linked bank account. | HSBC 2819 debit card(s), HSBC 2819 direct debits; the director cards QuickBooks already has (Andrej, Minda, NatWest). | not set |
+| **Supplier rules** | Per supplier: category, tax rate, payment method, paid/unpaid, due date, description, currency, a *workflow note*, duplicate mode, auto-publish. Apply to new items only (tick *Apply to all inbox items* for existing). **QuickBooks vendor defaults sync every 48 h and can overwrite them.** | Fix QuickBooks' wrong defaults at source: Tower Leasing 20% VAT; Anthropic no UK VAT; Screwfix / Hafele / IronmongeryDirect Materials 20%; O2 Telephone. | not set |
+| **Rule priority** | AI Assist guidance > user defaults > payment-method rules > supplier rules > account defaults. | Explains surprises. | — |
+| **Auto-publish** | Per supplier, payment method or whole account; only items arriving after the rule; exceptions by item type (e.g. supplier statements stay in the inbox). | Only after a supplier's rule has published correctly by hand once or twice. | not set |
+| **Duplicate detection** | *Automatic* deletes a suspected duplicate (restorable from Submission history); *Review* flags it amber; *Off*. Receipts: same supplier + date + total + owner; invoices: supplier + total + reference. Per account or per supplier. | **Review**, at least for Screwfix — two genuine GBP 40.44 orders on one day would look like one. | not set |
+| **Fetch** | Collects invoices from supplier portals with the login: past documents within 48 h, then weekly. Supported for us: **Microsoft Office365, EDF Energy, Amazon.co.uk (and Amazon Business), o2.co.uk Business, Vodafone UK, Google Play / Payments Center, Spotify, QuickBooks Online UK**, and Travis Perkins, Howdens, British Gas, BT, EE. Not Screwfix, MKM, JT Dove, Hafele, IronmongeryDirect, Tower Leasing, Anthropic, Composio. | Covers most run-1 "Not found" lines. Needs Minda's logins. | not set |
+| **Email forwarding rules** | A mailbox rule auto-forwards supplier emails to the Dext address; Gmail sends a verification link to the Dext login email. | A Gmail filter in `ops@` for the PDF suppliers (Screwfix, Hafele, IronmongeryDirect, Tower Leasing). Rachel then checks rather than sends. Minda's filter, not a Rachel send. | not set |
+| **Paperwork Match** (works with QuickBooks Online) | Attaches the document **image only** to a transaction already in QuickBooks (same supplier, total, date within 10 days, last 6 months). Publishes nothing. | For bank lines already categorised in QuickBooks without a receipt: send the receipt to Dext, then *Send image to* — **do not publish**, or the cost goes in twice. | — |
+| **Bank Match** | Full version (Autofill Payment) only for Xero, Sage, MYOB. | Not for us — the matching file stays. | — |
+| **CIS** | QuickBooks CIS must be on; supplier name in Dext must equal the CIS contact name; choose the CIS category. **In QuickBooks Online the *Less CIS* field must be adjusted by hand after publishing.** AI Assist guidance can split labour (gross) and materials. | Sergej Murasov and other subcontractors. | — |
+| **Rebillable** | Mark an item rebillable to a QuickBooks customer (billable expenses on in QuickBooks). | JT Dove "ferndale" (2 Ferndale Avenue, Commercial Properties) if it is to be recharged. | — |
+| **People's receipts** | Users and submitters can snap receipts in the Dext app; *Request paperwork* asks for a missing one. | Sebastian's materials receipts. | — |
 
 ## Run log
 
