@@ -55,6 +55,7 @@ change to either file._
   **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
   "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
   Minda reverses it.
+  **And `editing-drafts.md` (2026-10-02, Amendment 44)**, mirrored like the other skills, on the same reading.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
@@ -209,6 +210,11 @@ change to either file._
   root (Drive `1WHusy_8hwp49YWBRHu-YNTAfhaR2lAeq`): *"Have you documented today's work?"* **Triggered automatically** —
   a `UserPromptSubmit` hook in the repo's `.claude/settings.json` sees "good night" in Minda's message and tells Rachel
   to run the check before replying. It checks and fixes the record; it starts no new work.
+- **Editing drafts in place** — owner decision (Minda), **2026-10-02**, Amendment 44. The skill is `editing-drafts.md` in
+  Rachel's KB root (Drive `1kMUgGo4QY95tpT-9faPpjLVRNS1ODsmo`). A draft waiting for Minda is **corrected in the same
+  draft**, not replaced: `ops@` through the native Gmail connector (`update_draft`), `minda@` and `info@` through
+  Composio `GMAIL_UPDATE_DRAFT`. Only Rachel's own unsent drafts, or one Minda names; read in full first, change only
+  what is needed, read back. **It grants nothing new:** editing is drafting, within the authorities above; no send.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility

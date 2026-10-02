@@ -626,3 +626,15 @@ then a short good-night reply naming what waits for Minda. The trigger is a `Use
 to run the check. It loads in sessions started from this repository. **What it does not change:** no new authority;
 the check records work already done and never starts new work. Both files are mirrored to git on Rachel's reading
 (the hook must find the skill in the repo), recorded in the §2 mirror list.
+
+## Amendment 44 — editing drafts in place, 2026-10-02
+
+**Owner decision (Minda, 2026-10-02):** *"Based on that create editing draft as a skill"*, after Minda asked whether
+drafts could be edited and Rachel edited two that day: the Alexey Holdings follow-up in `ops@` (date line, native
+`update_draft`) and the all-companies RMT request in `minda@` (same-text test, Composio `GMAIL_UPDATE_DRAFT`, read back
+identical). Written: `editing-drafts.md` (KB root), mirrored to git. **Why it matters:** replacing a draft needs a delete,
+and the `GMAIL_DELETE_*` deny rule in `.claude/settings.json` (PR #2) blocks Amendment 37's replaced-draft deletion;
+editing in place leaves one version and no delete. **Not changed:** Minda reaffirmed the Amendment 37 authority the
+same day ("you have authority to delete drafts when you replacing ones"); Rachel cannot change her own permission
+settings, so narrowing the deny rule to spare `GMAIL_DELETE_DRAFT` is Minda's edit to make. **Found:** a Composio update
+drops the sender display name in `minda@`; Minda checks the From line before sending.
