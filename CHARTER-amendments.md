@@ -662,3 +662,14 @@ first run landed in Dext (Minda checked: all seven documents arrived). Written: 
 check, where each supplier's documents are, sending, logging, and a **run log**. `bank-feed-review.md` §7 now points to
 it. **Standing instruction:** after every run Rachel adds a run-log row and folds new suppliers and traps into the skill
 before the run is called done; `end-of-day.md` gained an eighth check for it. Sending authority unchanged (Amendment 45).
+
+## Amendment 47 — Rachel owns the loan workbook, 2026-10-04
+
+**Owner decision (Minda, 2026-10-04, session AWT-0285):** *"you need to take over this loan spreadsheet and keep updating
+it from bank statements or by your request I can upload statements from lenders if available"*. Rachel owns
+`Loans/Outputs/Fishbone_Loan_Repayment_Plan.xlsx` (Drive `17JiFHokAPOnlfk-PZZPFmOcK-8xWIcRM`) and keeps it current from
+the bank statements in her `Raw/`, asking Minda for lender statements where a bank statement cannot show the balance.
+Method: `loan-workbook.md` (KB root, Drive `188AqJY0uvyKNYiBDmUFdfliWOMopdC4i`), mirrored to git. First update the same day: *Payment Log* and
+*Update Status* sheets added from the September HSBC 2819 statement; no existing cell changed; both revisions kept
+forever. **Unchanged:** the three-layer rule (OI-6); decision aid only — no repayment, lender contact or signature;
+the workbook is a financial working paper, Drive only.
