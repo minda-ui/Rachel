@@ -98,6 +98,7 @@ built the same way (§2) and added here as they are agreed.
 | Tower Leasing / Towerleasing | Subscriptions or Lease finance | **Lease finance charges – paid**, consistently | ask if several a month |
 | Fishbone SSAS [name] (pension) | Pension, payee sometimes Fishbone Waste | Payroll Clearing old: Pension, **payee Fishbone SSAS** | — |
 | NCFF Collections | Nucleus Loan | Accept (interest not split since May — year-end true-up) | past bookings |
+| Health and Safety 6960713 (GBP 350 monthly, 01/10/2026–01/02/2028) | Construction Services | **Match** a bill payment to **Health and Safety Executive**: HSE Fee for Intervention instalments (customer 6960713) against FFI invoices 5000123157 (08/07/2026, GBP 4,520.10) then 5000146628 (03/09/2026, GBP 1,428.80), both billed to **Penalty**, No VAT. Plan: 16 x 350 + 348.90 = 5,948.90 | Minda, 08/10 (who it is); HSE plan letter 17/09 |
 | Salaries, suppliers, utilities, phones, subscriptions | as suggested | Accept, after a glance | — |
 
 **QuickBooks' own bank rules.** The best fix is at source: Minda can set the first four rows above as rules in
