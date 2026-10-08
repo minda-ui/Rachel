@@ -95,6 +95,11 @@ amount** — read the PDF total, not the subject. Where two orders share an amou
 | Sebastian Pabis (materials), Sergej Murasov (CIS) | not in the mailboxes | ask the person |
 | MW Machinery (Markfield Woodworking Machinery) | invoice PDF by email to Minda; Anna puts it in Rachel's `Raw/` | paid by card via the "Pay Now" link: ask which card (24642 was Minda's personal card) |
 | Lathams (James Latham Gateshead) | pro forma first; **VAT invoice only after payment clears** | send the VAT invoice to Dext, not the pro forma |
+| Scott+Sargeant (`Www Scosarg.com`) | "A/R Invoice - NNNNNNNNN" PDF email, `ops@` (the order email has no PDF) | pro forma, paid by card; freight on top; total can differ from the bank by 1p |
+| Forth England (rent) | Xero invoice email "Invoice INV-NNNN from Forth England Ltd", `ops@`, **link only, no PDF** | **one email per company** (Construction and Furniture by Fishbone): check whose invoice was paid |
+| SmartestEnergy | "Your Latest Electricity Invoice" PDF, `ops@`, ~7th | the DD on ~15th pays the **previous** month's invoice; check "Balance brought forward" |
+| Starlink | only payment reminder / failed-payment emails | invoice in the Starlink account online |
+| Wickes, Wolseley, Radius Telematics | not in the mailboxes (run 2) | in-store or account online: ask Minda |
 
 Save every document found to Drive `QuickBooks/YYYY-MM-DD_Construction_HSBC2819_receipts-for-Dext/`, named
 `date_Supplier_doc-no_amount.pdf`, checksum-verified.
@@ -149,6 +154,17 @@ Before the run is called done:
    the schema.
 5. **A job name on an invoice can point to another company** — JT Dove "ferndale" is 2 Ferndale Avenue, a Commercial
    Properties job: flag for recharge.
+6. **Read "Total Paid", not the sub total.** Screwfix discounts sit between the two (run 2: sub total 189.99 less 15.00
+   = 174.99 paid; 78.96 less 5.00 = 73.96). A "no match" on the sub total is often a discount.
+7. **The card on a Screwfix invoice says which account paid.** Card 6941 = HSBC 2819. A Screwfix invoice on another card
+   (run 2: 6789) is not for this feed, even when the amount is close.
+8. **Re-check QuickBooks for a run-1 document before matching it.** Tower invoice 933575 was sent in run 1 for the 28/09
+   line; by run 2 its bill had been closed by a payment dated 10/09. Look at the bill's Balance and linked payments,
+   not only whether it exists.
+9. **An invoice can be addressed to another group company.** Forth rent GBP 1,800 paid from 2819 on 17/09 was INV-1655
+   to Furniture by Fishbone Limited. Read the addressee before sending; if it is not Construction, do not send — ask.
+10. **The guard reads the command text.** Even printing a `GMAIL_SEND_EMAIL` command (to review payloads) is blocked
+    without a Dext-only `-d`. Generate payloads to a file with a script, read the file, then send with literal `-d`.
 
 ---
 
@@ -180,3 +196,4 @@ change** (Admin user); Rachel reads and recommends. Status column: what is set u
 | Run | Date | Lines | n/a | Found | Partial | Not found | Sent to Dext | Landed (Minda) | Notes |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | 2026-10-02 | 50 (21/09–02/10) | 31 | 7 | 2 | 10 | 7 (ops@, 21:05–21:06 UTC) | yes, 02/10 | Learning run; not-found lines left as they are. Tower VAT GBP 47.20 caught. |
+| 2 | 2026-10-08 | 50 (14/09–08/10) | 7 | 14 (13 new + Anthropic from run 1) | 9 | 20 | 13 (ops@, 22:43–22:45 UTC) | — | No statement CSV this run (§2 tie not done). Screwfix discounts and card numbers resolved two "no match" lines; Forth rent paid for another company; Tower 933575 already closed by a 10/09 payment; Screwfix 40.44 corrected to A28105872495. |
