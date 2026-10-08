@@ -673,3 +673,25 @@ Method: `loan-workbook.md` (KB root, Drive `188AqJY0uvyKNYiBDmUFdfliWOMopdC4i`),
 *Update Status* sheets added from the September HSBC 2819 statement; no existing cell changed; both revisions kept
 forever. **Unchanged:** the three-layer rule (OI-6); decision aid only — no repayment, lender contact or signature;
 the workbook is a financial working paper, Drive only.
+
+## Amendment 48 — skill candidates offered at every "good night", 2026-10-08
+
+**Owner decision (Minda, 2026-10-08):** *"We need to add candidates for skill in every trigger 'Good Night'. You collect
+candidates through a day and then you offer them to adopt or to delete."* Rachel keeps `skill-candidates.md` (KB root,
+mirrored to git): during the day she adds a candidate whenever work repeats, a method had to be worked out, or a trap
+was found; at every "good night" the end-of-day check (`end-of-day.md` §1 point 9, §2) lists the Proposed candidates
+and asks Minda to **adopt or delete** each. Adopt → the skill (or the update to an existing skill) is written,
+recorded as an Amendment and mirrored; Delete → the row is marked Deleted and kept as the record. First five
+candidates seeded the same day (SC-1 to SC-5). **Unchanged:** a skill grants no new authority; it writes down a
+method within the authorities already given.
+
+## Amendment 49 — five skills adopted from the first candidates, 2026-10-08
+
+**Owner decision (Minda, 2026-10-08), at the first good-night offer:** *"Adopt all five"*. Written the same day, in
+Rachel's KB root and mirrored to git: `intercompany-check.md` (SC-1), `sales-invoice-from-handoff.md` (SC-2),
+`adviser-papers.md` (SC-3), `quickbooks-changes-for-minda.md` (SC-4), and an update to `receipts-to-dext.md` (SC-5:
+purchases paid from a director's personal card go to Dext with the payment method "Directors Loan Account –
+M Gaudiesius"; MW Machinery and Lathams added to the supplier table). **Unchanged:** none grants a new authority;
+creating a sales invoice still needs Minda's word for that invoice, voiding and deleting stay Minda's, and nothing
+goes to an adviser without her.
+
