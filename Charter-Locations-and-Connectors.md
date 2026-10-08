@@ -55,7 +55,7 @@ change to either file._
   **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
   "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
   Minda reverses it.
-  **And `editing-drafts.md` (2026-10-02, Amendment 44) `receipts-to-dext.md` (Amendment 46) and `loan-workbook.md` (Amendment 47)**, mirrored like the other skills, on the same reading.
+  **And `editing-drafts.md` (2026-10-02, Amendment 44) `receipts-to-dext.md` (Amendment 46), `loan-workbook.md` (Amendment 47) and `skill-candidates.md` (Amendment 48)**, mirrored like the other skills, on the same reading.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
   `open-issues.md`, and `CHARTER-amendments-history-2026-09.md` from `CHARTER-amendments.md` on Minda's instruction
@@ -225,6 +225,9 @@ change to either file._
   `Loans/Outputs/Fishbone_Loan_Repayment_Plan.xlsx` (Drive `17JiFHokAPOnlfk-PZZPFmOcK-8xWIcRM`, Drive only) and updates it
   from bank statements, requesting lender statements from Minda where needed. Method: `loan-workbook.md` (KB root, Drive
   `188AqJY0uvyKNYiBDmUFdfliWOMopdC4i`). Three layers, never one combined total (OI-6); decision aid only.
+- **Skill candidates** — owner decision (Minda), **2026-10-08**, Amendment 48. `skill-candidates.md` in Rachel's KB root (Drive `1y5ft0Bo63YtNk9LYqKzlo8uket8-we3R`):
+  candidates collected during the day, offered at every "good night" (end-of-day check point 9) to **adopt or
+  delete**; rulings logged in its §3.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility

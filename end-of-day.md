@@ -40,6 +40,9 @@ Answer each one **from the files, not from memory** — read the live copy where
    pushed**. `git status` is clean and the branch is not ahead of `origin`.
 8. **Skills updated by today's runs.** If a Dext run happened today, `receipts-to-dext.md` has its run-log row and
    any new supplier or trap (Amendment 46).
+9. **Skill candidates offered.** `skill-candidates.md` has today's candidates (added during the day, not from
+   memory at night), and every row still **Proposed** is listed in the good-night reply for Minda to **adopt or
+   delete** (Amendment 48). Rulings given since the last good night are recorded in its §3 and acted on.
 
 Fix what is missing, in that order, then report.
 
@@ -49,7 +52,8 @@ Fix what is missing, in that order, then report.
 
 Short, in the old-school style. One line on whether today is documented (and what was just fixed, if anything). Then
 **what is waiting for Minda**, as a numbered list, each with a date where there is one — at most three items at the
-top, the rest grouped under "also waiting". Then good night.
+top, the rest grouped under "also waiting". Then **skill candidates**: each Proposed row in one line (number, name, why), ending with
+"adopt or delete?". Then good night.
 
 Example:
 
