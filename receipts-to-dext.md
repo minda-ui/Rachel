@@ -145,15 +145,17 @@ Before the run is called done:
 
 ## 9. Traps
 
-1. **Count from the file.** Run 1 was quoted as 49 lines; the export had 50.
+1. **Count from the file.** Run 1 was quoted as 49 lines; the export had 50. Count with a CSV reader, not `wc -l`: the export has no
+   final newline, so `wc -l` is one short (pass 2 of run 2: 34 lines, not 33).
 2. **QuickBooks suggestions are wrong where it costs most:** FlexiPay draws suggested as *Insurance*; DVLA with 20% VAT;
    Tower Leasing with no VAT; payroll pensions with the wrong payee.
 3. **A charge can appear twice with the same amount** (two Screwfix GBP 40.44 orders, two Anthropic GBP 37.50 charges on
    two cards) — pair explicitly and say which goes with which.
 4. **The send tool blocks even a schema lookup** without a Dext-only payload — pass `-d` with the Dext recipient to read
    the schema.
-5. **A job name on an invoice can point to another company** — JT Dove "ferndale" is 2 Ferndale Avenue, a Commercial
-   Properties job: flag for recharge.
+5. **A job name on an invoice names the project, not the company.** JT Dove "ferndale" is 2 Ferndale Avenue: the
+   property is Commercial Properties', but the work is **Construction's project FC2610** (Minda, 2026-10-08). Cost to
+   Construction, tagged to the project; ask before assuming a recharge.
 6. **Read "Total Paid", not the sub total.** Screwfix discounts sit between the two (run 2: sub total 189.99 less 15.00
    = 174.99 paid; 78.96 less 5.00 = 73.96). A "no match" on the sub total is often a discount.
 7. **The card on a Screwfix invoice says which account paid.** Card 6941 = HSBC 2819. A Screwfix invoice on another card
@@ -165,6 +167,10 @@ Before the run is called done:
    to Furniture by Fishbone Limited. Read the addressee before sending; if it is not Construction, do not send — ask.
 10. **The guard reads the command text.** Even printing a `GMAIL_SEND_EMAIL` command (to review payloads) is blocked
     without a Dext-only `-d`. Generate payloads to a file with a script, read the file, then send with literal `-d`.
+11. **Check what Dext published before Minda matches.** Run 2's 13 items published as bills within the hour, and Minda
+    matched them. But Dext used supplier **Plumbfix** for Screwfix, category **Purchases** for Hafele and Scott+Sargeant,
+    and run 1's Tower bill 933575 went to **Software** with its payment dated 10/09. Read the published bills (supplier,
+    account, VAT, date) and list the fixes. Better still, set Dext supplier rules (§10) so they publish right.
 
 ---
 
@@ -188,7 +194,7 @@ change** (Admin user); Rachel reads and recommends. Status column: what is set u
 | **Paperwork Match** (works with QuickBooks Online) | Attaches the document **image only** to a transaction already in QuickBooks (same supplier, total, date within 10 days, last 6 months). Publishes nothing. | For bank lines already categorised in QuickBooks without a receipt: send the receipt to Dext, then *Send image to* — **do not publish**, or the cost goes in twice. | — |
 | **Bank Match** | Full version (Autofill Payment) only for Xero, Sage, MYOB. | Not for us — the matching file stays. | — |
 | **CIS** | QuickBooks CIS must be on; supplier name in Dext must equal the CIS contact name; choose the CIS category. **In QuickBooks Online the *Less CIS* field must be adjusted by hand after publishing.** AI Assist guidance can split labour (gross) and materials. | Sergej Murasov and other subcontractors. | — |
-| **Rebillable** | Mark an item rebillable to a QuickBooks customer (billable expenses on in QuickBooks). | JT Dove "ferndale" (2 Ferndale Avenue, Commercial Properties) if it is to be recharged. | — |
+| **Rebillable** | Mark an item rebillable to a QuickBooks customer (billable expenses on in QuickBooks). | JT Dove "ferndale" = Construction project FC2610: tag the cost to the project, so it can be billed on if FC2610 is billed at cost. | — |
 | **People's receipts** | Users and submitters can snap receipts in the Dext app; *Request paperwork* asks for a missing one. | Sebastian's materials receipts. | — |
 
 ## Run log
