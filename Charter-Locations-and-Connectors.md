@@ -233,6 +233,9 @@ change to either file._
   (`1MZIN2AFNfZIFDunmBKVxPJHgmWGpowms`) · `adviser-papers.md` (`11u3neJf2RqJPbb-A35Kyu8djeGQE29Mq`) ·
   `quickbooks-changes-for-minda.md` (`1GHm6Jh7Wgt9v7W8AH98dhxmVxKpuem1v`); and `receipts-to-dext.md` updated
   (personal-card purchases → director's loan). Methods only; no new authority.
+- **Two more skills adopted** — owner decision (Minda), **2026-10-08**, Amendment 50 ("Adopt both"), KB root:
+  `adviser-document-batch.md` (Drive `1fxRjvG9isuCYvEt94uRzaSu4LO2Lh74R`, SC-6) and `bank-feed-review.md` §4A (bank
+  rules from a feed, SC-7). Methods only; no new authority.
 - **Smartsheet: `Rachel - Finance` workspace** (`751582603175811`) — owner ruling (Minda), **2026-09-25**, *"only me
   and you"*. **This narrows the 2026-09-19 single-residence ruling above rather than replacing it: Drive is the
   residence for documents, Smartsheet for structured working data** — bank reconciliation, budgets, the facility

@@ -695,3 +695,10 @@ M Gaudiesius"; MW Machinery and Lathams added to the supplier table). **Unchange
 creating a sales invoice still needs Minda's word for that invoice, voiding and deleting stay Minda's, and nothing
 goes to an adviser without her.
 
+## Amendment 50 — two more skills adopted, 2026-10-08
+
+**Owner decision (Minda, 2026-10-08), at the good-night offer:** *"Adopt both"*. Written the same night, in Rachel's KB
+root and mirrored to git: `adviser-document-batch.md` (SC-6: filing a batch of adviser documents, compared with the
+register by content, not checksum or filename) and `bank-feed-review.md` §4A (SC-7: building QuickBooks bank rules from
+a feed, "Bank text contains", amount-specific rules for shared payees). **Unchanged:** neither grants a new authority;
+Minda enters the bank rules, and nothing goes to an adviser without her.

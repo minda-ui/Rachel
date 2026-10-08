@@ -107,6 +107,37 @@ suggestion recurs.
 
 ---
 
+## 4A. QuickBooks bank rules: building them from a feed
+
+_Adopted by owner decision (Minda), **2026-10-08** ("Adopt both", skill candidate SC-7). Amendment 50. Built for
+Construction on 8 Oct (`QuickBooks/2026-10-08_Construction_QuickBooks-bank-rules_DRAFT.xlsx`, 43 rules)._
+
+The §4 table says what each line should post to. **QuickBooks bank rules** (Banking → Rules) make the feed arrive that
+way, so the review shrinks to the exceptions. Minda enters the rules; Rachel builds and checks them.
+
+1. **Inputs:** the latest feed export, and how each payee was booked over the last six to twelve months (§2 point 3).
+   Every rule is one §4 row turned into a rule.
+2. **The condition is "Bank text contains", never "Description".** QuickBooks shortens the description ("AVIVA LIFE
+   PENS" shows as "Aviva", "COMMERCIAL CARD" as "Commercial"); the bank text keeps the full string. Take the text from
+   the export, the shortest part that is unique to the payee.
+3. **One payee, several destinations: add the amount.** Funding Circle's term loans share one bank text and are told
+   apart only by the monthly amount (Construction: 3,993.34 → 19062024; 2,829.31 → 30092024; 2,593.93 → 20112023;
+   3,575.50 → 29072026). Anything else from that payee falls through to the general rule.
+4. **Order matters.** QuickBooks applies the first rule that fits: put amount-specific rules above the general rule
+   for the same payee.
+5. **Each rule sets** category, payee, VAT code (tax code ids in Construction: 13 No VAT, 2 20% S, 9 5%, 12 0% RC,
+   16 RC CIS 20, 3 Exempt) and whether it is **auto-added**. Auto-add only where the line never needs a document
+   (loans, pensions, intercompany, bank charges); suppliers whose receipts go to Dext stay **unticked**, so the line
+   waits for the Dext bill to match.
+6. **"No rule – why" list:** payees left out on purpose (one-offs, suppliers that need a match, lines that need Minda's
+   answer). **"Decisions for Minda":** where past bookings disagree; one question each.
+7. **Workbook:** `QuickBooks/YYYY-MM-DD_<Company>_QuickBooks-bank-rules_DRAFT.xlsx`, sheets *Rules (in this order)*,
+   *Decisions for Minda*, *No rule – why*, *How to enter*. On Drive, never git.
+8. **Check the next feed:** every line a rule should have caught shows the rule's category, payee and VAT. Fix the
+   rule where it did not, and add agreed rules to §4 with the date.
+
+---
+
 ## 5. Traps found on the first run
 
 1. **QuickBooks' suggestions were wrong on about a quarter of the lines**, and the wrong ones were the expensive
