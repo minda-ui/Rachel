@@ -684,3 +684,14 @@ and asks Minda to **adopt or delete** each. Adopt → the skill (or the update t
 recorded as an Amendment and mirrored; Delete → the row is marked Deleted and kept as the record. First five
 candidates seeded the same day (SC-1 to SC-5). **Unchanged:** a skill grants no new authority; it writes down a
 method within the authorities already given.
+
+## Amendment 49 — five skills adopted from the first candidates, 2026-10-08
+
+**Owner decision (Minda, 2026-10-08), at the first good-night offer:** *"Adopt all five"*. Written the same day, in
+Rachel's KB root and mirrored to git: `intercompany-check.md` (SC-1), `sales-invoice-from-handoff.md` (SC-2),
+`adviser-papers.md` (SC-3), `quickbooks-changes-for-minda.md` (SC-4), and an update to `receipts-to-dext.md` (SC-5:
+purchases paid from a director's personal card go to Dext with the payment method "Directors Loan Account –
+M Gaudiesius"; MW Machinery and Lathams added to the supplier table). **Unchanged:** none grants a new authority;
+creating a sales invoice still needs Minda's word for that invoice, voiding and deleting stay Minda's, and nothing
+goes to an adviser without her.
+

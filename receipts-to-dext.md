@@ -93,6 +93,8 @@ amount** — read the PDF total, not the subject. Where two orders share an amou
 | Microsoft | only payment notices by email | invoice in the Microsoft 365 admin centre |
 | Composio, EDF, Amazon, Sanef (tolls), Google Play | not in the mailboxes | supplier account online — needs the login |
 | Sebastian Pabis (materials), Sergej Murasov (CIS) | not in the mailboxes | ask the person |
+| MW Machinery (Markfield Woodworking Machinery) | invoice PDF by email to Minda; Anna puts it in Rachel's `Raw/` | paid by card via the "Pay Now" link: ask which card (24642 was Minda's personal card) |
+| Lathams (James Latham Gateshead) | pro forma first; **VAT invoice only after payment clears** | send the VAT invoice to Dext, not the pro forma |
 
 Save every document found to Drive `QuickBooks/YYYY-MM-DD_Construction_HSBC2819_receipts-for-Dext/`, named
 `date_Supplier_doc-no_amount.pdf`, checksum-verified.
@@ -109,6 +111,10 @@ Save every document found to Drive `QuickBooks/YYYY-MM-DD_Construction_HSBC2819_
 - No PDF (O2): `GMAIL_FORWARD_MESSAGE`, `recipients` = [Dext address], `additional_text` = amount and bank line.
 - **Never** `cc`, `bcc` or `extra_recipients` (the guard does not check `extra_recipients`).
 - The tool sends the PDF as `application/octet-stream`; **Dext accepts it** (confirmed by Minda, run 1).
+- **Paid from a director's personal card** (owner ruling, Minda, 2026-10-08, MW Machinery 24642; Amendment 49): the
+  invoice still goes to Dext (it is Construction's cost and VAT), the body says "paid from M Gaudiesius' personal
+  card", and when it is published the **payment method is "Directors Loan Account – M Gaudiesius"**, not a bank or
+  card. There is **no bank-feed line** to match; the amount stays on the director's loan unless Minda says repay.
 
 ---
 
