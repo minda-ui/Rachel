@@ -65,9 +65,17 @@ each time**; accounts get added (Holdings' "David Macdonald Loan" appeared on 6 
 9. **Money passing through Holdings**: a repayment from Properties and an advance to Construction on the same day
    are two pairs, not one.
 
+10. **An invoice the other side books only when paid.** Properties' rent invoice 1811 (27/4/2025, £1,000) was in
+    Properties' debtors at the year end; Construction booked it as an expense when paid on 8/5/2025, so it was
+    missing from Construction's creditors. Compare open invoices **and** bills at the date, not only loan accounts.
+11. **Part of a creditor can sit in an odd account.** In Properties, £2,750 of what it owes Construction (trade) is in
+    an Accounts Payable account named "Director loan - Mindaugas Gaudiesius" (Id 76). Read every AP and AR account
+    for the counterparty, not only "Creditors" and "Debtors".
+
 ## 4. Run log
 
 | Date | What | Result |
 |---|---|---|
 | 2026-10-06 | FY2026 ITC matrix v five QuickBooks files at 30/4/26 | All agree; £2,100 and £30,000 explained; cut-off and interest points to Alexey |
 | 2026-10-06/07 | Holdings feed reviewed by Minda; Properties and Construction compared | Holdings fixes 1–2 done; matching lists for Properties (12 lines) and Construction (12 lines + re-point) |
+| 2026-10-09 | Baseline for Alexey at 30/4/25 and 30/4/26 (loans + open invoices and bills, all five files, 29 and 30 April) | 8 pairs agree both years; AMFA one-sided; Construction/Properties differs by £3,100 (2025: £900 + £1,200 + £1,000) and £2,100 (2026); Waste/Holdings van interest £2,749.98 v £1,374.99. `QuickBooks/2026-10-09_Fishbone-Group_ITC-baseline_30-4-25_and_30-4-26.xlsx`; reply drafted in `ops@` |
