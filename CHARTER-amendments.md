@@ -702,3 +702,22 @@ root and mirrored to git: `adviser-document-batch.md` (SC-6: filing a batch of a
 register by content, not checksum or filename) and `bank-feed-review.md` §4A (SC-7: building QuickBooks bank rules from
 a feed, "Bank text contains", amount-specific rules for shared payees). **Unchanged:** neither grants a new authority;
 Minda enters the bank rules, and nothing goes to an adviser without her.
+
+## Amendment 51 — a Finance workspace in Smartsheet for each company and the SSAS, 2026-10-09
+
+**Owner decision (Minda, 2026-10-09)**, from her meeting with Alexey: *"It is worth to create Financial workspace for
+each company in Smartsheet. That would be your working space, so you can check it against Quickbooks. You will
+propose, create and maintain workspaces for each company and Fishbone SSAS."* Proposal
+`Outputs/2026-10-09_Finance-workspaces_PROPOSAL.md`; her rulings: *"For now only you and me, but with possibility of
+read-only Alexey"*, *"All in one go"*, names *"Yes, please"*.
+
+**What it grants.** Rachel creates, structures and keeps current seven workspaces, "<Company> - Finance", for
+Construction, Holdings, Properties, Commercial Properties, Waste, AMFA and the SSAS, and adds sheets to them. Same
+seven sheets per company (month-end checklist, bank and cards, loans and finance, intercompany, debtors and
+creditors, tax calendar, year-end and adviser queries), extras where they fit. Kept monthly by the 20th and after
+every bank-feed review.
+
+**Unchanged.** QuickBooks stays the books and stays read-only for Rachel (`RA-3`): differences become fixes for
+Minda. Sharing stays Minda and Rachel only; read-only access for Alexey needs Minda's word for the moment it is given.
+These are not shared spaces in the sense of Rule F while no one else can see them. Same day: Minda agreed AGGA
+(Alexey) takes over the annual accounts and Fishbone keeps the books.
