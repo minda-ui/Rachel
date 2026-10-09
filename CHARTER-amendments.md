@@ -721,3 +721,11 @@ every bank-feed review.
 Minda. Sharing stays Minda and Rachel only; read-only access for Alexey needs Minda's word for the moment it is given.
 These are not shared spaces in the sense of Rule F while no one else can see them. Same day: Minda agreed AGGA
 (Alexey) takes over the annual accounts and Fishbone keeps the books.
+
+## Amendment 52 — the Finance workspaces month-end skill, 2026-10-09
+
+**Owner decision (Minda, 2026-10-09), at the good-night offer:** *"Adopt"* (SC-8). Written the same night in Rachel's
+KB root and mirrored to git: `finance-workspaces.md` — the order of work per company, where each figure comes from,
+how to read a balance at a date, writing and read-back, the Project Register money columns, and the traps found
+building the workspaces. **Unchanged:** no new authority; QuickBooks stays read-only for Rachel and sharing stays
+Minda and Rachel only (Amendment 51).

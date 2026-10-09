@@ -241,6 +241,7 @@ change to either file._
   Template sheets (copy with "from_template" to keep the Difference formulas): Construction's 1 `7098091637442436`,
   2 `5972191730599812`, 3 `1468317225322372`, 4 `3720391916914564`, 5 `6885885893281668`, 6 `1256386359068548`,
   7 `8259450794280836`; Properties' 8 Property finance `201954708031364`. Hub AWT-0503.
+  Method: `finance-workspaces.md` (KB root, Drive `1dcuOcwHQ_FevHSSNW4O6J3b9D6zt5lCf`, Amendment 52).
 - **Two more skills adopted** — owner decision (Minda), **2026-10-08**, Amendment 50 ("Adopt both"), KB root:
   `adviser-document-batch.md` (Drive `1fxRjvG9isuCYvEt94uRzaSu4LO2Lh74R`, SC-6) and `bank-feed-review.md` §4A (bank
   rules from a feed, SC-7). Methods only; no new authority.
