@@ -729,3 +729,11 @@ KB root and mirrored to git: `finance-workspaces.md` — the order of work per c
 how to read a balance at a date, writing and read-back, the Project Register money columns, and the traps found
 building the workspaces. **Unchanged:** no new authority; QuickBooks stays read-only for Rachel and sharing stays
 Minda and Rachel only (Amendment 51).
+
+## Amendment 53 — the close-out money section skill, 2026-10-10
+
+**Owner decision (Minda, 2026-10-10), at the good-night offer:** *"adopt SC-9"*. Written the same night in Rachel's
+KB root and mirrored to git: `close-out-money.md` (Drive `1KY-sCs6rVLCheTnJOc9UZlpVpgg-iFMr`) — the lines of section 7
+of the close-out report and where each comes from in QuickBooks, how to write into the lead's file, the Project
+Register money columns to match, and the traps found on FC2609 and FC2608 (AWT-0518). **Unchanged:** no new
+authority; QuickBooks stays read-only for Rachel; the report stays internal (PM-9.7).
