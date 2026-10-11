@@ -37,6 +37,8 @@ change to either file._
   `Raw/` (the §7a inbound hand-off from other employees; its `_what-goes-here.md` records the boundary —
   **financial documents do not use the hand-off**, they go straight to the Financial Archive), `Wiki/`,
   `Outputs/`, `Archive/`, and — added 2026-09-20 — **`Sandbox/`** (§6).
+  Added 2026-10-11 — **`Creative/`** (`1qOUz-2C4pCDGtMIwV1_CSFbZ4vaHAEPa`, §7, Amendment 55): Creative Mode sessions and `ideas-register.md`
+  (`1rKGadjxuLLknFPMHeBOL84nJ1OBgJ3Lq`); Drive only, Minda and Rachel only, not mirrored to git. Rules: `creative-mode.md` (KB root, `1L36WfJrn6iMOS9MUey6FajYuNuNTCSdJ`).
   **Finance working folders:** `Budgets/`, `Reconciliations/`, `QuickBooks/` (pulls, analyses, and the
   **posted-entry log**), `Archive-Index/` (her map over the Finance archive + Document Register),
   `_unverified/` (staging for figures not yet confirmed to source).

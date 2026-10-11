@@ -44,6 +44,10 @@ Answer each one **from the files, not from memory** — read the live copy where
    memory at night), and every row still **Proposed** is listed in the good-night reply for Minda to **adopt or
    delete** (Amendment 48). Rulings given since the last good night are recorded in its §3 and acted on.
 
+10. **Creative Mode (if a session was held).** The session file and `Creative/ideas-register.md` are saved on Drive;
+   `current-state.md` has only the neutral one-line mention; nothing from the session left the wall except ideas Minda
+   chose, and those are recorded in the ordinary places (`creative-mode.md` §4–§5, Amendment 55).
+
 Fix what is missing, in that order, then report.
 
 ---

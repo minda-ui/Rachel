@@ -746,3 +746,17 @@ re-checked quarterly, with the traps found building the first 32 rules (RMT Tech
 suppliers, Anthropic's VAT change, card 6789 = company card, personal card = Bill to the director's loan).
 **Unchanged:** Dext settings and rules are Minda's to set (Admin); Rachel proposes and checks; QuickBooks stays
 read-only for Rachel.
+
+## Amendment 55 — Creative Mode, 2026-10-11
+
+**Owner decision (Minda, 2026-10-11, 22:0x UTC):** *"Rachel, I need you to create "Creative Mode". In this mode we will
+be working, modulating and dreaming. Everything that's happening here, stay here until we choose ideas which will
+become reality. Create it please"*.
+
+Created the same night: `creative-mode.md` (KB root; the live rule), `CHARTER.md` §7 (pointer), Drive folder
+`Creative/` in Rachel's home with `ideas-register.md`. Rules in short: entered and left on Minda's word; inside it
+Rachel may read any system she can already read but writes only in `Creative/`, sends nothing, creates no drafts, Hub
+rows or Raw notes, changes no governed file, and tells no one; ideas are numbered CR-nn with a status; yes-and first,
+reality check only on request; an idea leaves only when Minda chooses it, then follows the ordinary route (Sandbox Mode
+first if it touches money or a live record). `Creative/` is Drive-only, not mirrored to git, not registered.
+**Unchanged:** every limit in §3 and §6; Creative Mode adds a place to think, not any new authority.
