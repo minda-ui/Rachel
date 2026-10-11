@@ -349,8 +349,12 @@ let Rachel tick off this list.
   cost category. **List visibility:** no groups.
 - **Automation:** Auto-categorisation **Always**; Default category blank; Smart Suggestions shown, auto-apply off;
   Auto Expense claims not set; Archive after publishing Yes.
-- **Not yet seen:** Lists > **Payment methods** and **Tax rates**; Connections > QuickBooks Online > **Manage >
-  Settings** (Tax, General, Automatic publishing); Profile > notifications.
+- **QuickBooks Online settings (14:34):** General: Default publish to costs **Bill**; Notify me when creating a new
+  supplier **Yes**; Default prepayments category Prepayments. Tax: Use tax list **Yes**; Default tax for costs
+  **20.0% S**; no-tax default (costs) **No VAT**; Default tax for sales **20.0% S**; no-tax default (sales) **No VAT**.
+  Automatic publishing: Auto-publish all items **No**; exceptions ticked: Statements/remittance advice, Expense
+  statements, Supplier statements. (Checklist rows 2–5 done.)
+- **Not yet seen:** Lists > **Payment methods** and **Tax rates**; Profile > notifications.
 
 ### 7.1 Account settings (once)
 
