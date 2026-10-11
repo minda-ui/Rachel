@@ -122,7 +122,8 @@ Save every document found to Drive `QuickBooks/YYYY-MM-DD_Construction_HSBC2819_
   it is **published as a Bill** and the bill is then cleared against **"Directors Loan Account – M Gaudiesius"** (Id 16)
   (`dext-manual.md` §7.2, 11/10/2026). There is **no bank-feed line** to match; the amount stays on the director's loan
   unless Minda says repay. Cases so far: MW Machinery 24642 £2,060.88 (8/10), Bytestock 000003023 £468.00 (10/10, Minda
-  11/10: "Bytestock was my personal card"). **Card 6789 is the company card, not personal** (see §5).
+  11/10: "Bytestock was my personal card"); E.H. Booth & Co £116.97 (09/10, fuel, Minda 11/10: "motor running expenses
+  for Bullring project paid from my personal card" — tag customer FC2611). **Card 6789 is the company card, not personal** (see §5).
 
 ---
 
