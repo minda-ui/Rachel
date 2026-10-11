@@ -340,21 +340,18 @@ let Rachel tick off this list.
 | Card | Name it | Link to QuickBooks account | Auto-publish |
 |---|---|---|---|
 | HSBC 2819 debit card(s) | "HSBC 2819 debit" | **Bank current account 2819** (Id 128) | None |
-| Minda's personal Visa **6789** | "Minda personal Visa 6789" | **Minda Credit Card** (Id 130, a card account) — **decision for Minda, see below** | None |
+| Company credit card **6789** (Visa, in Minda's name) | "Company Visa 6789 – Minda" | **Minda Credit Card** (Id 130, a card account) | None |
 | Andrej's card | "Andrej card" | **Andrej Credit Card** (Id 131) | None |
-| Company credit card | "Company credit card" | **Company Credit Card** (Id 209) | None |
+| "Company Credit Card" (Id 209) | which card this is: to confirm with Minda (few entries since June, paid from 2819) | Company Credit Card (Id 209) | None |
+| Minda's **personal** card (when used for the company) | "Minda personal card" (digits to confirm) | none: publish as **Bill**, then clear against "Directors Loan Account – M Gaudiesius" (Id 16) | Never |
 
-**Decision for Minda — personal-card purchases.** Dext can only publish a paid item against a **bank or card
-account**. "Directors Loan Account – M Gaudiesius" (Id 16) is a liability account, so it is unlikely to appear in the
-Bank account list. QuickBooks already has **"Minda Credit Card"** (Id 130) in daily use for Minda's card: Anthropic,
-B&Q, Lawyers Online; £6,771.36 at 30/9/2026, cleared from time to time by a "Credit Card balance reconciliation"
-journal. Two ways:
-- (a) link card 6789 to **Minda Credit Card** and keep moving its balance to the director's loan by journal, as now;
-  or
-- (b) publish personal-card items as **Bill**, then clear each bill against the director's loan with a journal.
+**Card 6789 is the company credit card** (Minda, 11/10/2026: "It is company credit card, not my personal"). Its
+spend is booked to **"Minda Credit Card"** (Id 130) in QuickBooks: Anthropic, Adobe, Google, B&Q, LNER, the £32
+annual fee. Link it there; items paid with it publish as **Credit card** against that account.
 
-(a) fits how the books already work, and Dext then does it automatically. The MW Machinery ruling of 8/10 ("leave
-it on her director's loan") still holds either way; (a) only routes it through the card account first.
+**Minda's personal card** is different: purchases on it are a director's loan (ruling of 8/10/2026, MW Machinery).
+Dext can only publish a paid item to a bank or card account, and the director's loan (Id 16) is a liability account,
+so personal-card items go in as a **Bill**, and the bill is cleared against the director's loan.
 
 ### 7.3 Supplier rules (Costs > Suppliers)
 
@@ -365,7 +362,7 @@ it on her director's loan") still holds either way; (a) only routes it through t
 | Hafele, IronmongeryDirect, Plumbfix | Materials | 20.0% S | by payment method | |
 | JT Dove, Lathams, MKM | Materials | 20.0% S | by payment method | workflow note: "tag the job; rebillable if the job is charged at cost"; Lathams: "VAT invoice only, never the pro forma" |
 | Tower Leasing | Software | **20.0% S** (QuickBooks default says none — fix it there too) | by payment method | |
-| Anthropic | Subscriptions | 20.0% S (UK VAT on the receipt since October) | by payment method | |
+| Anthropic | Subscriptions | 20.0% S (UK VAT on the receipt since October) | Credit card (company card 6789 → Minda Credit Card) | |
 | RMT Technology (leased line) | Telephone | 20.0% S | **Bill** | paid by direct debit |
 | SmartestEnergy | Electricity and Gas | per invoice | Bill | the direct debit pays the previous month's invoice |
 | O2 | Telephone | 20.0% S | by payment method | Fetch |
@@ -413,3 +410,4 @@ Copilot; What can I ask Dext through Claude, ChatGPT or Copilot; How does the De
 | Date | Change |
 |---|---|
 | 2026-10-11 | Written from 56 help-centre articles (Minda's request). |
+| 2026-10-11 | §7.2 corrected: card 6789 is the company credit card (Minda), linked to "Minda Credit Card"; personal card = Bill cleared to the director's loan. |

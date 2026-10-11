@@ -86,7 +86,7 @@ amount** — read the PDF total, not the subject. Where two orders share an amou
 | Tower Leasing | monthly invoice email ~18th, `ops@`, PDF (`Invoice_NNNNNN.pdf`) | **carries 20% VAT** — QuickBooks suggests none |
 | IronmongeryDirect | "Invoice NNNNNNN, Sales Order NNNNNNN" email, `ops@`, PDF | |
 | Hafele | "Hafele Billing Document-NNNNNNNN" email, `ops@`, PDF | the "Confirmation" email is the order, not the invoice |
-| Anthropic | "Your receipt from Anthropic Ireland" email, **two PDFs** (invoice + receipt) | send the receipt only; two cards = two charges, second receipt elsewhere |
+| Anthropic | "Your receipt from Anthropic Ireland" email, **two PDFs** (invoice + receipt) | send the receipt only; two cards = two charges, second receipt elsewhere. **Card 6789 = the company credit card** (Minda, 11/10/2026), booked to QuickBooks "Minda Credit Card" (Id 130), not the director's loan |
 | O2 | "Your O2 bill is ready", `ops@`, **no PDF** | forward the email itself; two accounts, two bills |
 | JT Dove | only a monthly statement email (lists invoices) | invoices not emailed — ask JT Dove |
 | MKM | only an "Overdue account" letter | invoices not emailed — ask MKM |
