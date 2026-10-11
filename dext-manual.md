@@ -333,8 +333,7 @@ let Rachel tick off this list.
   a default tax code is probably not set (#2 below).
 - **Expense claims, Supplier statements:** empty. **AI Assist:** present in the menu. **Payments:** locked (not on
   our plan).
-- **Business profile:** CRN 7211420054 (Dext's own customer reference, not the Companies House number — Minda, 11/10/2026); base currency GBP; industry Construction and trades. **VAT registration no.,
-  reporting cycle and starting month are blank** (Construction's VAT number on supplier invoices: GB190175216).
+- **Business profile:** CRN 7211420054 (Dext's own customer reference, not the Companies House number — Minda, 11/10/2026); base currency GBP; industry Construction and trades. VAT registration no. **GB190175216**, reporting cycle **Quarterly**, starting month **May** (entered by Minda 11/10, 14:36).
 - **Connections:** QuickBooks Online (Fishbone Construction Ltd) **connected**. **Cost connections (Fetch): none.**
   Back up: **Google Drive, connected 11/10/2026 ~12:05** by Minda: folder **"Dext Prepare Backups"** in Minda's My Drive
   (`1Y07oPVFf34wZZZkdWCULS7QZct3wk3Qw`) > "Fishbone Construction Ltd - 7211420054" > **Costs** (`194du0OiSasR5kiMDioif_Az9Tb-sQtfm`)
