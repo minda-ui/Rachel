@@ -336,7 +336,10 @@ let Rachel tick off this list.
 - **Business profile:** CRN 7211420054 (Dext's own customer reference, not the Companies House number — Minda, 11/10/2026); base currency GBP; industry Construction and trades. **VAT registration no.,
   reporting cycle and starting month are blank** (Construction's VAT number on supplier invoices: GB190175216).
 - **Connections:** QuickBooks Online (Fishbone Construction Ltd) **connected**. **Cost connections (Fetch): none.**
-  Back up (Dropbox, Google Drive, OneDrive): **not connected**.
+  Back up: **Google Drive, connected 11/10/2026 ~12:05** by Minda: folder **"Dext Prepare Backups"** in Minda's My Drive
+  (`1Y07oPVFf34wZZZkdWCULS7QZct3wk3Qw`) > "Fishbone Construction Ltd - 7211420054" > **Costs** (`194du0OiSasR5kiMDioif_Az9Tb-sQtfm`)
+  and **Sales**, one folder per month "YYYY - MM" from 2018 - 10; files named "Supplier - DextItemId.pdf/.jpg" (2025 - 04
+  holds 67). Rachel can read every Dext document here.
 - **Extraction:** account address `mindaugas.gaudiesius343@dext.cc` (Single), `…343@multiple.dext.cc`; Sales
   `…343+sales@dext.cc`. Our sends go to Minda's **user** address `mindaugas.gaudiesius@dext.cc`, which makes Minda
   the owner (items show "Mindaugas Ga…"). **Duplicate cost items: Automatic.** Extract tax: Yes. Due-date defaults:
@@ -436,4 +439,5 @@ Copilot; What can I ask Dext through Claude, ChatGPT or Copilot; How does the De
 |---|---|
 | 2026-10-11 | Written from 56 help-centre articles (Minda's request). |
 | 2026-10-11 | §7: current state recorded from Minda's screenshots (two sets, 12:45 and 12:58). |
+| 2026-10-11 | Google Drive backup connected ("Dext Prepare Backups"). |
 | 2026-10-11 | §7.2 corrected: card 6789 is the company credit card (Minda), linked to "Minda Credit Card"; personal card = Bill cleared to the director's loan. |
