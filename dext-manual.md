@@ -333,7 +333,7 @@ let Rachel tick off this list.
   a default tax code is probably not set (#2 below).
 - **Expense claims, Supplier statements:** empty. **AI Assist:** present in the menu. **Payments:** locked (not on
   our plan).
-- **Business profile:** CRN 7211420054; base currency GBP; industry Construction and trades. **VAT registration no.,
+- **Business profile:** CRN 7211420054 (Dext's own customer reference, not the Companies House number — Minda, 11/10/2026); base currency GBP; industry Construction and trades. **VAT registration no.,
   reporting cycle and starting month are blank** (Construction's VAT number on supplier invoices: GB190175216).
 - **Connections:** QuickBooks Online (Fishbone Construction Ltd) **connected**. **Cost connections (Fetch): none.**
   Back up (Dropbox, Google Drive, OneDrive): **not connected**.
