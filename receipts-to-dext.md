@@ -201,6 +201,40 @@ change** (Admin user); Rachel reads and recommends. Status column: what is set u
 | **Rebillable** | Mark an item rebillable to a QuickBooks customer (billable expenses on in QuickBooks). | JT Dove "ferndale" = Construction project FC2610: tag the cost to the project, so it can be billed on if FC2610 is billed at cost. | — |
 | **People's receipts** | Users and submitters can snap receipts in the Dext app; *Request paperwork* asks for a missing one. | Sebastian's materials receipts. | — |
 
+## 11. Supplier rules from QuickBooks history
+
+_Adopted by owner decision (Minda), 2026-10-11 ("Adopt SC-10"), Amendment 54. First built 11/10/2026: 32 rules in
+`QuickBooks/2026-10-11_Dext-setup-checklist_Fishbone-Construction.xlsx`, tab 2. Background: `dext-manual.md` §5.2, §7.3._
+
+**Why.** A Dext supplier rule sets category, VAT code, Publish to, payment method and a workflow note for every new
+document from that supplier. The right values are how the supplier has actually been booked, not a guess.
+
+**Method.**
+1. List the suppliers: QuickBooks `Vendor` (active), matched to the names Dext shows (Costs > Suppliers; Dext uses
+   QuickBooks' names).
+2. For each, read 12 months of `Bill` and `Purchase` lines (`VendorRef` / `EntityRef`): count the account, the VAT
+   code (`TaxCodeRef` → `TaxCode` name) and the type (Bill or paid).
+3. Rule = the dominant account and VAT code. Publish to = **Bill** when the supplier is mostly billed and paid by
+   direct debit or transfer; blank (follow the account default and the card) when paid by card.
+4. Mixed suppliers (category depends on what was bought: Amazon, Bytestock, Booking.com VAT): set no category or VAT,
+   only a workflow note. Never auto-publish them.
+5. Write the rule list for Minda (she is the Admin); she sets them in Dext; Rachel ticks them off from screenshots.
+6. **Re-check every quarter** (with the month-end of Jan, Apr, Jul, Oct): new suppliers, rules that Minda edited on
+   items, and any QuickBooks default that Dext's 48-hour sync could have overwritten.
+
+**Traps found (11/10/2026).**
+1. **"RMT" in Construction's QuickBooks is RMT Technology** (leased line, Telephone, £358.80 monthly), not RMT
+   Accountants (a separate supplier, Accountancy).
+2. **Duplicate suppliers:** "Bewicke Service Stn" / "Bewicke Service Station", "Shell" / "Shell Victory". Merge in
+   QuickBooks first, then in Dext, before setting the rule.
+3. **VAT changes:** Anthropic was booked No VAT until September 2026; its receipts carry UK VAT 20% from October.
+   Google and Amazon are booked No VAT in history; check a current invoice before trusting history.
+4. **Category drift:** Hafele twice to "Purchases" instead of Materials (hide "Purchases" in Dext).
+5. **Card 6789 is the company credit card** → payment method linked to "Minda Credit Card" (Id 130). Minda's
+   **personal** card purchases → Bill, cleared to "Directors Loan Account – M Gaudiesius" (Id 16).
+6. **Missing bills show up:** reading RMT's history found September's invoice never entered (the 10/9 payment paid
+   August's bill). Look for gaps in monthly suppliers while reading.
+
 ## Run log
 
 | Run | Date | Lines | n/a | Found | Partial | Not found | Sent to Dext | Landed (Minda) | Notes |

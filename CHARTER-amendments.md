@@ -737,3 +737,12 @@ KB root and mirrored to git: `close-out-money.md` (Drive `1KY-sCs6rVLCheTnJOc9UZ
 of the close-out report and where each comes from in QuickBooks, how to write into the lead's file, the Project
 Register money columns to match, and the traps found on FC2609 and FC2608 (AWT-0518). **Unchanged:** no new
 authority; QuickBooks stays read-only for Rachel; the report stays internal (PM-9.7).
+
+## Amendment 54 — supplier rules from QuickBooks history, 2026-10-11
+
+**Owner decision (Minda, 2026-10-11), at the good-night offer:** *"Adopt SC-10"*. Written the same night as
+`receipts-to-dext.md` §11: how Dext supplier rules are built from 12 months of each supplier's QuickBooks bookings,
+re-checked quarterly, with the traps found building the first 32 rules (RMT Technology booked as "RMT", duplicate
+suppliers, Anthropic's VAT change, card 6789 = company card, personal card = Bill to the director's loan).
+**Unchanged:** Dext settings and rules are Minda's to set (Admin); Rachel proposes and checks; QuickBooks stays
+read-only for Rachel.
