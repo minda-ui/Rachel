@@ -176,7 +176,7 @@ Before the run is called done:
 
 ## 10. What Dext can do — from the help centre (read in full 2026-10-02)
 
-Read from help.dext.com (16 articles) after Minda opened the environment's network to it. **Settings are Minda's to
+**Full reference: `dext-manual.md`** (KB root, Drive `1A33b_Wh98zmJ7Alr-69N_lcxD90C4P-D`, 11 Oct 2026, 56 articles, with the recommended set-up for Fishbone). Read from help.dext.com (16 articles) after Minda opened the environment's network to it. **Settings are Minda's to
 change** (Admin user); Rachel reads and recommends. Status column: what is set up — update as Minda changes things.
 
 | Feature | What it does | Use for us | Status |

@@ -242,6 +242,8 @@ change to either file._
   2 `5972191730599812`, 3 `1468317225322372`, 4 `3720391916914564`, 5 `6885885893281668`, 6 `1256386359068548`,
   7 `8259450794280836`; Properties' 8 Property finance `201954708031364`. Hub AWT-0503.
   Method: `finance-workspaces.md` (KB root, Drive `1dcuOcwHQ_FevHSSNW4O6J3b9D6zt5lCf`, Amendment 52).
+- **Dext manual** — written 2026-10-11 at Minda's request from Dext's help centre (56 articles), KB root:
+  `dext-manual.md` (Drive `1A33b_Wh98zmJ7Alr-69N_lcxD90C4P-D`). Reference for `receipts-to-dext.md`; recommended set-up in §7 for Minda (Admin).
 - **Close-out money section skill** — owner decision (Minda), **2026-10-10**, Amendment 53 ("adopt SC-9"), KB root:
   `close-out-money.md` (Drive `1KY-sCs6rVLCheTnJOc9UZlpVpgg-iFMr`). Section 7 of each job's close-out report (AWT-0511, AWT-0518).
 - **Two more skills adopted** — owner decision (Minda), **2026-10-08**, Amendment 50 ("Adopt both"), KB root:
