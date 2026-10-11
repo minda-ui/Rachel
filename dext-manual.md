@@ -324,6 +324,18 @@ _Source: Roles and permissions in Dext._
 Check first: what is already set. Minda's screenshots of **Payment methods** and **Suppliers** into Rachel's `Raw/`
 let Rachel tick off this list.
 
+**What is set today** (Minda's screenshots, 11/10/2026, 12:45):
+- **Suppliers:** 709 in the list (Showing 50 of 709). Auto-publish **No** and Extract line items **No** on every
+  supplier seen; Extract supplier statements **Yes** (the default). The **Category column is empty**: no supplier
+  rules yet.
+- **Costs inbox:** 4 items, all **To review**: E.H. Booth & Co 09/10 £116.97; RMT Technology £358.80; Bytestock
+  £468.00 (2 issues); Anthropic Ireland £135.50. On every item the tax rate shows **"Extracted…" with a warning**, so
+  a default tax code is probably not set (#2 below).
+- **Expense claims, Supplier statements:** empty. **AI Assist:** present in the menu. **Payments:** locked (not on
+  our plan).
+- **Not yet seen:** Business settings > Lists > Payment methods; Connections > QuickBooks Online > Settings (Tax,
+  General, Automatic publishing); Extraction > Duplicate items; Profile > notifications.
+
 ### 7.1 Account settings (once)
 
 | # | Where | Set to | Why |
@@ -410,4 +422,5 @@ Copilot; What can I ask Dext through Claude, ChatGPT or Copilot; How does the De
 | Date | Change |
 |---|---|
 | 2026-10-11 | Written from 56 help-centre articles (Minda's request). |
+| 2026-10-11 | §7: current state recorded from Minda's screenshots. |
 | 2026-10-11 | §7.2 corrected: card 6789 is the company credit card (Minda), linked to "Minda Credit Card"; personal card = Bill cleared to the director's loan. |
