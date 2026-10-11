@@ -341,7 +341,7 @@ let Rachel tick off this list.
   holds 67). Rachel can read every Dext document here.
 - **Extraction:** account address `mindaugas.gaudiesius343@dext.cc` (Single), `…343@multiple.dext.cc`; Sales
   `…343+sales@dext.cc`. Our sends go to Minda's **user** address `mindaugas.gaudiesius@dext.cc`, which makes Minda
-  the owner (items show "Mindaugas Ga…"). **Duplicate cost items: Automatic.** Extract tax: Yes. Due-date defaults:
+  the owner (items show "Mindaugas Ga…"). **Duplicate cost items: Review** (changed from Automatic by Minda, 11/10 14:38). Extract tax: Yes. Due-date defaults:
   blank. Inbox tabs: off.
 - **Lists > Categories:** 154, synced from QuickBooks, no codes, **all visible**, including balance-sheet accounts
   (Andrej Credit Card, Bank current account 2819, AT UK Interiors, Accruals…), which can be chosen by mistake as a
