@@ -333,8 +333,21 @@ let Rachel tick off this list.
   a default tax code is probably not set (#2 below).
 - **Expense claims, Supplier statements:** empty. **AI Assist:** present in the menu. **Payments:** locked (not on
   our plan).
-- **Not yet seen:** Business settings > Lists > Payment methods; Connections > QuickBooks Online > Settings (Tax,
-  General, Automatic publishing); Extraction > Duplicate items; Profile > notifications.
+- **Business profile:** CRN 7211420054; base currency GBP; industry Construction and trades. **VAT registration no.,
+  reporting cycle and starting month are blank** (Construction's VAT number on supplier invoices: GB190175216).
+- **Connections:** QuickBooks Online (Fishbone Construction Ltd) **connected**. **Cost connections (Fetch): none.**
+  Back up (Dropbox, Google Drive, OneDrive): **not connected**.
+- **Extraction:** account address `mindaugas.gaudiesius343@dext.cc` (Single), `…343@multiple.dext.cc`; Sales
+  `…343+sales@dext.cc`. Our sends go to Minda's **user** address `mindaugas.gaudiesius@dext.cc`, which makes Minda
+  the owner (items show "Mindaugas Ga…"). **Duplicate cost items: Automatic.** Extract tax: Yes. Due-date defaults:
+  blank. Inbox tabs: off.
+- **Lists > Categories:** 154, synced from QuickBooks, no codes, **all visible**, including balance-sheet accounts
+  (Andrej Credit Card, Bank current account 2819, AT UK Interiors, Accruals…), which can be chosen by mistake as a
+  cost category. **List visibility:** no groups.
+- **Automation:** Auto-categorisation **Always**; Default category blank; Smart Suggestions shown, auto-apply off;
+  Auto Expense claims not set; Archive after publishing Yes.
+- **Not yet seen:** Lists > **Payment methods** and **Tax rates**; Connections > QuickBooks Online > **Manage >
+  Settings** (Tax, General, Automatic publishing); Profile > notifications.
 
 ### 7.1 Account settings (once)
 
@@ -422,5 +435,5 @@ Copilot; What can I ask Dext through Claude, ChatGPT or Copilot; How does the De
 | Date | Change |
 |---|---|
 | 2026-10-11 | Written from 56 help-centre articles (Minda's request). |
-| 2026-10-11 | §7: current state recorded from Minda's screenshots. |
+| 2026-10-11 | §7: current state recorded from Minda's screenshots (two sets, 12:45 and 12:58). |
 | 2026-10-11 | §7.2 corrected: card 6789 is the company credit card (Minda), linked to "Minda Credit Card"; personal card = Bill cleared to the director's loan. |
