@@ -44,8 +44,11 @@ is a financial working paper: **Drive only, never git**. Rachel owns it from 202
 4. Saving with a spreadsheet library drops cached formula results; Excel and Google Sheets recalculate on opening.
    Check the workbook has no charts or images first (an automated save can lose them).
 
+5. **A cancelled Funding Circle mandate usually means a FlexiPay draw was paid off, not a failure** (Minda, 13/10/2026). Each draw has its own mandate; see the FlexiPay direct-debit register `Loans/Outputs/2026-10-13_Funding-Circle_FlexiPay_direct-debit-register.xlsx` (`1DEWojYHHL9iJS3D24Ip51tCjKYe7VJHW`) to match a bank-statement ref to its draw.
+
 ## Update log
 
 | Date | Inputs | What changed |
 |---|---|---|
 | 2026-10-04 | HSBC 2819 statement 02/09–02/10/2026 | Ownership taken. Added *Payment Log* (11 instalments) and *Update Status* sheets; no existing cell changed. Not seen: HSBC director loan (none since June), Eugene's interest. Balances still as at 21/08/2026 pending the August statement and lender statements. |
+| 2026-10-13 | 312 GoCardless emails (minda@, ops@) | FlexiPay direct-debit register built (separate workbook, Minda's request): 110 draws, 41 active; 12/10 failures matched to mandates. Main workbook unchanged. |
