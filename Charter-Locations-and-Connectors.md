@@ -132,6 +132,9 @@ change to either file._
   Minda's terminal. First use: the reply to PLS Solicitors on Landbay OC80 with invoice FC0237, draft
   `r-3581137827383807950`. **Several attachments per draft now work** (six files on that draft, each read back with its
   byte size), so the one-zip rule above is no longer needed.
+  **`info@fishboneconstruction.co.uk` — owner decision (Minda, 2026-10-14), Amendment 56.** Alias
+  **`rachel-fishboneconstruction-info-gmail`**; Minda signed in herself; verified by a profile read (66,460 messages). Same
+  authority as `ops@`: read; reply drafts in the correspondent's own thread, attachments included; **no send**.
 - **Lifted for Drive files, 2026-09-27 (Amendment 35).** A file written locally and uploaded through Composio never passes
   through Rachel's output, so the ceiling below no longer binds it — measured at 64,441 and 90,241 bytes, both
   downloaded back byte-identical, the second as an in-place update keeping the file id. **No file is split for size

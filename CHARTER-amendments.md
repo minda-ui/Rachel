@@ -760,3 +760,15 @@ rows or Raw notes, changes no governed file, and tells no one; ideas are numbere
 reality check only on request; an idea leaves only when Minda chooses it, then follows the ordinary route (Sandbox Mode
 first if it touches money or a live record). `Creative/` is Drive-only, not mirrored to git, not registered.
 **Unchanged:** every limit in §3 and §6; Creative Mode adds a place to think, not any new authority.
+
+## Amendment 56 — `info@fishboneconstruction.co.uk` connected (read and draft), 2026-10-14
+
+**Owner decision (Minda, 2026-10-14, night):** *"Let's connect you to info@fishboneconstruction.co.uk via composio"*, then
+*"Connected"*. Rachel generated the Composio sign-in link (alias **`rachel-fishboneconstruction-info-gmail`**, account
+`ca_NHsSI-suZJ5X`); Minda signed in herself. Verified by a profile read: `info@fishboneconstruction.co.uk`, 66,460
+messages. Why: the main Construction mailbox holds supplier, customer and contract mail (first use: finding the Citation ISO
+contract history for the savings review). Same authority as `ops@` and `info@fishboneproperties`: **read; reply drafts in
+the correspondent's own thread, attachments included; no send**; a draft is read back before it is reported. Victoria and
+Darius already hold their own `info@` connections; this one is Rachel's and does not change theirs. Registered on the Hub
+under Rule F. **Unchanged:** every limit in §3 and §6.
+
