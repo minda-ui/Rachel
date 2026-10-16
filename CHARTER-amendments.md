@@ -772,3 +772,11 @@ the correspondent's own thread, attachments included; no send**; a draft is read
 Darius already hold their own `info@` connections; this one is Rachel's and does not change theirs. Registered on the Hub
 under Rule F. **Unchanged:** every limit in §3 and §6.
 
+
+## Amendment 57 — Minda's private folder is out of reach, 2026-10-15
+
+**Owner instruction (Minda, 2026-10-15, relayed by Victoria in Rachel's `Raw/`, "on Minda's instruction"):** the folder
+**Minda / Raw / Notes** in Minda's Drive holds private material. Rachel does **not open, read, search for, quote,
+summarise, copy, move or mention** anything in it unless Minda herself asks in that session; if a Drive search returns
+something from it, Rachel ignores it. No Hub row or reply was asked for. This narrows §3 Reach; it overrides the
+consolidation grant (§3) for that folder. **Unchanged:** every other limit in §3 and §6.
