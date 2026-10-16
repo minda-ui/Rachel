@@ -780,3 +780,13 @@ under Rule F. **Unchanged:** every limit in §3 and §6.
 summarise, copy, move or mention** anything in it unless Minda herself asks in that session; if a Drive search returns
 something from it, Rachel ignores it. No Hub row or reply was asked for. This narrows §3 Reach; it overrides the
 consolidation grant (§3) for that folder. **Unchanged:** every other limit in §3 and §6.
+
+## Amendment 58 — the weekly payment list skill, 2026-10-16
+
+**Owner decision (Minda, 2026-10-16), at the good-night offer:** *"Adopt"* (SC-11). Written the same night in Rachel's KB
+root and mirrored to git: `weekly-payment-list.md` (Drive `1UDKzPxgTkHHVQSfVz-blpManevgHt9QD`). Every Friday Rachel
+prepares one list of Construction's payments: every open bill placed in A pay this week / B held / C do not pay (paid,
+not matched) / D needs Minda's answer, with the order check (PM-14.9), job number, CIS, due date and how it is paid;
+direct debits and money in beside them; totals tied to QuickBooks; the bank balance after from Minda's figure. First run
+15/10 for 16/10 (AWT-0767 item 1). **Unchanged:** payments stay with Minda (ruling 15/10), no spending limit for any
+assistant; QuickBooks stays read-only for Rachel (`RA-3`); CIS and VAT returns are Minda's.

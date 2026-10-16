@@ -252,6 +252,8 @@ change to either file._
 - **Dext backup on Drive** — connected by Minda 2026-10-11: "Dext Prepare Backups" (`1Y07oPVFf34wZZZkdWCULS7QZct3wk3Qw`, Minda's My Drive) >
   "Fishbone Construction Ltd - 7211420054" > Costs (`194du0OiSasR5kiMDioif_Az9Tb-sQtfm`) / Sales, monthly folders "YYYY - MM" from 2018-10;
   read-only for Rachel (never edit or delete; Dext writes it). `dext-manual.md` §7.
+- **Weekly payment list skill** — owner decision (Minda), **2026-10-16**, Amendment 58 ("Adopt", SC-11), KB root:
+  `weekly-payment-list.md` (Drive `1UDKzPxgTkHHVQSfVz-blpManevgHt9QD`). Every Friday; lists saved in `Budgets/` (AWT-0767).
 - **Close-out money section skill** — owner decision (Minda), **2026-10-10**, Amendment 53 ("adopt SC-9"), KB root:
   `close-out-money.md` (Drive `1KY-sCs6rVLCheTnJOc9UZlpVpgg-iFMr`). Section 7 of each job's close-out report (AWT-0511, AWT-0518).
 - **Two more skills adopted** — owner decision (Minda), **2026-10-08**, Amendment 50 ("Adopt both"), KB root:
