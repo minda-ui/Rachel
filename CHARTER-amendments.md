@@ -790,3 +790,13 @@ not matched) / D needs Minda's answer, with the order check (PM-14.9), job numbe
 direct debits and money in beside them; totals tied to QuickBooks; the bank balance after from Minda's figure. First run
 15/10 for 16/10 (AWT-0767 item 1). **Unchanged:** payments stay with Minda (ruling 15/10), no spending limit for any
 assistant; QuickBooks stays read-only for Rachel (`RA-3`); CIS and VAT returns are Minda's.
+
+## Amendment 59 — work runs (four a day) folded into §0, 2026-10-18
+
+**Owner approval (Minda, 2026-10-18):** the work-run standard v1.1 (group Outputs, Drive `1ysdjb-vsPIQnmGlp2CXIrvyu93LT1ovN`)
+and Gmail on ops@ for every seat, read and create_draft only. Delivered to Rachel's `Raw/` by Victoria
+(`2026-10-18_victoria-to-rachel_work-run-duties-and-gmail-AWT-0846.md`); folded into §0 by Rachel in her own words-as-given,
+with one added sentence: an attended session keeps the connections and limits already in §3. Rachel's scheduled task
+becomes a work run (four runs a day, every day; up to three rows; DONE / PROGRESS / BLOCKED / NOT MINE; questions to Minda
+in the ASK form). Connectors on a work run: Drive, Smartsheet, QuickBooks read tools, Gmail on ops@ read and drafts.
+**Unchanged:** payments stay with Minda; no postings or filings; Rachel never sends.

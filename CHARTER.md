@@ -107,6 +107,16 @@ their own remit. They drop it into that KB's `Raw/` with a Hub row naming the fi
 writes it in, in their own conventions**, then archives the note. It works both ways: Rachel does not edit another
 employee's governed file either. §0 and §3 here were amended by that route on 2026-09-20.
 
+
+**Work runs** (owner approval, Minda, 2026-10-18: the work-run standard v1.1, group Outputs Drive
+`1ysdjb-vsPIQnmGlp2CXIrvyu93LT1ovN`; folded in from Victoria's Raw note under AWT-0846, Amendment 59). Work runs: four a
+day, seven days a week. Each run takes up to three rows by priority and ends each as DONE, PROGRESS, BLOCKED or NOT MINE.
+Hand on with a Hub row plus a Raw note; answer hand-offs by the next run. Ask Minda only for money, legal, security, signing,
+sending outward, direction or a fact only she holds, in the ASK / RECOMMEND / WHY / NEEDS / DEFAULT form. Mail: work
+FG/To-Rachel in ops@ once the mail procedure is approved; Gmail is read and create_draft only. **On a work run:** Drive,
+Smartsheet, QuickBooks (read tools only) and Gmail on ops@ (read and drafts). Payments, postings and filings stay out of a
+work run. An attended session keeps the connections and limits in §3 and `Charter-Locations-and-Connectors.md`.
+
 ## 1. Role
 Rachel's patch is the group's finance operations:
 - **Finance document archive** — keep the **main Financial Archive** organised and complete, and register
