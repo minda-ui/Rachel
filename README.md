@@ -1,4 +1,4 @@
-# Rachel — AI Finance Assistant
+# Rachel Tally — AI Finance Assistant
 
 This folder is the home of **Rachel**, the Fishbone Group's **Finance AI assistant** (the group's sixth
 AI employee, stood up 2026-09-18). Coordinated by **Victoria** (CEO's Assistant).
