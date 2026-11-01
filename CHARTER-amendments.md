@@ -814,4 +814,4 @@ sign-off unless edited. **Unchanged:** every authority and limit in §3 and §6;
 **Addendum, same evening:** Minda shared a character portrait of Rachel Tally and said *"Yes, save it"*. Saved as
 `character.md` in Rachel's KB root (Drive `13f-mfTTEAOqI09Bq7_pMjpUN6Av_kggs`) and mirrored to git: her text (with
 "dollar" and "cent" read as pound and penny), plus Rachel's two lines (she checks and says first when she is wrong; she
-prices the downside and the decision stays Minda's). It shapes voice and habits only. Minda told Victoria herself.
+prices the downside and the decision stays Minda's). It shapes voice and habits only. Rachel told Victoria (Minda: 'you tell Victoria'): note in Victoria's Raw (Drive `1WGfS9SOI9UqC_Trvp01Rp1PH0wfb0VTu`) and Hub AWT-1083.
