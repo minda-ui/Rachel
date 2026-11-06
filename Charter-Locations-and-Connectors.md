@@ -57,6 +57,7 @@ change to either file._
   **Also mirrored, on Rachel's reading (2026-09-29, Amendment 43):** `end-of-day.md` and `.claude/settings.json` — the
   "good night" hook lives in the repo and points at the skill, so the skill must be there beside it. One line from
   Minda reverses it.
+  **And `current-state-history-2026-10.md` (2026-11-06)**, carved out of `current-state.md` when Drive's 200 kept-revisions limit forced a fresh copy (Minda: 'Yes, option 1'); mirrored on the same reading as the other carved-out files. `character.md` (2026-11-01, Amendment 60) is mirrored too.
   **And `editing-drafts.md` (2026-10-02, Amendment 44) `receipts-to-dext.md` (Amendment 46), `loan-workbook.md` (Amendment 47), `skill-candidates.md` (Amendment 48) and the four Amendment 49 skills**, mirrored like the other skills, on the same reading.
   **Minda ruled TWELVE on 2026-09-24, and the two files added since are Rachel's reading, not a ruling.** Both were
   created the same day by splitting a file that was already mirrored — `open-issues-history-2026-09-part3.md` from
